@@ -1,0 +1,55 @@
+#Twilhelma_mtDNA_genome_NODE_33_length_19666_cov_12.722466_2013-07-09
+#
+Name 	Start 	Stop 	Strand 	Length 	ovl/nc 	Codons 	Infos
+cox1 	9 	1568 	+ 	1560 	35 	ATG/TAA 	
+trnS2(tga) 	1604 	1684 	+ 	81 	70 		svg ps
+nad1 	1755 	2678 	+ 	924 	43 	ATA/TAG 	
+trnP(tgg) 	2722 	2794 	+ 	73 	38 		svg ps
+trnL1(tag) 	2833 	2906 	+ 	74 	52 		svg ps
+trnC(gca) 	2959 	3030 	+ 	72 	11 		svg ps
+trnT(tgt) 	3042 	3114 	+ 	73 	87 		svg ps
+trnM_0(cat) 	3202 	3272 	+ 	71 	423 		svg ps
+nad2-a 	3696 	4352 	+ 	657 	20 	ATT/CCC 	
+nad2-b 	4373 	4726 	+ 	354 	280 	ATT/TAG 	
+nad5 	5007 	6656 	+ 	1650 	20 	ATT/TAG 	
+trnA(tgc) 	6677 	6749 	+ 	73 	98 		svg ps
+trnM_2(cat) 	6848 	6919 	+ 	72 	38 		svg ps
+OH-b 	6958 	6990 	+ 	33 	12 		
+trnF(gaa) 	7003 	7075 	+ 	73 	180 		svg ps
+rrnS 	7256 	8321 	+ 	1066 	92 		svg ps
+trnG(tcc) 	8414 	8485 	+ 	72 	22 		svg ps
+trnV(tac) 	8508 	8579 	+ 	72 	301 		svg ps
+rrnL 	8881 	11004 	+ 	2124 	220 		svg ps
+trnE(ttc) 	11225 	11296 	+ 	72 	51 		svg ps
+nad6 	11348 	11863 	+ 	516 	17 	ATT/TAA 	
+trnY(gta) 	11881 	11952 	+ 	72 	5 		svg ps
+trnM_1(cat) 	11958 	12029 	+ 	72 	19 		svg ps
+cox2 	12049 	12756 	+ 	708 	43 	ATG/TAA 	
+trnL2(taa) 	12800 	12882 	+ 	83 	39 		svg ps
+trnK(ttt) 	12922 	12993 	+ 	72 	33 		svg ps
+atp8 	13027 	13245 	+ 	219 	105 	ATA/TAA 	
+atp6 	13351 	13989 	+ 	639 	48 	ATG/TAG 	
+trnS1_1(tct) 	14038 	14110 	+ 	73 	100 		svg ps
+cox3 	14211 	14999 	+ 	789 	28 	ATG/TAA 	
+trnN(gtt) 	15028 	15099 	+ 	72 	83 		svg ps
+cob 	15183 	16328 	+ 	1146 	16 	ATG/TAA 	
+trnS1_0(gct) 	16345 	16418 	+ 	74 	35 		svg ps
+trnI(gat) 	16454 	16526 	+ 	73 	14 		svg ps
+trnQ(ttg) 	16541 	16612 	+ 	72 	58 		svg ps
+trnW(tca) 	16671 	16741 	+ 	71 	130 		svg ps
+atp9 	16872 	17105 	+ 	234 	246 	ATG/TTG 	
+nad4 	17352 	18674 	+ 	1323 	25 	ATA/TAA 	
+trnH(gtg) 	18700 	18772 	+ 	73 	3 		svg ps
+trnD(gtc) 	18776 	18847 	+ 	72 	52 		svg ps
+nad3 	18900 	19250 	+ 	351 	43 	ATA/TAA 	
+trnR(tcg) 	19294 	19364 	+ 	71 	21 		svg ps
+nad4l 	19386 	19664 	+ 	279 	18 	ATT/TAG 	
+OH-a 	19683 	19737 	+ 	55 	25 		
+#
+# Warning(s) and peculiarities:
+#
+# Features not found: OL
+# Split/duplicated features: nad2, OH, trnM, trnS1
+# Non standard features: atp9
+# Translational exceptions:
+# stop=nad2,atp9,

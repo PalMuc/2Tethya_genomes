@@ -1,0 +1,2 @@
+>Tethya_citrina_Consensus_final_mapping_without_ambiguities_extraction
+cox1 trnS2 OH_2 nad1 trnV_1 trnL1 trnC trnT trnM_0 nad4_1 nad2 nad5 trnA trnM_2 OH_0-a trnF rrnS trnG trnV_0 rrnL trnE nad6 trnY trnM_1 cox2 trnL2 trnK atp8 atp6 trnS1_1 cox3 trnN OH_1-a cob trnS1_0 trnI trnQ trnW atp9 nad4_0 trnH trnD OH_0-b nad3 trnR nad4l OH_1-b 

@@ -1,0 +1,2 @@
+>Tethya_minuta_mitogenome
+cox1 trnS2 OH_0-a nad1 trnP trnL1 trnC trnT trnM_0 nad2 nad5 trnA trnM_2 OH_0-b trnF rrnS trnG trnV OH_0-d rrnL trnE nad6 trnY trnM_1 cox2 trnL2 OH_2 trnK atp8 atp6 trnS1_1 cox3 trnN OH_0-c cob trnS1_0 trnI trnQ trnW atp9 nad4-a nad4-b trnH trnD OH_1 nad3 trnR nad4l 

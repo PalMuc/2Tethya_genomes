@@ -1,0 +1,61 @@
+#Tethya_actinia|gi_37961474|gb|AY320033.1
+#
+Name 	Start 	Stop 	Strand 	Length 	ovl/nc 	Codons 	Infos
+cox1 	9 	1571 	+ 	1563 	38 	ATG/TAA 	
+trnS2(tga) 	1610 	1690 	+ 	81 	2 		svg ps
+OH_0-a 	1693 	1745 	+ 	53 	66 		
+nad1 	1812 	2732 	+ 	921 	24 	ATT/TAG 	
+trnP(tgg) 	2757 	2830 	+ 	74 	5 		svg ps
+trnL1(tag) 	2836 	2909 	+ 	74 	24 		svg ps
+trnC(gca) 	2934 	3005 	+ 	72 	11 		svg ps
+trnT(tgt) 	3017 	3089 	+ 	73 	23 		svg ps
+trnM_0(cat) 	3113 	3183 	+ 	71 	459 		svg ps
+nad2 	3643 	4635 	+ 	993 	6 	ATT/TAG 	
+OH_0-b 	4642 	4677 	+ 	36 	148 		
+nad5 	4826 	6544 	+ 	1719 	-9 	ATT/TAA 	
+OH_0-e 	6536 	6563 	+ 	28 	9 		
+trnA(tgc) 	6573 	6645 	+ 	73 	17 		svg ps
+trnM_2(cat) 	6663 	6734 	+ 	72 	35 		svg ps
+OH_1 	6770 	6822 	+ 	53 	32 		
+trnF(gaa) 	6855 	6927 	+ 	73 	198 		svg ps
+rrnS 	7126 	8172 	+ 	1047 	0 		svg ps
+trnG(tcc) 	8173 	8244 	+ 	72 	10 		svg ps
+trnV(tac) 	8255 	8325 	+ 	71 	319 		svg ps
+OH_0-f 	8645 	8686 	+ 	42 	-6 		
+rrnL 	8681 	10743 	+ 	2063 	191 		svg ps
+trnE(ttc) 	10935 	11006 	+ 	72 	57 		svg ps
+nad6 	11064 	11570 	+ 	507 	32 	ATA/TAA 	
+trnY(gta) 	11603 	11674 	+ 	72 	5 		svg ps
+trnM_1(cat) 	11680 	11751 	+ 	72 	22 		svg ps
+cox2 	11774 	12458 	+ 	685 	84 	ATG/T(AA) 	
+trnL2(taa) 	12543 	12625 	+ 	83 	64 		svg ps
+OH_0-c 	12690 	12811 	+ 	122 	133 		
+trnK(ttt) 	12945 	13018 	+ 	74 	79 		svg ps
+atp8 	13098 	13262 	+ 	165 	104 	ATC/TAA 	
+atp6 	13367 	14005 	+ 	639 	20 	ATG/TAA 	
+trnS1_1(tct) 	14026 	14098 	+ 	73 	11 		svg ps
+cox3 	14110 	14898 	+ 	789 	46 	ATG/TAG 	
+trnN(gtt) 	14945 	15016 	+ 	72 	19 		svg ps
+OH_2 	15036 	15094 	+ 	59 	15 		
+cob 	15110 	16255 	+ 	1146 	17 	ATG/TAA 	
+trnS1_0(gct) 	16273 	16358 	+ 	86 	12 		svg ps
+trnI(gat) 	16371 	16443 	+ 	73 	22 		svg ps
+trnQ(ttg) 	16466 	16538 	+ 	73 	30 		svg ps
+trnW(tca) 	16569 	16639 	+ 	71 	104 		svg ps
+atp9 	16744 	16977 	+ 	234 	174 	ATG/CTT 	
+nad4 	17152 	18492 	+ 	1341 	51 	TTG/TAA 	
+trnH(gtg) 	18544 	18616 	+ 	73 	7 		svg ps
+trnD(gtc) 	18624 	18695 	+ 	72 	32 		svg ps
+nad3 	18728 	19078 	+ 	351 	29 	ATA/TAA 	
+trnR(tcg) 	19108 	19178 	+ 	71 	21 		svg ps
+nad4l 	19200 	19478 	+ 	279 	7 	ATT/TAA 	
+OH_0-d 	19486 	19538 	+ 	53 	35 		
+#
+# Warning(s) and peculiarities:
+#
+# Features not found: OL
+# Split/duplicated features: trnS1, trnM, OH
+# Non standard features: atp9
+# Translational exceptions:
+# stop=atp9,
+# Overlaps:(nad5,OH):9; (OH,rrnL):6;

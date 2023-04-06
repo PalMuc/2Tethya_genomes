@@ -1,0 +1,2 @@
+>Twilhelma_mtDNA_genome_NODE_33_length_19666_cov_12722466_2013-07-09
+cox1 trnS2 nad1 trnP trnL1 trnC trnT trnM_0 nad2-a nad2-b nad5 trnA trnM_2 OH-b trnF rrnS trnG trnV rrnL trnE nad6 trnY trnM_1 cox2 trnL2 trnK atp8 atp6 trnS1_1 cox3 trnN cob trnS1_0 trnI trnQ trnW atp9 nad4 trnH trnD nad3 trnR nad4l OH-a 

@@ -1,0 +1,2 @@
+>Tethya_actinia_AY3200331
+cox1 trnS2 OH_0-a nad1 trnP trnL1 trnC trnT trnM_0 nad2 OH_0-b nad5 OH_0-e trnA trnM_2 OH_1 trnF rrnS trnG trnV OH_0-f rrnL trnE nad6 trnY trnM_1 cox2 trnL2 OH_0-c trnK atp8 atp6 trnS1_1 cox3 trnN OH_2 cob trnS1_0 trnI trnQ trnW atp9 nad4 trnH trnD nad3 trnR nad4l OH_0-d 

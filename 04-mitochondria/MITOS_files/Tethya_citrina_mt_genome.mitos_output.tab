@@ -1,0 +1,60 @@
+# Tethya_citrina_Consensus_final_mapping_without_ambiguities_extraction
+#
+Name 	Start 	Stop 	Strand 	Length 	ovl/nc 	Codons 	Infos
+cox1 	9 	1568 	+ 	1560 	26 	ATG/TAA 	
+trnS2(tga) 	1595 	1675 	+ 	81 	22 		svg ps
+OH_2 	1698 	1752 	+ 	55 	31 		
+nad1 	1784 	2704 	+ 	921 	30 	ATT/TAG 	
+trnV_1(---) 	2735 	2808 	+ 	74 	2 		svg ps
+trnL1(tag) 	2811 	2884 	+ 	74 	15 		svg ps
+trnC(gca) 	2900 	2971 	+ 	72 	11 		svg ps
+trnT(tgt) 	2983 	3055 	+ 	73 	4 		svg ps
+trnM_0(cat) 	3060 	3130 	+ 	71 	248 		svg ps
+nad4_1 	3379 	3444 	+ 	66 	148 	AGG/ACA 	
+nad2 	3593 	4585 	+ 	993 	170 	ATT/TAG 	
+nad5 	4756 	6489 	+ 	1734 	20 	ATT/TAA 	
+trnA(tgc) 	6510 	6582 	+ 	73 	17 		svg ps
+trnM_2(cat) 	6600 	6671 	+ 	72 	14 		svg ps
+OH_0-a 	6686 	6754 	+ 	69 	30 		
+trnF(gaa) 	6785 	6857 	+ 	73 	12 		svg ps
+rrnS 	6870 	8089 	+ 	1220 	0 		svg ps
+trnG(tcc) 	8090 	8161 	+ 	72 	175 		svg ps
+trnV_0(tac) 	8337 	8408 	+ 	72 	375 		svg ps
+rrnL 	8784 	10849 	+ 	2066 	206 		svg ps
+trnE(ttc) 	11056 	11127 	+ 	72 	57 		svg ps
+nad6 	11185 	11691 	+ 	507 	19 	ATA/TAA 	
+trnY(gta) 	11711 	11782 	+ 	72 	5 		svg ps
+trnM_1(cat) 	11788 	11859 	+ 	72 	82 		svg ps
+cox2 	11942 	12622 	+ 	681 	41 	ATG/TAA 	
+trnL2(taa) 	12664 	12746 	+ 	83 	11 		svg ps
+trnK(ttt) 	12758 	12829 	+ 	72 	40 		svg ps
+atp8 	12870 	13079 	+ 	210 	103 	ATG/TAA 	
+atp6 	13183 	13821 	+ 	639 	19 	ATG/TAA 	
+trnS1_1(tct) 	13841 	13913 	+ 	73 	11 		svg ps
+cox3 	13925 	14713 	+ 	789 	33 	ATG/TAA 	
+trnN(gtt) 	14747 	14818 	+ 	72 	0 		svg ps
+OH_1-a 	14819 	14875 	+ 	57 	-1 		
+cob 	14875 	16020 	+ 	1146 	15 	ATG/TAA 	
+trnS1_0(gct) 	16036 	16109 	+ 	74 	16 		svg ps
+trnI(gat) 	16126 	16198 	+ 	73 	18 		svg ps
+trnQ(ttg) 	16217 	16288 	+ 	72 	32 		svg ps
+trnW(tca) 	16321 	16391 	+ 	71 	91 		svg ps
+atp9 	16483 	16716 	+ 	234 	299 	ATG/CTT 	
+nad4_0 	17016 	18140 	+ 	1125 	150 	TCA/GAG 	
+trnH(gtg) 	18291 	18363 	+ 	73 	7 		svg ps
+trnD(gtc) 	18371 	18442 	+ 	72 	35 		svg ps
+OH_0-b 	18478 	18542 	+ 	65 	-38 		
+nad3 	18505 	18855 	+ 	351 	28 	ATA/TAA 	
+trnR(tcg) 	18884 	18954 	+ 	71 	21 		svg ps
+nad4l 	18976 	19254 	+ 	279 	27 	ATT/TAA 	
+OH_1-b 	19282 	19313 	+ 	32 	36 		
+#
+# Warning(s) and peculiarities:
+#
+# Features not found: trnP, OL
+# Split/duplicated features: trnS1, OH, trnM, trnV, nad4
+# Non standard features: atp9
+# Translational exceptions:
+# start=nad4,nad4,
+# stop=nad4,atp9,nad4,
+# Overlaps:(OH,nad3):38; (OH,cob):1;
