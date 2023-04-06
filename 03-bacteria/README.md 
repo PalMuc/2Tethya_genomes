@@ -1,0 +1,58 @@
+# bacterial contigs #
+To identify bacteria, remove sponge contigs and zero-coverage contigs, assume all remaining ones are microbial:
+
+```
+cat Tethya_wilhelma_V4_P_RNA_scaffold.moleculo_minimap2.zero_cov.names Tethya_wilhelma_V4_P_RNA_scaffold.moleculo_minimap2.b47.names > Tethya_wilhelma_V4_P_RNA_scaffold.moleculo_minimap2.b47_zero_cov.names`
+excludeAinB.py Tethya_wilhelma_V4_P_RNA_scaffold.moleculo_minimap2.b47_zero_cov.names Tethya_wilhelma_V4_P_RNA_scaffold.fasta > Tethya_wilhelma_V4_P_RNA_scaffold.a47.fasta
+# Excluded 587 names from A in B
+# Wrote 304 sequences
+```
+
+### Table 1: Overview of microbial bins ###
+| parameter      | *T. wilhelma* V4 | bin 1             | bin 2             | bin 3             |
+| :---           | ---              | ---               | ---               | ---               |
+| Genome size    | 126.1 Mb         | 7.58 Mb           | 3.48 Mb           | 1.25 Mb           |
+| N scaffolds    | 557              | 21                | 151               | 54                |
+| N50            | 6.72 Mb          | 989 kb            | 36.2 kb           | 48.1 kb           |
+| Largest scaffold | 27.4 Mb        | 1.87 Mb           | 124.3 kb          | 257.6 kb          |
+| GC percent     | 39.9             | 63.0              | 57.0              | 60.0              |
+| Genes (prodigal) | -              | 7519              | 3839              | 1400              |
+| w/ annotation (KEGG) | -          | 3072 (40.9%)      | 1485 (38.7%)      | 229 (16.4%)       |
+| Putative group | sponge           | a-proteobacteria  | Rhodobacterales   | Rhodobacterales   |
+| Putative ID (ATPase)  | -        | Hoeflea sp (93.5%) | Roseovarius faecimaris (95.7%) | coxB Paracoccaceae sp (81.9%) |
+| Hit accession (ATPase) | -       | [WP_271089278.1](https://www.ncbi.nlm.nih.gov/protein/WP_271089278.1) | [WP_157706022.1](https://www.ncbi.nlm.nih.gov/protein/WP_157706022.1) | (MCR9145584.1)[https://www.ncbi.nlm.nih.gov/protein/MCR9145584.1] |
+| Putative ID (16S)  | -          | Sinorhizobium sp (98.3%) | - | - |
+| Hit accession (16S)  |  -       | [DQ917806.1](https://www.ncbi.nlm.nih.gov/nucleotide/DQ917806.1) | -   | - |
+
+### binning with metabat ###
+Using [MetaBAT v2.15-25](https://bitbucket.org/berkeleylab/metabat/src/master/), make bins with default parameters:
+
+```
+~/git/metabat/bin/metabat -i Tethya_wilhelma_V4_P_RNA_scaffold.a47.fasta -o V4_a47_metabat_bin -s 10000
+MetaBAT 2 (v2.15-25-g755e6aa) using minContig 2500, minCV 1.0, minCVSum 1.0, maxP 95%, minS 60, maxEdges 200 and minClsSize 10000. with random seed=1680704704
+6 bins (12411106 bases in total) formed.
+```
+
+After binning, 78 ontigs were still omitted, accounting for 262kb. There were 6 bins, where 3 are bacterial genome-sized.
+
+```
+cat V4_a47_metabat_bin.*.fa | sizecutter.py -q -
+# Wrote 226 sequences: 100.0% of total
+# Total input letters is: 12314644
+```
+
+### annotation of genes with prodigal and barrnap ###
+
+Annotate with [prodigal](https://github.com/hyattpd/Prodigal), and ribosomal RNA was identified using [barrnap](https://github.com/tseemann/barrnap). rRNA was only found in the largest bin.
+
+`for FILE in V4_a47_metabat_bin.*.fa ; do BASE="${FILE%.fa}" ; ~/prodigal-v2.6.3/prodigal -a $BASE.prot.fa -d $BASE.nucl.fa -f gff -o $BASE.gff -i $FILE ; done`
+
+`~/git/barrnap/bin/barrnap -o Tethya_wilhelma_V4_P_RNA_scaffold.a47.barrnap.fa Tethya_wilhelma_V4_P_RNA_scaffold.a47.fasta > Tethya_wilhelma_V4_P_RNA_scaffold.a47.barrnap.gff`
+
+As bins 2-4 blasted to the same species, it is likely that they belong together.
+
+### KEGG annotation ###
+The proteins were functionally annotated with the [blastKOALA](https://www.kegg.jp/blastkoala/) webserver.
+
+Pathway maps can be reconstructed with the [KEGG Mapper tool](https://www.kegg.jp/kegg/mapper/reconstruct.html) by uploading either of the `.user_ko_definition.txt` files.
+

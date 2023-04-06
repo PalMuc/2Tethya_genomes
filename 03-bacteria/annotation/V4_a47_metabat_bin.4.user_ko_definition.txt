@@ -1,0 +1,33 @@
+scaffold139_1					
+scaffold139_11					
+scaffold139_12					
+scaffold139_15					
+scaffold139_16					
+scaffold139_17					
+scaffold139_18	K05800	ybaO; Lrp/AsnC family transcriptional regulator			
+scaffold139_21	K00053	ilvC; ketol-acid reductoisomerase [EC:1.1.1.86]			
+scaffold139_22					
+scaffold139_23					
+scaffold139_24					
+scaffold139_25					
+scaffold139_26					
+scaffold139_27					
+scaffold139_29					
+scaffold139_30					
+scaffold139_31					
+scaffold139_32	K07481	K07481; transposase, IS5 family			
+scaffold139_33					
+scaffold139_34					
+scaffold139_35					
+scaffold139_39					
+scaffold139_40					
+scaffold139_41					
+scaffold139_43					
+scaffold139_44					
+scaffold139_45					
+scaffold139_46					
+scaffold139_47					
+scaffold139_48					
+scaffold139_52					
+scaffold139_53					
+scaffold139_54					
