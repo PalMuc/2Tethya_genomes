@@ -56,4 +56,12 @@ The proteins were functionally annotated with the [blastKOALA](https://www.kegg.
 
 Pathway maps can be reconstructed with the [KEGG Mapper tool](https://www.kegg.jp/kegg/mapper/reconstruct.html) by uploading either of the `.user_ko_definition.txt` files.
 
+![KEGG bin 1 piechart](https://github.com/PalMuc/Tethya_wilhelma_genome/blob/main/03-bacteria/figures/kegg_bin_1.png)
+
+![KEGG bin 2 piechart](https://github.com/PalMuc/Tethya_wilhelma_genome/blob/main/03-bacteria/figures/kegg_bin_2.png)
+
+![KEGG bin 3 piechart](https://github.com/PalMuc/Tethya_wilhelma_genome/blob/main/03-bacteria/figures/kegg_bin_3.png)
+
+![KEGG bin 4 piechart](https://github.com/PalMuc/Tethya_wilhelma_genome/blob/main/03-bacteria/figures/kegg_bin_4.png)
+
 
