@@ -1,5 +1,4 @@
 # bacterial contigs in *T. wilhelma* #
-
 To identify bacteria, remove sponge contigs and zero-coverage contigs, assume all remaining ones are microbial:
 
 ```
