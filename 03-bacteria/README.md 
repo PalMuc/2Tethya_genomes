@@ -1,8 +1,8 @@
-# bacterial contigs #
+# bacterial contigs in *T. wilhelma* #
 To identify bacteria, remove sponge contigs and zero-coverage contigs, assume all remaining ones are microbial:
 
 ```
-cat Tethya_wilhelma_V4_P_RNA_scaffold.moleculo_minimap2.zero_cov.names Tethya_wilhelma_V4_P_RNA_scaffold.moleculo_minimap2.b47.names > Tethya_wilhelma_V4_P_RNA_scaffold.moleculo_minimap2.b47_zero_cov.names`
+cat Tethya_wilhelma_V4_P_RNA_scaffold.moleculo_minimap2.zero_cov.names Tethya_wilhelma_V4_P_RNA_scaffold.moleculo_minimap2.b47.names > Tethya_wilhelma_V4_P_RNA_scaffold.moleculo_minimap2.b47_zero_cov.names
 excludeAinB.py Tethya_wilhelma_V4_P_RNA_scaffold.moleculo_minimap2.b47_zero_cov.names Tethya_wilhelma_V4_P_RNA_scaffold.fasta > Tethya_wilhelma_V4_P_RNA_scaffold.a47.fasta
 # Excluded 587 names from A in B
 # Wrote 304 sequences
@@ -20,7 +20,7 @@ excludeAinB.py Tethya_wilhelma_V4_P_RNA_scaffold.moleculo_minimap2.b47_zero_cov.
 | w/ annotation (KEGG) | -          | 3072 (40.9%)      | 1485 (38.7%)      | 229 (16.4%)       |
 | Putative group | sponge           | a-proteobacteria  | Rhodobacterales   | Rhodobacterales   |
 | Putative ID (ATPase)  | -        | Hoeflea sp (93.5%) | Roseovarius faecimaris (95.7%) | coxB Paracoccaceae sp (81.9%) |
-| Hit accession (ATPase) | -       | [WP_271089278.1](https://www.ncbi.nlm.nih.gov/protein/WP_271089278.1) | [WP_157706022.1](https://www.ncbi.nlm.nih.gov/protein/WP_157706022.1) | (MCR9145584.1)[https://www.ncbi.nlm.nih.gov/protein/MCR9145584.1] |
+| Hit accession (ATPase) | -       | [WP_271089278.1](https://www.ncbi.nlm.nih.gov/protein/WP_271089278.1) | [WP_157706022.1](https://www.ncbi.nlm.nih.gov/protein/WP_157706022.1) | [MCR9145584.1](https://www.ncbi.nlm.nih.gov/protein/MCR9145584.1) |
 | Putative ID (16S)  | -          | Sinorhizobium sp (98.3%) | - | - |
 | Hit accession (16S)  |  -       | [DQ917806.1](https://www.ncbi.nlm.nih.gov/nucleotide/DQ917806.1) | -   | - |
 
@@ -33,13 +33,15 @@ MetaBAT 2 (v2.15-25-g755e6aa) using minContig 2500, minCV 1.0, minCVSum 1.0, max
 6 bins (12411106 bases in total) formed.
 ```
 
-After binning, 78 ontigs were still omitted, accounting for 262kb. There were 6 bins, where 3 are bacterial genome-sized.
+After binning, 78 ontigs were still omitted, accounting for 262kb. There were 6 bins, where 3 are bacterial genome-sized, while the other 3 are a single contig each, and may represent fragments or plasmids.
 
 ```
 cat V4_a47_metabat_bin.*.fa | sizecutter.py -q -
 # Wrote 226 sequences: 100.0% of total
 # Total input letters is: 12314644
 ```
+
+![binning overview by GC and coverage](https://github.com/PalMuc/Tethya_wilhelma_genome/blob/main/03-bacteria/figures/Tethya_wilhelma_V4.metabat_bins.png)
 
 ### annotation of genes with prodigal and barrnap ###
 
@@ -63,5 +65,7 @@ Pathway maps can be reconstructed with the [KEGG Mapper tool](https://www.kegg.j
 ![KEGG bin 3 piechart](https://github.com/PalMuc/Tethya_wilhelma_genome/blob/main/03-bacteria/figures/kegg_bin_3.png)
 
 ![KEGG bin 4 piechart](https://github.com/PalMuc/Tethya_wilhelma_genome/blob/main/03-bacteria/figures/kegg_bin_4.png)
+
+
 
 

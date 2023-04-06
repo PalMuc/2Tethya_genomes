@@ -1,4 +1,13 @@
-## wtdbg2 assembly
+# *Tethya minuta* assembly #
+
+| name or version     | scaffolds | length (Mb) | N50 (kb) | longest scaffold (Mb) |
+| --------            | -------- | -------- | -------- | -------- |
+| "final" V1          | 1712  |  93.972     | 99.8    | 1.766                 |
+| scaffolded nanopore | 1551  | 127.312     | 180.9    | 3.190                 |
+| gap closed nanopore | 1551  | 127.312     | 180.9    | 3.190                 |
+| V4                  | 1043  | 139.080     | 788.3    | 4.328                 |
+
+## wtdbg2 assembly ##
 
 For this assembly we used all the availiable data for *Tethya minuta* we assembled and polished the reads using wtdbg2 (https://github.com/ruanjue/wtdbg2) 
 and scaffolded the contigs using PE-RNA reads and P_RNA_Scaffolder (https://github.com/CAFS-bioinformatics/P_RNA_scaffolder)
@@ -233,6 +242,7 @@ Total sequence length = 139080623
 ```
 ![cumulative length plot](https://github.com/PalMuc/Tethya_wilhelma_genome/blob/main/02-assembly/Tethya_minuta/figures/cumulative_length_plot.png)
 ![histogram of contig GC percent](https://github.com/PalMuc/Tethya_wilhelma_genome/blob/main/02-assembly/Tethya_minuta/figures/GC_histogram.png)
+
 ## BUSCO
 
 ```bash
