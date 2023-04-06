@@ -56,3 +56,4 @@ The proteins were functionally annotated with the [blastKOALA](https://www.kegg.
 
 Pathway maps can be reconstructed with the [KEGG Mapper tool](https://www.kegg.jp/kegg/mapper/reconstruct.html) by uploading either of the `.user_ko_definition.txt` files.
 
+
