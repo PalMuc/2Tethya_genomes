@@ -6,11 +6,70 @@
 | scaffolded nanopore | 1551  | 127.312     | 180.9    | 3.190                 |
 | gap closed nanopore | 1551  | 127.312     | 180.9    | 3.190                 |
 | V4                  | 1043  | 139.080     | 788.3    | 4.328                 |
+| --            | -- | -- | -- | -- |
+| V4 bin 17           | 255   | 90.289     | 984.923    | 4.328                |
+| V4 bin 17 non-redundant | 244   | 86.067     | 969.337    | 4.328             |
+| --            | -- | -- | -- | -- |
+
+## metabat binning of bacteria ##
+Using [metabat version 2:v2.15-25](https://bitbucket.org/berkeleylab/metabat/src/master/)
+
+```
+~/git/metabat/bin/metabat -i Tethya_minuta_V4.fasta -o TmiV4_metabat_bin -s 100000
+#MetaBAT 2 (v2.15-25-g755e6aa) using minContig 2500, minCV 1.0, minCVSum 1.0, maxP 95%, minS 60, maxEdges 200 and minClsSize 100000. with random seed=1681123778
+~/git/metabat/bin/metabat -i Tethya_minuta_V4.fasta -o TmiV4_metabat_bin.clusters.tab -s 100000 --noBinOut --saveCls --seed 1681123778
+#23 bins (135744938 bases in total) formed.
+mv TmiV4_metabat_bin.17.fa TmiV4_sponge_bin.17.fa
+for FILE in TmiV4_metabat_bin.*.fa ; do BASE="${FILE%.fa}" ; ~/prodigal-v2.6.3/prodigal -a $BASE.prot.fa -d $BASE.nucl.fa -f gff -o $BASE.gff -i $FILE ; done
+```
+
+bin 12 : 65% nitrite reductase to [*Paralysiella testudinis* QRQ81664.1](https://www.ncbi.nlm.nih.gov/protein/QRQ81664.1)
+bin 12 : 86.64% atpB to [Gammaproteobacteria sp MXZ80730.1](https://www.ncbi.nlm.nih.gov/protein/MXZ80730.1)
+
+
+| Filename            | Sequences | Total |  Mean  |  Median  | Longest  |  n50   | ID |
+| --------              | --: | -------: | -------- | -------- | -------- | ------ |    |
+TmiV4_metabat_bin.17.fa | 255 | 90289220 | 354075.4 | 125264 | 4328674 | 984923 | sponge | 
+| | | | | | | | |
+TmiV4_metabat_bin.10.fa | 14 | 3784964 | 270354.6 | 190405 | 754858 | 487549 |  | 
+TmiV4_metabat_bin.11.fa | 40 | 610267 | 15256.7 | 13338 | 44261 | 18032 |  | 
+TmiV4_metabat_bin.12.fa | 8 | 4064372 | 508046.5 | 396455 | 901155 | 553638 | gamma | 
+TmiV4_metabat_bin.13.fa | 54 | 10983662 | 203401.1 | 34065 | 2190704 | 1693439 |  | 
+TmiV4_metabat_bin.14.fa | 30 | 1126806 | 37560.2 | 23164 | 104625 | 78867 |  | 
+TmiV4_metabat_bin.15.fa | 9 | 154864 | 17207.1 | 14254 | 32313 | 16705 |  | 
+TmiV4_metabat_bin.16.fa | 1 | 2071567 | 2071567.0 | 2071567 | 2071567 | 2071567 |  | 
+| | | | | | | | |
+TmiV4_metabat_bin.18.fa | 40 | 1075218 | 26880.5 | 21329 | 105712 | 40729 |  | 
+TmiV4_metabat_bin.19.fa | 9 | 249270 | 27696.7 | 18480 | 57899 | 38181 |  | 
+TmiV4_metabat_bin.1.fa | 2 | 1481924 | 740962.0 | 1467593 | 1467593 | 1467593 |  | 
+TmiV4_metabat_bin.20.fa | 12 | 2938368 | 244864.0 | 137344 | 745586 | 495100 |  | 
+TmiV4_metabat_bin.21.fa | 6 | 1547371 | 257895.2 | 370252 | 461187 | 417684 |  | 
+TmiV4_metabat_bin.22.fa | 7 | 4423716 | 631959.4 | 743810 | 1190679 | 1190679 |  | 
+TmiV4_metabat_bin.23.fa | 20 | 1933604 | 96680.2 | 22077 | 1207315 | 1207315 |  | 
+TmiV4_metabat_bin.2.fa | 29 | 215338 | 7425.4 | 5994 | 17633 | 7554 |  | 
+TmiV4_metabat_bin.3.fa | 3 | 705069 | 235023.0 | 140549 | 423971 | 423971 |  | 
+TmiV4_metabat_bin.4.fa | 36 | 338367 | 9399.1 | 7709 | 24543 | 10938 |  | 
+TmiV4_metabat_bin.5.fa | 8 | 3878909 | 484863.6 | 285074 | 1209476 | 1209476 |  | 
+TmiV4_metabat_bin.6.fa | 110 | 1358553 | 12350.5 | 9125 | 59229 | 14665 |  | 
+TmiV4_metabat_bin.7.fa | 8 | 335860 | 41982.5 | 43280 | 81042 | 69890 |  | 
+TmiV4_metabat_bin.8.fa | 95 | 2042547 | 21500.5 | 11313 | 211448 | 30375 |  | 
+TmiV4_metabat_bin.9.fa | 8 | 135102 | 16887.8 | 16482 | 29941 | 19941
+
+`for FILE in *.gff; do Rscript ~/git/genomeGTFtools/draw_genome_annotation.R $FILE ; done`
+
+Most bins have too many errors to correctly annotate the bacterial proteins.
+
+## removing duplicates ##
+Some scaffolds were exact duplicates, removed with [excludeAinB.py](https://bitbucket.org/wrf/sequences/src/master/excludeAinB.py)
+
+```
+excludeAinB.py duplicate_scaffolds_to_exclude.names TmiV4_sponge_bin.17.fa > TmiV4_sponge_bin.17.nr.fa
+```
 
 ## wtdbg2 assembly ##
 
-For this assembly we used all the availiable data for *Tethya minuta* we assembled and polished the reads using wtdbg2 (https://github.com/ruanjue/wtdbg2) 
-and scaffolded the contigs using PE-RNA reads and P_RNA_Scaffolder (https://github.com/CAFS-bioinformatics/P_RNA_scaffolder)
+For this assembly we used all the availiable data for *Tethya minuta* we assembled and polished the reads using [wtdbg2](https://github.com/ruanjue/wtdbg2) 
+and scaffolded the contigs using PE-RNA reads and [P_RNA_Scaffolder](https://github.com/CAFS-bioinformatics/P_RNA_scaffolder)
 
 ```bash
 #!/bin/bash
@@ -160,7 +219,8 @@ SN      outward oriented pairs: 0
 SN      pairs with other orientation:   0
 SN      pairs on different chromosomes: 0
 ```
-## SSPACE_Standard short read scaffolding
+
+## SSPACE_Standard short read scaffolding ##
 ```bash
 #!/bin/bash
 #
@@ -195,7 +255,7 @@ perl SSPACE_Standard_v3.0.pl \
 
 ```
 
-## LRScaf
+## LRScaf ##
 ```bash
 #!/bin/bash
 #
@@ -243,7 +303,7 @@ Total sequence length = 139080623
 ![cumulative length plot](https://github.com/PalMuc/Tethya_wilhelma_genome/blob/main/02-assembly/Tethya_minuta/figures/cumulative_length_plot.png)
 ![histogram of contig GC percent](https://github.com/PalMuc/Tethya_wilhelma_genome/blob/main/02-assembly/Tethya_minuta/figures/GC_histogram.png)
 
-## BUSCO
+## BUSCO ##
 
 ```bash
 #!/bin/bash
@@ -273,7 +333,7 @@ INFO    978 Total BUSCO groups searched
 INFO    BUSCO analysis done. Total running time: 4353.883141994476 seconds
 INFO    Results written in /home/fdeiste/Tethya_minuta_all/PromethION/LRScaf_2/scaffolded_minuta/BUSCO/run_BUSCO/
 ```
-## Hisat2 RNA
+## Hisat2 RNA ##
 ```bash
 #!/bin/bash
 #
@@ -299,7 +359,7 @@ hisat2 -q --no-mixed --no-unal --no-spliced-alignment --threads 16 -x scaffolds.
 samtools stats -@16  scaffolds.sam >samstats.txt
 samtools flagstat -@16  scaffolds.sam >flagstats.txt
 ```
-## samtools stats
+## samtools stats ##
 ```bash
 SN      raw total sequences:    165241566
 SN      filtered sequences:     0
@@ -334,7 +394,7 @@ SN      pairs with other orientation:   9025
 SN      pairs on different chromosomes: 63049
 
 ```
-## BRAKER2
+## BRAKER2 ##
 ```bash
 #!/bin/bash
 #
@@ -371,19 +431,19 @@ braker.pl --GENEMARK_PATH=/dss/dssfs02/lwp-dss-0001/pn69xe/pn69xe-dss-0000/di52z
 --genome=renamed_Tethya_minuta_all_LRScaf_2.fasta --species=Tethya_minuta --bam=sort_scaffolds.bam  
 
 ```
-## AUGUSTUS
+## AUGUSTUS ##
 ```bash
 ```
-## OrthoFinder
+## OrthoFinder ##
 ```bash
 ```
 
-## Illumina DNA reads
+## Illumina DNA reads ##
 
 * 100 bp :  42,000,000 reads
 * 150 bp :   8,000,000 reads
 
-## Illumina RNA reads
+## Illumina RNA reads ##
 
 * 50 bp  : 274,000,000 reads
 
