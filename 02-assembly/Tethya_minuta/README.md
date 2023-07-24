@@ -12,7 +12,7 @@
 | --            | -- | -- | -- | -- |
 
 ## metabat binning of bacteria ##
-Using [metabat version 2:v2.15-25](https://bitbucket.org/berkeleylab/metabat/src/master/)
+Using [metabat version 2:v2.15-25](https://bitbucket.org/berkeleylab/metabat/src/master/), and then [PRODIGAL v2.6.3](https://github.com/hyattpd/Prodigal) on all bins:
 
 ```
 ~/git/metabat/bin/metabat -i Tethya_minuta_V4.fasta -o TmiV4_metabat_bin -s 100000
@@ -64,6 +64,7 @@ Some scaffolds were exact duplicates, removed with [excludeAinB.py](https://bitb
 
 ```
 excludeAinB.py duplicate_scaffolds_to_exclude.names TmiV4_sponge_bin.17.fa > TmiV4_sponge_bin.17.nr.fa
+grep ">" TmiV4_sponge_bin.17.nr.fa | cut -c 2- > TmiV4_sponge_bin.17.nr.names
 ```
 
 ## wtdbg2 assembly ##
