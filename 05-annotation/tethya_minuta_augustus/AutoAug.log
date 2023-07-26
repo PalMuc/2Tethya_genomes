@@ -1,0 +1,482 @@
+2 checking for installed programs ... ok.
+AUGUSTUS (3.3.3) is a gene prediction tool
+written by M. Stanke, O. Keller, S. König, L. Gerischer and L. Romoth.
+
+WARNING: Fasta headers in file /data/www/webaugustus/webdata/augtrain/train8umxzJt3/genome.fa seem to contain non-letter and non-number characters. That means they may contain some kind of special character. This may later on cause problems! If the pipeline turns out to crash, please clean up the fasta headers, e.g. by using simplifyFastaHeaders.pl. This message will be suppressed from now on!
+
+1 Checking fasta headers in file /data/www/webaugustus/webdata/augtrain/train8umxzJt3/est.fa...
+WARNING: Detected whitespace in fasta header of file /data/www/webaugustus/webdata/augtrain/train8umxzJt3/est.fa. This may later on cause problems! If the pipeline turns out to crash, please clean up the fasta headers, e.g. by using simplifyFastaHeaders.pl. This message will be suppressed from now on!
+
+WARNING: Fasta headers in file /data/www/webaugustus/webdata/augtrain/train8umxzJt3/est.fa seem to contain non-letter and non-number characters. That means they may contain some kind of special character. This may later on cause problems! If the pipeline turns out to crash, please clean up the fasta headers, e.g. by using simplifyFastaHeaders.pl. This message will be suppressed from now on!
+
+3 mkdir /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/trainingSet
+3 mkdir /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/seq
+3 mkdir /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/hints
+3 mkdir /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/cdna
+3 mkdir /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/trainingSet/gbrowse
+3 mkdir /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/trainingSet/pasa
+3 mkdir /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/trainingSet/training
+2 All necessary directories have been created under /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/trainingSet.
+3 cd /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/seq
+3 ln -s /data/www/webaugustus/webdata/augtrain/train8umxzJt3/genome.fa genome.fa
+3 Cleaning genome file from DOS whitespaces/linebreaks...
+3 perl /usr/share/augustus/config/../scripts/cleanDOSfasta.pl /data/www/webaugustus/webdata/augtrain/train8umxzJt3/genome.fa > /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/seq/genome_clean.fa
+
+
+1 ####### Step 0 at Fri Apr 14 10:12:03 2023: Creating training set with genes using PASA #######
+
+3 cd /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/trainingSet/pasa
+3 ln -fs /data/www/webaugustus/webdata/augtrain/train8umxzJt3/est.fa transcripts.fasta
+2 Running "seqclean transcripts.fasta 1>seqclean.stdout 2>seqclean.stderr" Fri Apr 14 10:12:03 2023 ... Finished! Fri Apr 14 10:13:11 2023
+3 cp /usr/local/src/PASApipeline/pasa_conf/pasa.alignAssembly.Template.txt alignAssembly.config
+3 Setting appropriate values in alignAssembly.config
+3 rm alignAssembly.config; mv temp alignAssembly.config; chmod a+x alignAssembly.config
+3 Adjusted alignAssembly.config
+3 ln -fs /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/seq/genome_clean.fa genome.fasta
+3 Reading MySQL variables from /usr/local/src/PASApipeline/pasa_conf/
+2 Executing the Alignment Assembly: "perl /usr/local/src/PASApipeline/Launch_PASA_pipeline.pl -c alignAssembly.config -C -R -g /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/seq/genome_clean.fa -t transcripts.fasta.clean -T -u transcripts.fasta --ALIGNERS gmap --CPU 16 1>Launch_PASA_pipeline.stdout 2>Launch_PASA_pipeline.stderr" Fri Apr 14 10:13:11 2023 ... Finished Fri Apr 14 10:47:08 2023
+2 Running "perl /usr/local/src/PASApipeline/scripts/pasa_asmbls_to_training_set.dbi --pasa_transcripts_fasta PASAtrain8umxzJt3.assemblies.fasta --pasa_transcripts_gff3 PASAtrain8umxzJt3.pasa_assemblies.gff3 1>pasa_asmbls_to_training_set.stdout 2>pasa_asmbls_to_training_set.stderr" Fri Apr 14 10:47:08 2023 ... Finished Fri Apr 14 10:53:03 2023
+2 Cleaning up after PASA ...
+3 Deleting output.assembly_building.out
+3 Deleting output.tophits
+3 Deleting output.tophits.btab
+3 Deleting blat_validations
+3 Deleting BLAT_DIR
+3 Deleting output.alignment_assemblies.out
+3 Deleting output.subclusters.out
+1 Dropping MySQL database PASAtrain8umxzJt3 on host localhost.
+3 cd ../training
+3 grep complete ../pasa/PASAtrain8umxzJt3.assemblies.fasta.transdecoder.cds | perl -pe 's/>(\S+).*/$1\$/' | perl -pe 's#\.#\\.#g' 1> pasa.complete.lst
+2 Running "split -l 100 pasa.complete.lst pasa.complete.lst.split. ;for FILE in pasa.complete.lst.split.* ; do grep -f "$FILE" ../pasa/PASAtrain8umxzJt3.assemblies.fasta.transdecoder.genome.gff3 >> trainingSetComplete.temp.gff; done ; rm -f pasa.complete.lst.split.*" Fri Apr 14 10:53:05 2023 ... Finished! Fri Apr 14 10:56:52 2023
+2 Running "cat trainingSetComplete.temp.gff | perl -pe 's/\t\S*(asmbl_\d+).*/\t$1/' | sort -n -k 4 | sort -s -k 9 | sort -s -k 1,1 > trainingSetComplete.gff" Fri Apr 14 10:56:52 2023 ... Finished! Fri Apr 14 10:56:54 2023
+1 Average gene length in the training set is 3075.24
+2 The length of flanking DNA is set as 3075 accordingly.
+3 Found script /usr/share/augustus/config/../scripts/gff2gbSmallDNA.pl.
+3 perl /usr/share/augustus/config/../scripts/gff2gbSmallDNA.pl trainingSetComplete.gff /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/seq/genome_clean.fa 3075 trainingSetComplete.gb 1>gff2gbSmallDNA.stdout 2>gff2gbSmallDNA.stderr
+1 The training set trainingSetComplete.gb contains 6702 entries
+2 Now trying to find out whether the CDS in the training set contain or exclude the stop codon.
+3 cp -r /usr/share/augustus/config/species/generic /usr/share/augustus/config/species/train8umxzJt3_generic
+3 cd /usr/share/augustus/config/species/train8umxzJt3_generic
+3 cat generic_parameters.cfg | perl -pe 's/(stopCodonExcludedFromCDS ).*/$1true /' > train8umxzJt3_generic_parameters.cfg
+3 Set value of "stopCodonExcludedFromCDS" in train8umxzJt3_generic_parameters.cfg to "true"
+3 cd /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/trainingSet/training
+3 Running "etraining --species=train8umxzJt3_generic trainingSetComplete.gb 1>train.out 2>train.err" Fri Apr 14 10:57:05 2023 ...  Finished! Fri Apr 14 10:57:13 2023
+3 train.out and train.err have been made under /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/trainingSet/training.
+3 Error rate caused by "exon doesn't end in stop codon" is 0.939570277529096
+3 The appropriate value for "stopCodonExcludedFromCDS" seems to be "false".
+3 Set value of "stopCodonExcludedFromCDS" in train8umxzJt3_generic_parameters.cfg to "false"
+3 Try etraining again: "etraining --species=train8umxzJt3_generic training.gb.train >train.out " ...3 Running "etraining --species=train8umxzJt3_generic trainingSetComplete.gb 1>train.out 2>train.err" Fri Apr 14 10:57:13 2023...  Finished! Fri Apr 14 10:57:21 2023
+3 train.out and train.err have been made again under /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/trainingSet/training.
+2 Stop codons seem to be contained by CDS. Setting stopCodonExcludedFromCDS to false
+3 rm -rf /usr/share/augustus/config/species/train8umxzJt3_generic
+1 Now filtering problematic genes from training set...
+3 Running "cat train.err | perl -ne 'print "$1\n" if /in sequence (\S+):/' > badlist" ...
+3 The number of all entries that created a problem is 30
+3 Found script /usr/share/augustus/config/../scripts/filterGenes.pl.
+3 Running "perl /usr/share/augustus/config/../scripts/filterGenes.pl badlist trainingSetComplete.gb > training.gb" Fri Apr 14 10:57:21 2023 ... Finished! Fri Apr 14 10:57:22 2023
+
+1 ####### Finished step 0 at Fri Apr 14 10:57:22 2023: All files are stored in /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/trainingSet #######
+
+3 cd /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/seq
+3 Running "perl /usr/share/augustus/config/../scripts/summarizeACGTcontent.pl /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/seq/genome_clean.fa > genome.summary" Fri Apr 14 10:57:22 2023 ... Finished! Fri Apr 14 10:57:39 2023
+3 Running "cat genome.summary | grep "bases." | perl -pe 's/(\d+)\sbases.\s+(\S*) BASE.*/$2\tassembly\tcontig\t1\t$1\t.\t.\t.\tContig $2/' > contigs.gff" Fri Apr 14 10:57:39 2023 ... Finished! Fri Apr 14 10:57:39 2023
+3 cd /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/cdna
+1 Aligning cDNA to genome with BLAT...
+3 Running "pblat -threads=16 -noHead  -minIdentity=80 -maxIntron=100000 ../seq/genome_clean.fa cdna.fa cdna.psl 1>blat.stdout 2>blat.stderr" Fri Apr 14 10:57:39 2023 ...Finished! Fri Apr 14 10:58:59 2023
+2 Loaded 90289220 letters in 255 sequences
+2 Searched 2859694 bases in 3826 sequences
+2 Searched 3083725 bases in 3827 sequences
+2 Searched 3262561 bases in 3827 sequences
+2 Searched 3405407 bases in 3827 sequences
+2 Searched 3940987 bases in 3827 sequences
+2 Searched 3844645 bases in 3827 sequences
+2 Searched 4707009 bases in 3827 sequences
+2 Searched 3517309 bases in 3827 sequences
+2 Searched 3498578 bases in 3827 sequences
+2 Searched 4677260 bases in 3827 sequences
+2 Searched 4360253 bases in 3827 sequences
+2 Searched 4095745 bases in 3827 sequences
+2 Searched 3561833 bases in 3827 sequences
+2 Searched 4580348 bases in 3827 sequences
+2 Searched 4272557 bases in 3827 sequences
+2 Searched 4505800 bases in 3827 sequences
+3 pslCDnaFilter -minId=0.9 -localNearBest=0.005 -ignoreNs -bestOverlap cdna.psl cdna.f.psl 1>pslCDnaFilter.stdout 2>pslCDnaFilter.stderr
+3 Found script /usr/share/augustus/config/../scripts/blat2gbrowse.pl.
+3 Running "perl /usr/share/augustus/config/../scripts/blat2gbrowse.pl --source=CDNA cdna.f.psl cdna.gbrowse" Fri Apr 14 10:59:02 2023 ... Finished! Fri Apr 14 10:59:04 2023
+1 Creating hints from cDNA alignments ...
+2 Running "perl /usr/share/augustus/config/../scripts/blat2hints.pl --in=../cdna/cdna.f.psl --out=hints.E.gff --minintronlen=35 --trunkSS 1>blat2hints.stdout 2>blat2hints.stderr" Fri Apr 14 10:59:04 2023 ... Finished! Fri Apr 14 10:59:15 2023
+
+1 ####### Step 1 at Fri Apr 14 10:59:15 2023: Training AUGUSTUS (no UTR models) #######
+
+2 perl /usr/share/augustus/scripts/autoAugTrain.pl --cpus=16 -t=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/trainingSet/training/training.gb -s=train8umxzJt3  -g=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/seq/genome_clean.fa -w=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug -v -v -v --opt=1
+
+3 All necessary directories have been created under /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain.
+2 The input training set file has Genbank format.
+3 Creating a link /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/training/training.gb to /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/trainingSet/training/training.gb.
+3 ln -s /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/trainingSet/training/training.gb training.gb
+2 Running command  "perl /usr/share/augustus/config/../scripts/new_species.pl --species=train8umxzJt3 --silent 1>new_species.stdout" to create AUGUSTUS config files for new species train8umxzJt3
+2 Will create parameters for a EUKARYOTIC species!
+3 creating directory /usr/share/augustus/config/species/train8umxzJt3/ ...
+3 creating /usr/share/augustus/config/species/train8umxzJt3/train8umxzJt3_parameters.cfg ...
+3 creating /usr/share/augustus/config/species/train8umxzJt3/train8umxzJt3_weightmatrix.txt ...
+3 creating /usr/share/augustus/config/species/train8umxzJt3/train8umxzJt3_metapars.cfg ...
+2 The necessary files for training train8umxzJt3 have been created.
+2 Now training AUGUSTUS parameters for train8umxzJt3.
+1 training.gb contains 6672 sequences and 6672 genes, each sequence contains 1 gene(s) on average.
+2 Creating training.gb.train and training.gb.test with "perl /usr/share/augustus/config/../scripts/randomSplit.pl training.gb 200"...
+2 Created training.gb.train and training.gb.test under /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain.
+1 test/evaluation set training.gb.test contains 200 sequences and 200 genes.
+1 training set training.gb.train contains 6472 sequences and 6472 genes.
+2 Creating training.gb.train.test and training.gb.onlytrain:
+1 randomly selecting 300 genes from the training set training.gb.train...
+3 perl /usr/share/augustus/config/../scripts/randomSplit.pl training.gb.train 300 ...
+2 training.gb.train.test and training.gb.onlytrain have been made under /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain.
+1 training.gb.train.test contains 300 sequences and 300 genes.
+1 training.gb.onlytrain contains 6172 sequences and 6172 genes.
+2 Setting value of "stopCodonExcludedFromCDS" in train8umxzJt3_parameters.cfg to "true"
+2 First try with etraining: etraining --species=train8umxzJt3 training.gb.train 1>train.out 2>train.err Fri Apr 14 10:59:17 2023 ... Finished! Fri Apr 14 10:59:25 2023
+3 train.out and train.err have been made under /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/training.
+3 Error rate of missing stop codon is 0.939122373300371
+3 The appropriate value for "stopCodonExcludedFromCDS" seems to be "false".
+2 Setting value of "stopCodonExcludedFromCDS" in train8umxzJt3_parameters.cfg to "false"
+3 Trying etraining again: etraining --species=train8umxzJt3 training.gb.train 1>train.out 2>train.err Fri Apr 14 10:59:25 2023 ... Finished! Fri Apr 14 10:59:33 2023
+3 train.out and train.err have been made again under /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/training.
+2 Setting frequency of stop codons to tag=0.27, taa=0.319, tga=0.411.
+2 First evaluation of parameters ...
+2 Executing "augustus --species=train8umxzJt3 /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/training/training.gb.test > /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/training/test/augustus.1.out" Fri Apr 14 10:59:33 2023 ... Finished! Fri Apr 14 11:00:25 2023
+1 Ab initio prediction accuracy of AUGUSTUS without optimizing, without UTRs, is: 0.45936
+1 Optimizing meta parameters of AUGUSTUS
+2 Executing "perl /usr/share/augustus/config/../scripts/optimize_augustus.pl --cpus=8 --rounds=1 --species=train8umxzJt3 /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/training/training.gb.train.test --onlytrain=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/training/training.gb.onlytrain --metapars=/usr/share/augustus/config/species/train8umxzJt3/train8umxzJt3_metapars.cfg > optimize.out" Fri Apr 14 11:00:25 2023 ... Finished! Fri Apr 14 12:25:44 2023
+2 You can find all info about optimizing in /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/training/optimize.out!
+2 Running etraining --species=train8umxzJt3 training.gb.train 1>train.withoutCRF.out 2>train.withoutCRF.err Fri Apr 14 12:25:44 2023 ... Finished! Fri Apr 14 12:25:53 2023
+2 augustus --species=train8umxzJt3 training.gb.test > ./test/augustus.2.withoutCRF.out
+1 The accuracy after optimizing without CRF-etraining is 0.471633333333333
+2 coping parameter files to train8umxzJt3*.withoutCRF
+2 cp train8umxzJt3_exon_probs.pbl train8umxzJt3_exon_probs.pbl.withoutCRF
+2 cp train8umxzJt3_igenic_probs.pbl train8umxzJt3_igenic_probs.pbl.withoutCRF
+2 cp train8umxzJt3_intron_probs.pbl train8umxzJt3_intron_probs.pbl.withoutCRF
+2 Skipping CRF training
+2 Finished autoAugTrain without UTR at Fri Apr 14 12:26:54 2023. All files are stored in /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain
+
+
+
+1 ####### Finished step 1 at Fri Apr 14 12:26:54 2023: All files are stored in /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain #######
+
+
+1 ####### Step 2 at Fri Apr 14 12:26:54 2023: Preparing scripts for AUGUSTUS without hints and UTR #######
+2 perl /usr/share/augustus/scripts/autoAugPred.pl -g=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/seq/genome_clean.fa --species=train8umxzJt3 -w=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug  -v -v -v   --singleCPU --cpus=16
+
+3 Created directory /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_abinitio.
+3 All necessary directories have been created under /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_abinitio
+2 splitting genome sequence into subsets of size >= 5737136 bp
+3 perl /usr/share/augustus/config/../scripts/splitMfasta.pl --minsize=5737136 /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/seq/genome_clean.fa --outputpath=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/seq/split ...2 The split fasta files have been placed under /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/seq/split
+2 The shell scripts for cluster have been prepared under /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_abinitio/shells
+1 running augustus jobs aug1 aug2 aug3 aug4 aug5 aug6 aug7 aug8 aug9 aug10 aug11 aug12 aug13 aug14 parallel now
+2 running aug1 parallel Fri Apr 14 12:26:55 2023 ...
+2 running aug2 parallel Fri Apr 14 12:26:55 2023 ...
+2 running aug3 parallel Fri Apr 14 12:26:55 2023 ...
+2 running aug4 parallel Fri Apr 14 12:26:55 2023 ...
+2 running aug5 parallel Fri Apr 14 12:26:55 2023 ...
+2 running aug6 parallel Fri Apr 14 12:26:55 2023 ...
+2 running aug7 parallel Fri Apr 14 12:26:55 2023 ...
+2 running aug8 parallel Fri Apr 14 12:26:55 2023 ...
+2 running aug9 parallel Fri Apr 14 12:26:55 2023 ...
+2 running aug10 parallel Fri Apr 14 12:26:55 2023 ...
+2 running aug11 parallel Fri Apr 14 12:26:55 2023 ...
+2 running aug12 parallel Fri Apr 14 12:26:55 2023 ...
+2 running aug13 parallel Fri Apr 14 12:26:55 2023 ...
+2 running aug14 parallel Fri Apr 14 12:26:55 2023 ...
+2 finished aug10 status=0 Fri Apr 14 12:35:16 2023
+2 finished aug12 status=0 Fri Apr 14 12:36:51 2023
+2 finished aug11 status=0 Fri Apr 14 12:36:58 2023
+2 finished aug2 status=0 Fri Apr 14 12:37:23 2023
+2 finished aug14 status=0 Fri Apr 14 12:37:56 2023
+2 finished aug6 status=0 Fri Apr 14 12:37:59 2023
+2 finished aug13 status=0 Fri Apr 14 12:38:02 2023
+2 finished aug8 status=0 Fri Apr 14 12:38:13 2023
+2 finished aug5 status=0 Fri Apr 14 12:38:18 2023
+2 finished aug7 status=0 Fri Apr 14 12:38:46 2023
+2 finished aug3 status=0 Fri Apr 14 12:39:03 2023
+2 finished aug9 status=0 Fri Apr 14 12:39:09 2023
+2 finished aug4 status=0 Fri Apr 14 12:39:19 2023
+2 finished aug1 status=0 Fri Apr 14 12:39:53 2023
+1 done with augustus jobs
+3 cd /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_abinitio/shells
+3 cat aug1.out >> aug.out
+3 cat aug2.out >> aug.out
+3 cat aug3.out >> aug.out
+3 cat aug4.out >> aug.out
+3 cat aug5.out >> aug.out
+3 cat aug6.out >> aug.out
+3 cat aug7.out >> aug.out
+3 cat aug8.out >> aug.out
+3 cat aug9.out >> aug.out
+3 cat aug10.out >> aug.out
+3 cat aug11.out >> aug.out
+3 cat aug12.out >> aug.out
+3 cat aug13.out >> aug.out
+3 cat aug14.out >> aug.out
+3 cat aug.out | /usr/share/augustus/config/../scripts/join_aug_pred.pl > augustus.gff
+3 perl /usr/share/augustus/config/../scripts/getAnnoFasta.pl augustus.gff
+3 mv augustus.aa ../predictions
+3 mv augustus.gtf ../predictions/
+3 mv augustus.gff ../predictions/
+3 /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_abinitio/shells/../predictions
+3 cat augustus.gtf | /usr/share/augustus/config/../scripts/augustus2gbrowse.pl | perl -pe 's/AUGUSTUS	/AUG-ABINIT	/' > augustus.abinitio.gbrowse
+3 mv augustus.abinitio.gbrowse ../gbrowse
+2 Done with "autoAugPred.pl"
+
+
+1 ####### Finished step 2 at Fri Apr 14 12:39:59 2023: The scripts are stored in /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_abinitio/shells #######
+
+1 ####### Step 3 at Fri Apr 14 12:39:59 2023: Continue to predict genome structure with AUGUSTUS without hints, no UTR #######
+3 perl /usr/share/augustus/scripts/autoAugPred.pl --species=train8umxzJt3 --genome=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/seq/genome_clean.fa --continue --workingdir=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug -v -v -v    --singleCPU --cpus=16
+
+3 All necessary directories have been created under /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_abinitio
+2 Using existing split genome FASTA files.
+2 The shell scripts for cluster have been prepared under /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_abinitio/shells
+1 Predictions already there. Reusing them.
+3 cd /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_abinitio/shells
+3 Skipping prediction postprocessing.
+2 Done with "autoAugPred.pl"
+
+
+1 ####### Finished step 3 at Fri Apr 14 12:39:59 2023: All files are stored in /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_abinitio #######
+
+
+1 ####### Step 4 at Fri Apr 14 12:39:59 2023: Preparing scripts for AUGUSTUS with hints, without UTR #######
+2 perl /usr/share/augustus/scripts/autoAugPred.pl -g=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/seq/genome_clean.fa --species=train8umxzJt3 -w=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug  -v -v -v --hints=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/hints/hints.E.gff  --singleCPU --cpus=16
+
+3 Created directory /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_hints.
+3 All necessary directories have been created under /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_hints
+2 Using default hint configuration file extrinsiccfg=/usr/share/augustus/config/extrinsic/extrinsic.E.cfg
+2 Using existing split genome FASTA files.
+2 The shell scripts for cluster have been prepared under /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_hints/shells
+1 running augustus jobs aug1 aug2 aug3 aug4 aug5 aug6 aug7 aug8 aug9 aug10 aug11 aug12 aug13 aug14 parallel now
+2 running aug1 parallel Fri Apr 14 12:39:59 2023 ...
+2 running aug2 parallel Fri Apr 14 12:39:59 2023 ...
+2 running aug3 parallel Fri Apr 14 12:39:59 2023 ...
+2 running aug4 parallel Fri Apr 14 12:39:59 2023 ...
+2 running aug5 parallel Fri Apr 14 12:39:59 2023 ...
+2 running aug6 parallel Fri Apr 14 12:39:59 2023 ...
+2 running aug7 parallel Fri Apr 14 12:39:59 2023 ...
+2 running aug8 parallel Fri Apr 14 12:39:59 2023 ...
+2 running aug9 parallel Fri Apr 14 12:39:59 2023 ...
+2 running aug10 parallel Fri Apr 14 12:39:59 2023 ...
+2 running aug11 parallel Fri Apr 14 12:39:59 2023 ...
+2 running aug12 parallel Fri Apr 14 12:39:59 2023 ...
+2 running aug13 parallel Fri Apr 14 12:39:59 2023 ...
+2 running aug14 parallel Fri Apr 14 12:39:59 2023 ...
+2 finished aug12 status=0 Fri Apr 14 12:47:38 2023
+2 finished aug11 status=0 Fri Apr 14 12:50:44 2023
+2 finished aug6 status=0 Fri Apr 14 12:51:02 2023
+2 finished aug2 status=0 Fri Apr 14 12:51:15 2023
+2 finished aug13 status=0 Fri Apr 14 12:51:16 2023
+2 finished aug8 status=0 Fri Apr 14 12:51:29 2023
+2 finished aug14 status=0 Fri Apr 14 12:51:40 2023
+2 finished aug10 status=0 Fri Apr 14 12:51:46 2023
+2 finished aug5 status=0 Fri Apr 14 12:51:57 2023
+2 finished aug7 status=0 Fri Apr 14 12:52:33 2023
+2 finished aug9 status=0 Fri Apr 14 12:52:38 2023
+2 finished aug3 status=0 Fri Apr 14 12:52:53 2023
+2 finished aug4 status=0 Fri Apr 14 12:52:57 2023
+2 finished aug1 status=0 Fri Apr 14 12:53:48 2023
+1 done with augustus jobs
+3 cd /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_hints/shells
+3 cat aug1.out >> aug.out
+3 cat aug2.out >> aug.out
+3 cat aug3.out >> aug.out
+3 cat aug4.out >> aug.out
+3 cat aug5.out >> aug.out
+3 cat aug6.out >> aug.out
+3 cat aug7.out >> aug.out
+3 cat aug8.out >> aug.out
+3 cat aug9.out >> aug.out
+3 cat aug10.out >> aug.out
+3 cat aug11.out >> aug.out
+3 cat aug12.out >> aug.out
+3 cat aug13.out >> aug.out
+3 cat aug14.out >> aug.out
+3 cat aug.out | /usr/share/augustus/config/../scripts/join_aug_pred.pl > augustus.gff
+3 perl /usr/share/augustus/config/../scripts/getAnnoFasta.pl augustus.gff
+3 mv augustus.aa ../predictions
+3 mv augustus.gtf ../predictions/
+3 mv augustus.gff ../predictions/
+3 /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_hints/shells/../predictions
+3 cat augustus.gtf | /usr/share/augustus/config/../scripts/augustus2gbrowse.pl | perl -pe 's/AUGUSTUS	/AUG-HINTS	/' > augustus.E.gbrowse
+3 mv augustus.E.gbrowse ../gbrowse
+2 Done with "autoAugPred.pl"
+
+
+1 ####### Finished step 4 at Fri Apr 14 12:53:55 2023: The scripts are stored in /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_hints/shells #######
+
+1 ####### Step 5 at Fri Apr 14 12:53:55 2023: Continue to predict genome structure with AUGUSTUS with hints, no UTR #######
+3 perl /usr/share/augustus/scripts/autoAugPred.pl --species=train8umxzJt3 --genome=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/seq/genome_clean.fa --continue --workingdir=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug -v -v -v --hints=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/hints/hints.E.gff   --singleCPU --cpus=16
+
+3 All necessary directories have been created under /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_hints
+2 Using default hint configuration file extrinsiccfg=/usr/share/augustus/config/extrinsic/extrinsic.E.cfg
+2 Using existing split genome FASTA files.
+2 The shell scripts for cluster have been prepared under /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_hints/shells
+1 Predictions already there. Reusing them.
+3 cd /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_hints/shells
+3 Skipping prediction postprocessing.
+2 Done with "autoAugPred.pl"
+
+
+1 ####### Finished step 5 at Fri Apr 14 12:53:55 2023: All files are stored in /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_hints #######
+
+1 ####### Step 6 at Fri Apr 14 12:53:55 2023: Training AUGUSTUS with UTR #######
+
+2 perl /usr/share/augustus/scripts/autoAugTrain.pl --cpus=16 -g=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/seq/genome_clean.fa -s=train8umxzJt3 --utr -e=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/cdna/cdna.f.psl --aug=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_hints/predictions/augustus.gff -w=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug -v -v -v --opt=1 --useexisting
+
+
+1 ####### Now constructing a training set for Untranslated Regions (UTRs).... ########
+3 File check OK.
+3 Now extracting all stop and start codons from genemodels.gtf to stops.and.starts.gff
+3 File stops.and.starts.gff has been created.
+3 Found script /usr/share/augustus/config/../scripts/makeUtrTrainingSet.pl.
+2 Running command: perl /usr/share/augustus/config/../scripts/makeUtrTrainingSet.pl stops.and.starts.gff /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/seq/genome_clean.fa /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/cdna/cdna.f.psl utr Fri Apr 14 12:53:55 2023 ...
+28625 hints were filtered because of gene overlap.
+55740 hints would be compatible if the hints with gene-overlap wouldn't be filtered.
+2 Finished! Fri Apr 14 12:55:23 2023
+3 Running "cat utr.gff | perl /usr/share/augustus/config/../scripts/utrgff2gbrowse.pl" Fri Apr 14 12:55:23 2023 ... Finished! Fri Apr 14 12:55:23 2023 Made file utr.train.gbrowse
+3 Moved utr.train.gbrowse to /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/gbrowse
+3 The subset of genes, where we have both UTRs is bothutr.lst.
+3 Found script /usr/share/augustus/config/../scripts/gff2gbSmallDNA.pl.
+3 Running "perl /usr/share/augustus/config/../scripts/gff2gbSmallDNA.pl genes.gtf ../../../seq/genome.fa 4000 bothutr.test.gb --good=bothutr.lst 1>gff2gbSmallDNA.stdout 2>gff2gbSmallDNA.stderr" Fri Apr 14 12:55:25 2023 ... Finished! Fri Apr 14 12:55:27 2023
+3 Found script /usr/share/augustus/config/../scripts/randomSplit.pl.
+3 Running "perl /usr/share/augustus/config/../scripts/randomSplit.pl bothutr.test.gb 141" Fri Apr 14 12:55:27 2023 ... Finished! Fri Apr 14 12:55:27 2023
+3 Running "perl /usr/share/augustus/config/../scripts/randomSplit.pl t.gb 50" Fri Apr 14 12:55:27 2023 ... Finished! Fri Apr 14 12:55:27 2023
+1 Have constructed a training set train.gb for UTRs with 191 genes
+3 Found script /usr/share/augustus/config/../scripts/filterGenes.pl.
+2 Made onlytrain.gb under /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/training/utr/
+3 Found script /usr/share/augustus/config/../scripts/optimize_augustus.pl.
+1 Now optimizing meta parameters of AUGUSTUS for the UTR model. This will likely run for a long time..
+1 Running "perl /usr/share/augustus/config/../scripts/optimize_augustus.pl --cpus=8 --rounds=1 --species=train8umxzJt3 --trainOnlyUtr=1 --onlytrain=onlytrain.gb  --metapars=/usr/share/augustus/config/species/train8umxzJt3/train8umxzJt3_metapars.utr.cfg train.gb --UTR=on > optimize.utr.out" Fri Apr 14 12:55:28 2023 ... finished Fri Apr 14 13:27:42 2023
+
+2 Running etraining --species=train8umxzJt3 --UTR=on train.all.gb > etrain.out ... Finished Fri Apr 14 13:27:49 2023
+
+
+
+1 ####### Finished step 6 at Fri Apr 14 13:27:49 2023: All files are stored in /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/training/utr #######
+
+
+1 ####### Step 7 at Fri Apr 14 13:27:49 2023: Preparing scripts for AUGUSTUS with hints and UTR #######
+2 perl /usr/share/augustus/scripts/autoAugPred.pl -g=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/seq/genome_clean.fa --species=train8umxzJt3 -w=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug --utr -v -v -v --hints=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/hints/hints.E.gff  --singleCPU --cpus=16
+
+3 Created directory /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_hints_utr.
+3 All necessary directories have been created under /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_hints_utr
+2 Using default hint configuration file extrinsiccfg=/usr/share/augustus/config/extrinsic/extrinsic.E.cfg
+2 Using existing split genome FASTA files.
+2 The shell scripts for cluster have been prepared under /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_hints_utr/shells
+1 running augustus jobs aug1 aug2 aug3 aug4 aug5 aug6 aug7 aug8 aug9 aug10 aug11 aug12 aug13 aug14 parallel now
+2 running aug1 parallel Fri Apr 14 13:27:49 2023 ...
+2 running aug2 parallel Fri Apr 14 13:27:49 2023 ...
+2 running aug3 parallel Fri Apr 14 13:27:49 2023 ...
+2 running aug4 parallel Fri Apr 14 13:27:49 2023 ...
+2 running aug5 parallel Fri Apr 14 13:27:49 2023 ...
+2 running aug6 parallel Fri Apr 14 13:27:49 2023 ...
+2 running aug7 parallel Fri Apr 14 13:27:49 2023 ...
+2 running aug8 parallel Fri Apr 14 13:27:49 2023 ...
+2 running aug9 parallel Fri Apr 14 13:27:49 2023 ...
+2 running aug10 parallel Fri Apr 14 13:27:49 2023 ...
+2 running aug11 parallel Fri Apr 14 13:27:49 2023 ...
+2 running aug12 parallel Fri Apr 14 13:27:49 2023 ...
+2 running aug13 parallel Fri Apr 14 13:27:49 2023 ...
+2 running aug14 parallel Fri Apr 14 13:27:49 2023 ...
+2 finished aug13 status=0 Fri Apr 14 13:45:46 2023
+2 finished aug9 status=0 Fri Apr 14 13:46:11 2023
+2 finished aug5 status=0 Fri Apr 14 13:51:47 2023
+2 finished aug10 status=0 Fri Apr 14 13:52:38 2023
+2 finished aug8 status=0 Fri Apr 14 13:53:41 2023
+2 finished aug4 status=0 Fri Apr 14 13:54:41 2023
+2 finished aug11 status=0 Fri Apr 14 13:55:29 2023
+2 finished aug12 status=0 Fri Apr 14 13:55:33 2023
+2 finished aug3 status=0 Fri Apr 14 13:55:47 2023
+2 finished aug7 status=0 Fri Apr 14 13:55:56 2023
+2 finished aug2 status=0 Fri Apr 14 13:57:20 2023
+2 finished aug6 status=0 Fri Apr 14 13:58:47 2023
+2 finished aug1 status=0 Fri Apr 14 13:59:11 2023
+2 finished aug14 status=0 Fri Apr 14 14:02:29 2023
+1 done with augustus jobs
+3 cd /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_hints_utr/shells
+3 cat aug1.out >> aug.out
+3 cat aug2.out >> aug.out
+3 cat aug3.out >> aug.out
+3 cat aug4.out >> aug.out
+3 cat aug5.out >> aug.out
+3 cat aug6.out >> aug.out
+3 cat aug7.out >> aug.out
+3 cat aug8.out >> aug.out
+3 cat aug9.out >> aug.out
+3 cat aug10.out >> aug.out
+3 cat aug11.out >> aug.out
+3 cat aug12.out >> aug.out
+3 cat aug13.out >> aug.out
+3 cat aug14.out >> aug.out
+3 cat aug.out | /usr/share/augustus/config/../scripts/join_aug_pred.pl > augustus.gff
+3 perl /usr/share/augustus/config/../scripts/getAnnoFasta.pl augustus.gff
+3 mv augustus.aa ../predictions
+3 mv augustus.gtf ../predictions/
+3 mv augustus.gff ../predictions/
+3 /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_hints_utr/shells/../predictions
+3 cat augustus.gtf | /usr/share/augustus/config/../scripts/augustus2gbrowse.pl | perl -pe 's/AUGUSTUS	/AUG-UTR	/' > augustus.UTR.gbrowse
+3 mv augustus.UTR.gbrowse ../gbrowse
+2 Done with "autoAugPred.pl"
+
+
+1 ####### Finished step 7 at Fri Apr 14 14:02:37 2023: The scripts are stored in /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_hints_utr/shells #######
+
+1 ####### Step 8 at Fri Apr 14 14:02:37 2023: Continue to predict genome structure with AUGUSTUS with hints, containing UTR #######
+3 perl /usr/share/augustus/scripts/autoAugPred.pl --species=train8umxzJt3 --genome=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/seq/genome_clean.fa --continue --workingdir=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug -v -v -v --hints=/data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/hints/hints.E.gff  --utr  --singleCPU --cpus=16
+
+3 All necessary directories have been created under /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_hints_utr
+2 Using default hint configuration file extrinsiccfg=/usr/share/augustus/config/extrinsic/extrinsic.E.cfg
+2 Using existing split genome FASTA files.
+2 The shell scripts for cluster have been prepared under /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_hints_utr/shells
+1 Predictions already there. Reusing them.
+3 cd /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_hints_utr/shells
+3 Skipping prediction postprocessing.
+2 Done with "autoAugPred.pl"
+
+
+1 ####### Finished step 8 at Fri Apr 14 14:02:37 2023: All files are stored in /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_utr #######
+
+1 ####### Step 7 at Fri Apr 14 14:02:37 2023: Collecting important files #######
+3 All necessary directories have been created under /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/results.
+3 cd gbrowse
+3 cp /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_abinitio/gbrowse/augustus.abinitio.gbrowse  augustus.abinitio.gbrowse
+3 cp /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_hints/gbrowse/augustus.E.gbrowse  augustus.E.gbrowse
+3 cp /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/gbrowse/utr.train.gbrowse  utr.train.gbrowse
+3 cd ../hints
+3 ln -sf /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/hints/hints.E.gff hints.E.gff
+3 cd ../predictions
+3 cp /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_abinitio/predictions/augustus.gff  augustus.abinitio.gff
+3 cp /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_abinitio/predictions/augustus.aa  augustus.abinitio.aa
+3 cp /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_hints/predictions/augustus.gff  augustus.hints.gff
+3 cp /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugPred_hints/predictions/augustus.aa  augustus.hints.aa
+3 ln -s /data/www/webaugustus/webdata/augtrain/train8umxzJt3/genome.fa genome.fa
+3 cd ../config
+3 cd ../genes
+3 find /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain -name "*.gb" | grep -v tmp_opt_ > tempgbn
+3 find /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain -name "*.gb.*" | grep -v .gb.lst >> tempgbn
+3 ln -s /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/training/training.gb training.gb
+3 ln -s /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/training/utr/train.utronly.gb train.utronly.gb
+3 ln -s /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/training/utr/train.all.gb train.all.gb
+3 ln -s /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/training/utr/train.gb train.gb
+3 ln -s /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/training/utr/onlytrain.gb onlytrain.gb
+3 ln -s /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/training/utr/bothutr.test.gb bothutr.test.gb
+3 ln -s /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/training/utr/utr.gb utr.gb
+3 ln -s /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/training/utr/cdsonly.gb cdsonly.gb
+3 ln -s /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/training/training.gb.onlytrain training.gb.onlytrain
+3 ln -s /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/training/training.gb.train training.gb.train
+3 ln -s /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/training/training.gb.train.test training.gb.train.test
+3 ln -s /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/training/training.gb.test training.gb.test
+3 ln -s /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/training/utr/bothutr.test.gb.test bothutr.test.gb.test
+3 ln -s /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/autoAugTrain/training/utr/bothutr.test.gb.train bothutr.test.gb.train
+3 rm tempgbn
+
+1 ####### Finished step 7 at Fri Apr 14 14:02:37 2023: All files are stored in /data/www/webaugustus/webdata/augtrain/train8umxzJt3/autoAug/results #######
+
+1 ####### Done autoAug.pl #######
+Fri Apr 14 14:02:37 2023
