@@ -1,0 +1,5593 @@
+Scaffolds_79_1					
+Scaffolds_79_2					
+Scaffolds_79_3					
+Scaffolds_79_4					
+Scaffolds_79_5					
+Scaffolds_79_6					
+Scaffolds_79_7					
+Scaffolds_79_8					
+Scaffolds_79_9					
+Scaffolds_79_10					
+Scaffolds_79_11					
+Scaffolds_79_12					
+Scaffolds_79_14					
+Scaffolds_79_15					
+Scaffolds_79_16	K02867	RP-L11, MRPL11, rplK; large subunit ribosomal protein L11			
+Scaffolds_79_17					
+Scaffolds_79_18					
+Scaffolds_79_19					
+Scaffolds_79_20	K03073	secE; preprotein translocase subunit SecE			
+Scaffolds_79_21					
+Scaffolds_79_22					
+Scaffolds_79_23					
+Scaffolds_79_24					
+Scaffolds_79_26					
+Scaffolds_79_27					
+Scaffolds_79_28					
+Scaffolds_79_29					
+Scaffolds_79_30					
+Scaffolds_79_31					
+Scaffolds_79_32					
+Scaffolds_79_33					
+Scaffolds_79_34					
+Scaffolds_79_36	K00567	ogt, MGMT; methylated-DNA-[protein]-cysteine S-methyltransferase [EC:2.1.1.63]			
+Scaffolds_79_37					
+Scaffolds_79_38					
+Scaffolds_79_39					
+Scaffolds_79_40					
+Scaffolds_79_41					
+Scaffolds_79_43					
+Scaffolds_79_44					
+Scaffolds_79_46					
+Scaffolds_79_47	K20881	yrfG; GMP/IMP 5'-nucleotidase [EC:3.1.3.-]			
+Scaffolds_79_48					
+Scaffolds_79_49					
+Scaffolds_79_50					
+Scaffolds_79_51					
+Scaffolds_79_52					
+Scaffolds_79_53					
+Scaffolds_79_56					
+Scaffolds_79_57					
+Scaffolds_79_58	K24138	prx3; glutaredoxin/glutathione-dependent peroxiredoxin [EC:1.11.1.25 1.11.1.27]			
+Scaffolds_79_59					
+Scaffolds_79_60					
+Scaffolds_79_61					
+Scaffolds_79_63					
+Scaffolds_79_64					
+Scaffolds_79_65					
+Scaffolds_79_66					
+Scaffolds_79_67					
+Scaffolds_79_68					
+Scaffolds_79_70					
+Scaffolds_79_71					
+Scaffolds_79_75					
+Scaffolds_79_76					
+Scaffolds_79_78					
+Scaffolds_79_79					
+Scaffolds_79_80					
+Scaffolds_79_82	K01919	gshA; glutamate--cysteine ligase [EC:6.3.2.2]			
+Scaffolds_79_83					
+Scaffolds_79_84					
+Scaffolds_79_85					
+Scaffolds_79_86					
+Scaffolds_79_88					
+Scaffolds_80_3					
+Scaffolds_80_4					
+Scaffolds_80_6					
+Scaffolds_80_7					
+Scaffolds_80_9					
+Scaffolds_80_10					
+Scaffolds_80_12					
+Scaffolds_80_13					
+Scaffolds_80_14	K01872	AARS, alaS; alanyl-tRNA synthetase [EC:6.1.1.7]			
+Scaffolds_80_15	K02503	HINT1, hinT, hit; histidine triad (HIT) family protein			
+Scaffolds_80_16	K09791	K09791; uncharacterized protein			
+Scaffolds_80_17					
+Scaffolds_80_18					
+Scaffolds_80_19					
+Scaffolds_80_21					
+Scaffolds_80_23					
+Scaffolds_80_24					
+Scaffolds_80_25					
+Scaffolds_80_28					
+Scaffolds_80_29					
+Scaffolds_80_30					
+Scaffolds_80_34					
+Scaffolds_80_35					
+Scaffolds_80_36					
+Scaffolds_80_37					
+Scaffolds_80_38					
+Scaffolds_80_39					
+Scaffolds_80_40					
+Scaffolds_80_41					
+Scaffolds_80_42	K01801	nagL; maleylpyruvate isomerase [EC:5.2.1.4]			
+Scaffolds_80_43	K16165	nagK; fumarylpyruvate hydrolase [EC:3.7.1.20]			
+Scaffolds_80_44					
+Scaffolds_80_45					
+Scaffolds_80_47	K09948	K09948; uncharacterized protein			
+Scaffolds_80_50					
+Scaffolds_80_51					
+Scaffolds_80_52					
+Scaffolds_80_53					
+Scaffolds_80_54					
+Scaffolds_80_55					
+Scaffolds_80_56					
+Scaffolds_80_57					
+Scaffolds_80_58					
+Scaffolds_80_59					
+Scaffolds_80_61					
+Scaffolds_80_62					
+Scaffolds_80_63					
+Scaffolds_80_64					
+Scaffolds_80_65					
+Scaffolds_80_67					
+Scaffolds_80_68					
+Scaffolds_80_69					
+Scaffolds_80_70					
+Scaffolds_80_71					
+Scaffolds_80_73	K05589	ftsB; cell division protein FtsB			
+Scaffolds_80_74					
+Scaffolds_80_75					
+Scaffolds_80_76	K01627	kdsA; 2-dehydro-3-deoxyphosphooctonate aldolase (KDO 8-P synthase) [EC:2.5.1.55]			
+Scaffolds_80_77					
+Scaffolds_80_78					
+Scaffolds_80_79					
+Scaffolds_80_81					
+Scaffolds_80_82					
+Scaffolds_80_83					
+Scaffolds_80_84					
+Scaffolds_80_85					
+Scaffolds_80_86	K01962	accA; acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15]			
+Scaffolds_80_87					
+Scaffolds_80_88					
+Scaffolds_80_90					
+Scaffolds_80_91					
+Scaffolds_80_93					
+Scaffolds_80_94	K07738	nrdR; transcriptional repressor NrdR			
+Scaffolds_80_95					
+Scaffolds_80_96					
+Scaffolds_80_97					
+Scaffolds_80_98					
+Scaffolds_80_99					
+Scaffolds_80_100					
+Scaffolds_80_105					
+Scaffolds_80_106					
+Scaffolds_80_107					
+Scaffolds_80_108					
+Scaffolds_80_109					
+Scaffolds_80_110					
+Scaffolds_80_111	K02314	dnaB; replicative DNA helicase [EC:5.6.2.3]			
+Scaffolds_80_113	K02939	RP-L9, MRPL9, rplI; large subunit ribosomal protein L9			
+Scaffolds_80_114	K02939	RP-L9, MRPL9, rplI; large subunit ribosomal protein L9			
+Scaffolds_80_116					
+Scaffolds_80_117					
+Scaffolds_80_118					
+Scaffolds_80_119					
+Scaffolds_80_120					
+Scaffolds_80_121					
+Scaffolds_80_122					
+Scaffolds_80_123					
+Scaffolds_80_124					
+Scaffolds_80_125					
+Scaffolds_80_126					
+Scaffolds_80_127					
+Scaffolds_80_128					
+Scaffolds_80_129					
+Scaffolds_80_130					
+Scaffolds_80_131					
+Scaffolds_80_132					
+Scaffolds_80_134					
+Scaffolds_80_135					
+Scaffolds_80_137					
+Scaffolds_80_138					
+Scaffolds_80_139					
+Scaffolds_80_140					
+Scaffolds_80_142					
+Scaffolds_80_144					
+Scaffolds_80_145					
+Scaffolds_80_146					
+Scaffolds_80_147					
+Scaffolds_80_148					
+Scaffolds_80_149					
+Scaffolds_80_150					
+Scaffolds_80_151					
+Scaffolds_80_152					
+Scaffolds_80_154					
+Scaffolds_80_155					
+Scaffolds_80_156					
+Scaffolds_80_159					
+Scaffolds_80_160					
+Scaffolds_80_161					
+Scaffolds_80_162					
+Scaffolds_80_164					
+Scaffolds_80_165					
+Scaffolds_80_166					
+Scaffolds_80_167					
+Scaffolds_80_168	K02564	nagB, GNPDA; glucosamine-6-phosphate deaminase [EC:3.5.99.6]			
+Scaffolds_80_170					
+Scaffolds_80_171					
+Scaffolds_80_172					
+Scaffolds_80_173					
+Scaffolds_80_175					
+Scaffolds_80_177					
+Scaffolds_80_178					
+Scaffolds_80_179					
+Scaffolds_80_180					
+Scaffolds_80_181					
+Scaffolds_80_182					
+Scaffolds_80_183					
+Scaffolds_80_184	K18335	E1.1.1.434; 2-dehydro-3-deoxy-L-fuconate 4-dehydrogenase [EC:1.1.1.434]			
+Scaffolds_80_185	K07046	E3.1.1.120; L-fucono-1,5-lactonase [EC:3.1.1.120]			
+Scaffolds_80_186					
+Scaffolds_80_187					
+Scaffolds_80_188	K00064	E1.1.1.122; D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]			
+Scaffolds_80_189	K18334	fucD; L-fuconate dehydratase [EC:4.2.1.68]			
+Scaffolds_80_190					
+Scaffolds_80_193					
+Scaffolds_80_196					
+Scaffolds_80_197					
+Scaffolds_80_198					
+Scaffolds_80_200					
+Scaffolds_80_201	K22185	xylB; D-xylose 1-dehydrogenase [EC:1.1.1.175]			
+Scaffolds_80_202					
+Scaffolds_80_203	K00883	dgoK; 2-dehydro-3-deoxygalactonokinase [EC:2.7.1.58]			
+Scaffolds_80_204					
+Scaffolds_80_205					
+Scaffolds_80_206					
+Scaffolds_80_207					
+Scaffolds_80_208					
+Scaffolds_80_209	K17828	pyrDI; dihydroorotate dehydrogenase (NAD+) catalytic subunit [EC:1.3.1.14]			
+Scaffolds_80_210					
+Scaffolds_80_212					
+Scaffolds_80_213					
+Scaffolds_80_214					
+Scaffolds_80_215					
+Scaffolds_80_216					
+Scaffolds_80_217					
+Scaffolds_80_218					
+Scaffolds_80_219	K04087	hflC; modulator of FtsH protease HflC			
+Scaffolds_80_220	K04088	hflK; modulator of FtsH protease HflK			
+Scaffolds_80_221					
+Scaffolds_80_222					
+Scaffolds_80_223					
+Scaffolds_80_224					
+Scaffolds_80_225	K00791	miaA, TRIT1; tRNA dimethylallyltransferase [EC:2.5.1.75]			
+Scaffolds_80_226	K03572	mutL; DNA mismatch repair protein MutL			
+Scaffolds_80_227					
+Scaffolds_80_228					
+Scaffolds_80_229	K01448	amiABC; N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28]			
+Scaffolds_80_230	K06925	tsaE; tRNA threonylcarbamoyladenosine biosynthesis protein TsaE			
+Scaffolds_80_231					
+Scaffolds_80_232					
+Scaffolds_80_233					
+Scaffolds_80_234	K18979	queG; epoxyqueuosine reductase [EC:1.17.99.6]			
+Scaffolds_80_235					
+Scaffolds_80_236					
+Scaffolds_80_237					
+Scaffolds_80_238					
+Scaffolds_80_239	K01613	psd, PISD; phosphatidylserine decarboxylase [EC:4.1.1.65]			
+Scaffolds_80_240					
+Scaffolds_80_241					
+Scaffolds_80_242	K09760	rmuC; DNA recombination protein RmuC			
+Scaffolds_80_248					
+Scaffolds_80_249					
+Scaffolds_80_250					
+Scaffolds_80_252					
+Scaffolds_80_254					
+Scaffolds_80_258					
+Scaffolds_80_260					
+Scaffolds_80_261					
+Scaffolds_80_262					
+Scaffolds_80_263					
+Scaffolds_80_264					
+Scaffolds_80_265					
+Scaffolds_80_267					
+Scaffolds_80_268					
+Scaffolds_80_269					
+Scaffolds_80_270					
+Scaffolds_80_272	K01893	NARS, asnS; asparaginyl-tRNA synthetase [EC:6.1.1.22]			
+Scaffolds_80_274					
+Scaffolds_80_276					
+Scaffolds_80_277					
+Scaffolds_80_278					
+Scaffolds_80_279					
+Scaffolds_80_280					
+Scaffolds_80_282					
+Scaffolds_80_283					
+Scaffolds_80_284					
+Scaffolds_80_285					
+Scaffolds_80_286					
+Scaffolds_80_287					
+Scaffolds_80_288					
+Scaffolds_80_294					
+Scaffolds_80_295					
+Scaffolds_80_296					
+Scaffolds_80_297					
+Scaffolds_80_299					
+Scaffolds_80_300					
+Scaffolds_80_301					
+Scaffolds_80_302					
+Scaffolds_80_304					
+Scaffolds_80_305					
+Scaffolds_80_316					
+Scaffolds_80_317					
+Scaffolds_80_325					
+Scaffolds_80_327					
+Scaffolds_80_331					
+Scaffolds_80_332					
+Scaffolds_80_333					
+Scaffolds_80_334					
+Scaffolds_80_336					
+Scaffolds_80_337					
+Scaffolds_80_338					
+Scaffolds_80_339					
+Scaffolds_80_340					
+Scaffolds_80_341	K18661	matB; malonyl-CoA/methylmalonyl-CoA synthetase [EC:6.2.1.76 6.2.1.-]			
+Scaffolds_80_342					
+Scaffolds_80_344					
+Scaffolds_80_345					
+Scaffolds_80_346					
+Scaffolds_80_347					
+Scaffolds_80_348					
+Scaffolds_80_350					
+Scaffolds_80_352					
+Scaffolds_80_354					
+Scaffolds_80_355					
+Scaffolds_80_356					
+Scaffolds_80_357					
+Scaffolds_80_359					
+Scaffolds_80_360					
+Scaffolds_80_361	K00330	nuoA; NADH-quinone oxidoreductase subunit A [EC:7.1.1.2]			
+Scaffolds_80_362					
+Scaffolds_80_363					
+Scaffolds_80_365					
+Scaffolds_80_366					
+Scaffolds_80_367					
+Scaffolds_80_368	K00334	nuoE; NADH-quinone oxidoreductase subunit E [EC:7.1.1.2]			
+Scaffolds_80_369					
+Scaffolds_80_370					
+Scaffolds_80_371					
+Scaffolds_80_372					
+Scaffolds_80_373					
+Scaffolds_80_374					
+Scaffolds_80_376					
+Scaffolds_80_377					
+Scaffolds_80_378	K00337	nuoH; NADH-quinone oxidoreductase subunit H [EC:7.1.1.2]			
+Scaffolds_80_379					
+Scaffolds_80_380	K00338	nuoI; NADH-quinone oxidoreductase subunit I [EC:7.1.1.2]			
+Scaffolds_80_381					
+Scaffolds_80_382					
+Scaffolds_80_383	K00340	nuoK; NADH-quinone oxidoreductase subunit K [EC:7.1.1.2]			
+Scaffolds_80_384					
+Scaffolds_80_385					
+Scaffolds_80_386					
+Scaffolds_80_387					
+Scaffolds_80_388					
+Scaffolds_80_389					
+Scaffolds_80_390					
+Scaffolds_80_391					
+Scaffolds_80_392					
+Scaffolds_80_393					
+Scaffolds_80_394					
+Scaffolds_80_395					
+Scaffolds_80_396					
+Scaffolds_80_397					
+Scaffolds_80_398					
+Scaffolds_80_399					
+Scaffolds_80_400					
+Scaffolds_80_401					
+Scaffolds_80_404					
+Scaffolds_80_405					
+Scaffolds_80_407					
+Scaffolds_80_408					
+Scaffolds_80_409					
+Scaffolds_80_410					
+Scaffolds_80_411					
+Scaffolds_80_412					
+Scaffolds_80_413					
+Scaffolds_80_414					
+Scaffolds_80_415					
+Scaffolds_80_417					
+Scaffolds_80_419					
+Scaffolds_80_420					
+Scaffolds_80_421					
+Scaffolds_80_422					
+Scaffolds_80_424					
+Scaffolds_80_425					
+Scaffolds_80_427					
+Scaffolds_80_428	K18983	gci; D-galactarolactone cycloisomerase [EC:5.5.1.27]			
+Scaffolds_80_429					
+Scaffolds_80_430					
+Scaffolds_80_432					
+Scaffolds_80_433	K01684	dgoD; galactonate dehydratase [EC:4.2.1.6]			
+Scaffolds_80_434					
+Scaffolds_80_436					
+Scaffolds_80_437					
+Scaffolds_80_438					
+Scaffolds_80_439					
+Scaffolds_80_440					
+Scaffolds_80_441					
+Scaffolds_80_442					
+Scaffolds_80_444					
+Scaffolds_80_445					
+Scaffolds_80_446					
+Scaffolds_80_447					
+Scaffolds_80_448					
+Scaffolds_80_449					
+Scaffolds_80_450					
+Scaffolds_80_454					
+Scaffolds_80_455					
+Scaffolds_80_456					
+Scaffolds_80_458					
+Scaffolds_80_459					
+Scaffolds_80_460					
+Scaffolds_80_461					
+Scaffolds_80_462					
+Scaffolds_80_463					
+Scaffolds_80_465					
+Scaffolds_80_466	K01940	argG, ASS1; argininosuccinate synthase [EC:6.3.4.5]			
+Scaffolds_80_467					
+Scaffolds_80_468					
+Scaffolds_80_469					
+Scaffolds_80_470					
+Scaffolds_80_471					
+Scaffolds_80_472	K03683	rnt; ribonuclease T [EC:3.1.13.-]			
+Scaffolds_80_473	K00606	panB; 3-methyl-2-oxobutanoate hydroxymethyltransferase [EC:2.1.2.11]			
+Scaffolds_80_474					
+Scaffolds_80_475					
+Scaffolds_80_476					
+Scaffolds_80_477					
+Scaffolds_80_478					
+Scaffolds_80_479					
+Scaffolds_80_480					
+Scaffolds_80_481					
+Scaffolds_80_482					
+Scaffolds_80_483					
+Scaffolds_80_484					
+Scaffolds_80_485					
+Scaffolds_80_486	K06204	dksA; DnaK suppressor protein			
+Scaffolds_80_487					
+Scaffolds_80_488					
+Scaffolds_80_489					
+Scaffolds_80_490	K06206	sfsA; sugar fermentation stimulation protein A			
+Scaffolds_80_491					
+Scaffolds_80_492					
+Scaffolds_80_493					
+Scaffolds_80_494					
+Scaffolds_80_495					
+Scaffolds_80_496	K21071	pfk, pfp; ATP-dependent phosphofructokinase / diphosphate-dependent phosphofructokinase [EC:2.7.1.11 2.7.1.90]			
+Scaffolds_80_497					
+Scaffolds_80_498					
+Scaffolds_80_499					
+Scaffolds_80_500					
+Scaffolds_80_502					
+Scaffolds_80_503					
+Scaffolds_80_504					
+Scaffolds_80_505					
+Scaffolds_80_506	K01990	ABC-2.A; ABC-2 type transport system ATP-binding protein			
+Scaffolds_80_507					
+Scaffolds_80_508					
+Scaffolds_80_509					
+Scaffolds_80_510					
+Scaffolds_80_512					
+Scaffolds_80_515					
+Scaffolds_80_517					
+Scaffolds_80_518					
+Scaffolds_80_519					
+Scaffolds_80_520					
+Scaffolds_80_521					
+Scaffolds_80_523					
+Scaffolds_80_524					
+Scaffolds_80_526					
+Scaffolds_80_527					
+Scaffolds_80_528					
+Scaffolds_80_529					
+Scaffolds_80_530					
+Scaffolds_80_531					
+Scaffolds_80_532					
+Scaffolds_80_534					
+Scaffolds_80_535					
+Scaffolds_80_536					
+Scaffolds_80_537					
+Scaffolds_80_538					
+Scaffolds_80_539					
+Scaffolds_80_540					
+Scaffolds_82_2					
+Scaffolds_82_6					
+Scaffolds_82_7					
+Scaffolds_82_8					
+Scaffolds_82_12					
+Scaffolds_82_21					
+Scaffolds_82_22	K01956	carA, CPA1; carbamoyl-phosphate synthase small subunit [EC:6.3.5.5]			
+Scaffolds_82_23					
+Scaffolds_82_24					
+Scaffolds_82_25					
+Scaffolds_82_26					
+Scaffolds_82_27					
+Scaffolds_82_28	K03624	greA; transcription elongation factor GreA			
+Scaffolds_82_29					
+Scaffolds_82_30					
+Scaffolds_82_31					
+Scaffolds_82_33					
+Scaffolds_82_36					
+Scaffolds_82_37					
+Scaffolds_82_39					
+Scaffolds_82_40					
+Scaffolds_82_41					
+Scaffolds_82_42					
+Scaffolds_82_43					
+Scaffolds_82_44					
+Scaffolds_82_46					
+Scaffolds_82_47					
+Scaffolds_82_48					
+Scaffolds_82_49					
+Scaffolds_82_50					
+Scaffolds_82_51					
+Scaffolds_82_52					
+Scaffolds_82_53					
+Scaffolds_82_54					
+Scaffolds_82_55					
+Scaffolds_82_56					
+Scaffolds_82_58					
+Scaffolds_82_59					
+Scaffolds_82_60					
+Scaffolds_82_61					
+Scaffolds_82_62					
+Scaffolds_82_63					
+Scaffolds_82_65					
+Scaffolds_82_66					
+Scaffolds_82_67					
+Scaffolds_82_69					
+Scaffolds_82_70	K03177	truB, PUS4, TRUB1; tRNA pseudouridine55 synthase [EC:5.4.99.25]			
+Scaffolds_82_71					
+Scaffolds_82_72	K02956	RP-S15, MRPS15, rpsO; small subunit ribosomal protein S15			
+Scaffolds_82_73					
+Scaffolds_82_74	K00962	pnp, PNPT1; polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]			
+Scaffolds_82_75	K04752	glnK; nitrogen regulatory protein P-II 2			
+Scaffolds_82_76					
+Scaffolds_82_77					
+Scaffolds_82_80					
+Scaffolds_82_81					
+Scaffolds_82_82					
+Scaffolds_82_83					
+Scaffolds_82_84	K07391	comM; magnesium chelatase family protein			
+Scaffolds_82_86					
+Scaffolds_82_87					
+Scaffolds_82_90					
+Scaffolds_82_93	K00799	GST, gst; glutathione S-transferase [EC:2.5.1.18]			
+Scaffolds_82_94					
+Scaffolds_82_95					
+Scaffolds_82_96					
+Scaffolds_82_97					
+Scaffolds_82_98					
+Scaffolds_82_99	K01066	aes; acetyl esterase [EC:3.1.1.-]			
+Scaffolds_82_100					
+Scaffolds_82_101					
+Scaffolds_82_103					
+Scaffolds_82_105					
+Scaffolds_82_106					
+Scaffolds_82_107					
+Scaffolds_82_108					
+Scaffolds_82_109					
+Scaffolds_82_110					
+Scaffolds_82_111					
+Scaffolds_82_112					
+Scaffolds_82_113					
+Scaffolds_82_114					
+Scaffolds_82_115					
+Scaffolds_82_116					
+Scaffolds_82_117					
+Scaffolds_82_118					
+Scaffolds_82_119					
+Scaffolds_82_120					
+Scaffolds_82_121					
+Scaffolds_82_122	K00067	rfbD, rmlD; dTDP-4-dehydrorhamnose reductase [EC:1.1.1.133]			
+Scaffolds_82_123	K01710	rfbB, rmlB, rffG; dTDP-glucose 4,6-dehydratase [EC:4.2.1.46]			
+Scaffolds_82_124					
+Scaffolds_82_125					
+Scaffolds_82_126					
+Scaffolds_82_127					
+Scaffolds_82_128					
+Scaffolds_82_129					
+Scaffolds_82_130					
+Scaffolds_82_131					
+Scaffolds_82_132					
+Scaffolds_82_133					
+Scaffolds_82_134	K24288	meT1; MMP 1-O-methyltransferase [EC:2.1.1.365]			
+Scaffolds_82_136					
+Scaffolds_82_137					
+Scaffolds_82_138					
+Scaffolds_82_139					
+Scaffolds_82_140					
+Scaffolds_82_141					
+Scaffolds_82_143					
+Scaffolds_82_144					
+Scaffolds_82_145					
+Scaffolds_82_147					
+Scaffolds_82_148					
+Scaffolds_82_149					
+Scaffolds_82_150					
+Scaffolds_82_151					
+Scaffolds_82_152					
+Scaffolds_82_153					
+Scaffolds_82_154					
+Scaffolds_82_155					
+Scaffolds_82_156					
+Scaffolds_82_157					
+Scaffolds_82_158					
+Scaffolds_82_159					
+Scaffolds_82_162	K07062	fitB; toxin FitB [EC:3.1.-.-]			
+Scaffolds_82_163					
+Scaffolds_82_164					
+Scaffolds_82_165					
+Scaffolds_82_166					
+Scaffolds_82_167					
+Scaffolds_82_168					
+Scaffolds_82_169					
+Scaffolds_82_170					
+Scaffolds_82_171					
+Scaffolds_82_172					
+Scaffolds_82_173					
+Scaffolds_82_174					
+Scaffolds_82_175					
+Scaffolds_82_176					
+Scaffolds_82_177					
+Scaffolds_82_178	K03111	ssb; single-strand DNA-binding protein			
+Scaffolds_82_180					
+Scaffolds_82_181					
+Scaffolds_82_183					
+Scaffolds_82_184					
+Scaffolds_82_187					
+Scaffolds_82_188					
+Scaffolds_82_189					
+Scaffolds_82_191					
+Scaffolds_82_196					
+Scaffolds_82_197					
+Scaffolds_82_198					
+Scaffolds_82_199	K08191	exuT; MFS transporter, ACS family, aldohexuronate transporter			
+Scaffolds_82_200					
+Scaffolds_82_201					
+Scaffolds_82_202					
+Scaffolds_82_203					
+Scaffolds_82_204					
+Scaffolds_82_205					
+Scaffolds_82_206					
+Scaffolds_82_207					
+Scaffolds_82_208					
+Scaffolds_82_209	K01716	fabA; 3-hydroxyacyl-[acyl-carrier protein] dehydratase / trans-2-decenoyl-[acyl-carrier protein] isomerase [EC:4.2.1.59 5.3.3.14]			
+Scaffolds_82_210	K00971	manC, cpsB; mannose-1-phosphate guanylyltransferase [EC:2.7.7.13]			
+Scaffolds_82_211					
+Scaffolds_82_212					
+Scaffolds_82_213					
+Scaffolds_82_214					
+Scaffolds_82_215					
+Scaffolds_82_216					
+Scaffolds_82_219	K02523	ispB; octaprenyl-diphosphate synthase [EC:2.5.1.90]			
+Scaffolds_84_10					
+Scaffolds_84_13					
+Scaffolds_84_14					
+Scaffolds_84_17					
+Scaffolds_84_20					
+Scaffolds_84_21					
+Scaffolds_84_22					
+Scaffolds_84_23					
+Scaffolds_84_25					
+Scaffolds_84_28					
+Scaffolds_84_31					
+Scaffolds_84_35					
+Scaffolds_84_38					
+Scaffolds_84_39					
+Scaffolds_84_40					
+Scaffolds_84_41					
+Scaffolds_84_42					
+Scaffolds_84_43					
+Scaffolds_84_47					
+Scaffolds_84_48					
+Scaffolds_84_49					
+Scaffolds_84_50	K00937	ppk1; polyphosphate kinase [EC:2.7.4.1]			
+Scaffolds_84_51	K01126	E3.1.4.46, glpQ, ugpQ; glycerophosphoryl diester phosphodiesterase [EC:3.1.4.46]			
+Scaffolds_84_52					
+Scaffolds_84_53					
+Scaffolds_84_55					
+Scaffolds_84_56					
+Scaffolds_84_59					
+Scaffolds_84_61	K02426	sufE; cysteine desulfuration protein SufE			
+Scaffolds_84_62					
+Scaffolds_84_63					
+Scaffolds_84_64					
+Scaffolds_84_65					
+Scaffolds_84_66					
+Scaffolds_84_67					
+Scaffolds_84_68					
+Scaffolds_84_69					
+Scaffolds_84_71					
+Scaffolds_84_72					
+Scaffolds_84_74					
+Scaffolds_84_75					
+Scaffolds_84_76					
+Scaffolds_84_77					
+Scaffolds_84_78					
+Scaffolds_84_79					
+Scaffolds_84_80					
+Scaffolds_84_81	K00059	fabG, OAR1; 3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]			
+Scaffolds_84_82					
+Scaffolds_84_84					
+Scaffolds_84_85					
+Scaffolds_84_86					
+Scaffolds_84_87	K01686	uxuA; mannonate dehydratase [EC:4.2.1.8]			
+Scaffolds_84_88	K00874	kdgK; 2-dehydro-3-deoxygluconokinase [EC:2.7.1.45]			
+Scaffolds_84_89					
+Scaffolds_84_90					
+Scaffolds_84_91					
+Scaffolds_84_92					
+Scaffolds_84_93					
+Scaffolds_84_94					
+Scaffolds_84_96					
+Scaffolds_84_97					
+Scaffolds_84_98					
+Scaffolds_84_99	K07302	iorA; isoquinoline 1-oxidoreductase subunit alpha [EC:1.3.99.16]			
+Scaffolds_84_100					
+Scaffolds_84_101					
+Scaffolds_84_102					
+Scaffolds_84_103	K03699	tlyC; magnesium and cobalt exporter, CNNM family			
+Scaffolds_84_105					
+Scaffolds_84_107					
+Scaffolds_84_109					
+Scaffolds_84_110					
+Scaffolds_84_111					
+Scaffolds_84_112					
+Scaffolds_84_113					
+Scaffolds_84_114					
+Scaffolds_84_115	K14451	mcl2; (3S)-malyl-CoA thioesterase [EC:3.1.2.30]			
+Scaffolds_84_117	K26060	gtd2; glucoside 3-dehydrogenase (cytochrome c) hitch-hiker subunit			
+Scaffolds_84_118					
+Scaffolds_84_119					
+Scaffolds_84_120					
+Scaffolds_84_121					
+Scaffolds_84_122					
+Scaffolds_84_123					
+Scaffolds_84_125					
+Scaffolds_84_126	K01714	dapA; 4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]			
+Scaffolds_84_127					
+Scaffolds_84_129					
+Scaffolds_84_132					
+Scaffolds_84_133					
+Scaffolds_84_135	K15984	rsmJ; 16S rRNA (guanine1516-N2)-methyltransferase [EC:2.1.1.242]			
+Scaffolds_84_136					
+Scaffolds_84_138					
+Scaffolds_84_140					
+Scaffolds_84_141					
+Scaffolds_84_142					
+Scaffolds_84_144					
+Scaffolds_84_145					
+Scaffolds_84_147					
+Scaffolds_84_148					
+Scaffolds_84_150					
+Scaffolds_84_152					
+Scaffolds_84_154					
+Scaffolds_84_155					
+Scaffolds_84_158					
+Scaffolds_84_159					
+Scaffolds_84_161					
+Scaffolds_84_162					
+Scaffolds_84_163					
+Scaffolds_84_164					
+Scaffolds_84_166					
+Scaffolds_84_168					
+Scaffolds_84_170					
+Scaffolds_84_171					
+Scaffolds_84_172					
+Scaffolds_84_173					
+Scaffolds_84_174					
+Scaffolds_84_175					
+Scaffolds_84_176					
+Scaffolds_84_177					
+Scaffolds_84_178					
+Scaffolds_84_179					
+Scaffolds_84_180					
+Scaffolds_84_181					
+Scaffolds_84_182					
+Scaffolds_84_183					
+Scaffolds_84_186					
+Scaffolds_84_187					
+Scaffolds_84_190					
+Scaffolds_84_193					
+Scaffolds_84_195					
+Scaffolds_84_196					
+Scaffolds_84_197					
+Scaffolds_84_198					
+Scaffolds_84_199					
+Scaffolds_84_200	K02871	RP-L13, MRPL13, rplM; large subunit ribosomal protein L13			
+Scaffolds_84_201					
+Scaffolds_84_203	K00411	UQCRFS1, RIP1, petA; ubiquinol-cytochrome c reductase iron-sulfur subunit [EC:7.1.1.8]			
+Scaffolds_84_205					
+Scaffolds_84_207					
+Scaffolds_84_208					
+Scaffolds_84_209					
+Scaffolds_84_210					
+Scaffolds_84_211	K03599	sspA, mglA; stringent starvation protein A			
+Scaffolds_84_212					
+Scaffolds_84_213					
+Scaffolds_84_214					
+Scaffolds_84_215	K12961	diaA; DnaA initiator-associating protein			
+Scaffolds_84_216	K07460	yraN; putative endonuclease			
+Scaffolds_84_217					
+Scaffolds_84_220					
+Scaffolds_84_221					
+Scaffolds_84_223					
+Scaffolds_84_224	K03438	mraW, rsmH; 16S rRNA (cytosine1402-N4)-methyltransferase [EC:2.1.1.199]			
+Scaffolds_84_225					
+Scaffolds_84_226					
+Scaffolds_84_227					
+Scaffolds_84_228					
+Scaffolds_84_229					
+Scaffolds_84_230	K01928	murE; UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase [EC:6.3.2.13]			
+Scaffolds_84_231					
+Scaffolds_84_232					
+Scaffolds_84_233					
+Scaffolds_84_234					
+Scaffolds_84_235	K01000	mraY; phospho-N-acetylmuramoyl-pentapeptide-transferase [EC:2.7.8.13]			
+Scaffolds_84_236					
+Scaffolds_84_237					
+Scaffolds_84_238					
+Scaffolds_84_240					
+Scaffolds_84_241					
+Scaffolds_84_242					
+Scaffolds_84_243	K02563	murG; UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase [EC:2.4.1.227]			
+Scaffolds_84_244					
+Scaffolds_84_245					
+Scaffolds_84_247					
+Scaffolds_84_248					
+Scaffolds_84_249					
+Scaffolds_84_252					
+Scaffolds_84_253					
+Scaffolds_84_254					
+Scaffolds_84_255					
+Scaffolds_84_256					
+Scaffolds_84_258					
+Scaffolds_84_259					
+Scaffolds_84_260					
+Scaffolds_84_261					
+Scaffolds_84_262					
+Scaffolds_84_263					
+Scaffolds_84_264					
+Scaffolds_84_266					
+Scaffolds_84_267					
+Scaffolds_84_268					
+Scaffolds_84_269	K00620	argJ; glutamate N-acetyltransferase / amino-acid N-acetyltransferase [EC:2.3.1.35 2.3.1.1]			
+Scaffolds_84_270	K03574	mutT, NUDT15, MTH2; 8-oxo-dGTP diphosphatase [EC:3.6.1.55]			
+Scaffolds_84_272					
+Scaffolds_84_274					
+Scaffolds_84_280					
+Scaffolds_84_285	K00859	coaE; dephospho-CoA kinase [EC:2.7.1.24]			
+Scaffolds_84_286					
+Scaffolds_84_287	K02654	pilD, pppA; leader peptidase (prepilin peptidase) / N-methyltransferase [EC:3.4.23.43 2.1.1.-]			
+Scaffolds_84_288					
+Scaffolds_84_289					
+Scaffolds_84_290					
+Scaffolds_84_291					
+Scaffolds_84_292					
+Scaffolds_84_293					
+Scaffolds_84_294					
+Scaffolds_84_296	K02650	pilA; type IV pilus assembly protein PilA			
+Scaffolds_84_297					
+Scaffolds_84_298					
+Scaffolds_84_299					
+Scaffolds_84_301					
+Scaffolds_84_303					
+Scaffolds_84_304					
+Scaffolds_84_305					
+Scaffolds_84_307					
+Scaffolds_84_308					
+Scaffolds_84_309					
+Scaffolds_84_310					
+Scaffolds_84_312					
+Scaffolds_84_313					
+Scaffolds_84_314					
+Scaffolds_84_315					
+Scaffolds_84_316					
+Scaffolds_84_319					
+Scaffolds_84_321					
+Scaffolds_84_322					
+Scaffolds_84_324					
+Scaffolds_84_325					
+Scaffolds_84_326					
+Scaffolds_84_327	K03806	ampD; N-acetyl-anhydromuramoyl-L-alanine amidase [EC:3.5.1.28]			
+Scaffolds_84_328	K07074	K07074; uncharacterized protein			
+Scaffolds_84_329					
+Scaffolds_84_331					
+Scaffolds_84_332					
+Scaffolds_84_336					
+Scaffolds_84_339					
+Scaffolds_84_340					
+Scaffolds_84_341	K09767	yajQ; cyclic-di-GMP-binding protein			
+Scaffolds_84_342					
+Scaffolds_84_343					
+Scaffolds_84_344					
+Scaffolds_84_345					
+Scaffolds_84_347					
+Scaffolds_84_348					
+Scaffolds_84_349					
+Scaffolds_84_350					
+Scaffolds_84_351					
+Scaffolds_84_353					
+Scaffolds_84_355					
+Scaffolds_84_356					
+Scaffolds_84_357					
+Scaffolds_84_358					
+Scaffolds_84_359					
+Scaffolds_84_360					
+Scaffolds_84_361					
+Scaffolds_84_362					
+Scaffolds_84_363					
+Scaffolds_84_364					
+Scaffolds_84_370					
+Scaffolds_84_371					
+Scaffolds_84_373					
+Scaffolds_84_374					
+Scaffolds_84_375					
+Scaffolds_84_376	K00860	cysC; adenylylsulfate kinase [EC:2.7.1.25]			
+Scaffolds_84_377					
+Scaffolds_84_378					
+Scaffolds_84_379					
+Scaffolds_84_381					
+Scaffolds_84_382					
+Scaffolds_84_384	K05524	fdxA; ferredoxin			
+Scaffolds_84_385					
+Scaffolds_84_386					
+Scaffolds_84_387					
+Scaffolds_84_388					
+Scaffolds_84_389					
+Scaffolds_84_390					
+Scaffolds_84_391					
+Scaffolds_84_392					
+Scaffolds_84_393					
+Scaffolds_84_395					
+Scaffolds_84_397					
+Scaffolds_84_398					
+Scaffolds_84_399					
+Scaffolds_84_402					
+Scaffolds_84_403					
+Scaffolds_84_404					
+Scaffolds_84_407	K17865	croR; 3-hydroxybutyryl-CoA dehydratase [EC:4.2.1.55]			
+Scaffolds_84_408					
+Scaffolds_84_409					
+Scaffolds_84_411					
+Scaffolds_84_413					
+Scaffolds_84_414					
+Scaffolds_84_415					
+Scaffolds_84_416	K08194	dgoT; MFS transporter, ACS family, D-galactonate transporter			
+Scaffolds_84_417					
+Scaffolds_84_418					
+Scaffolds_84_419					
+Scaffolds_84_420					
+Scaffolds_84_421					
+Scaffolds_84_422					
+Scaffolds_84_424					
+Scaffolds_84_425					
+Scaffolds_84_428					
+Scaffolds_84_429					
+Scaffolds_84_431					
+Scaffolds_84_432					
+Scaffolds_84_433					
+Scaffolds_84_434					
+Scaffolds_84_436					
+Scaffolds_84_437					
+Scaffolds_84_438					
+Scaffolds_84_439					
+Scaffolds_84_441					
+Scaffolds_84_442					
+Scaffolds_84_443					
+Scaffolds_84_444					
+Scaffolds_84_445					
+Scaffolds_84_446					
+Scaffolds_84_447					
+Scaffolds_84_448					
+Scaffolds_84_449					
+Scaffolds_84_450					
+Scaffolds_84_451					
+Scaffolds_84_453					
+Scaffolds_84_454					
+Scaffolds_84_455	K01689	ENO, eno; enolase [EC:4.2.1.11]			
+Scaffolds_84_457					
+Scaffolds_84_459					
+Scaffolds_84_461					
+Scaffolds_84_462	K03782	katG; catalase-peroxidase [EC:1.11.1.21]			
+Scaffolds_84_463					
+Scaffolds_84_464					
+Scaffolds_84_470					
+Scaffolds_84_471					
+Scaffolds_84_472					
+Scaffolds_84_473					
+Scaffolds_84_477					
+Scaffolds_84_478					
+Scaffolds_84_486					
+Scaffolds_84_487					
+Scaffolds_84_488					
+Scaffolds_84_489					
+Scaffolds_84_490					
+Scaffolds_84_491	K00128	ALDH; aldehyde dehydrogenase (NAD+) [EC:1.2.1.3]			
+Scaffolds_84_492					
+Scaffolds_84_493					
+Scaffolds_84_494					
+Scaffolds_84_495					
+Scaffolds_84_496					
+Scaffolds_84_497					
+Scaffolds_84_498					
+Scaffolds_84_499					
+Scaffolds_84_500					
+Scaffolds_84_501					
+Scaffolds_84_502					
+Scaffolds_84_503					
+Scaffolds_84_504	K20158	pao; pseudooxynicotine dehydrogenase [EC:1.4.2.3]			
+Scaffolds_84_505	K08738	CYC; cytochrome c			
+Scaffolds_84_507					
+Scaffolds_84_508	K01908	ACSS3, prpE; propionyl-CoA synthetase [EC:6.2.1.17]			
+Scaffolds_84_509					
+Scaffolds_84_512					
+Scaffolds_84_513					
+Scaffolds_84_514					
+Scaffolds_84_515					
+Scaffolds_84_517	K03305	TC.POT; proton-dependent oligopeptide transporter, POT family			
+Scaffolds_84_518					
+Scaffolds_84_519					
+Scaffolds_84_520					
+Scaffolds_84_521					
+Scaffolds_84_522					
+Scaffolds_84_523					
+Scaffolds_84_524	K07133	K07133; uncharacterized protein			
+Scaffolds_84_525					
+Scaffolds_84_526					
+Scaffolds_84_527					
+Scaffolds_84_528	K01573	oadG; oxaloacetate decarboxylase (Na+ extruding) subunit gamma			
+Scaffolds_84_529					
+Scaffolds_84_530					
+Scaffolds_84_531					
+Scaffolds_84_532					
+Scaffolds_84_533					
+Scaffolds_84_534					
+Scaffolds_84_535					
+Scaffolds_84_536					
+Scaffolds_84_537					
+Scaffolds_84_538					
+Scaffolds_84_539					
+Scaffolds_84_540					
+Scaffolds_84_541					
+Scaffolds_84_542					
+Scaffolds_84_543					
+Scaffolds_84_544					
+Scaffolds_84_545					
+Scaffolds_84_546	K07402	xdhC; xanthine dehydrogenase accessory factor			
+Scaffolds_84_547					
+Scaffolds_84_549	K02452	gspC; general secretion pathway protein C			
+Scaffolds_84_551					
+Scaffolds_84_552					
+Scaffolds_84_553					
+Scaffolds_84_554					
+Scaffolds_84_555					
+Scaffolds_84_556	K02455	gspF; general secretion pathway protein F			
+Scaffolds_84_557	K02456	gspG; general secretion pathway protein G			
+Scaffolds_84_559	K02458	gspI; general secretion pathway protein I			
+Scaffolds_84_560	K02459	gspJ; general secretion pathway protein J			
+Scaffolds_84_562					
+Scaffolds_84_567					
+Scaffolds_84_568					
+Scaffolds_84_570					
+Scaffolds_84_571					
+Scaffolds_84_573					
+Scaffolds_84_574					
+Scaffolds_84_575					
+Scaffolds_84_577					
+Scaffolds_84_578					
+Scaffolds_84_580					
+Scaffolds_84_581					
+Scaffolds_84_582					
+Scaffolds_84_583					
+Scaffolds_84_584					
+Scaffolds_84_585					
+Scaffolds_84_586					
+Scaffolds_84_587					
+Scaffolds_84_588					
+Scaffolds_84_589					
+Scaffolds_84_590					
+Scaffolds_84_592					
+Scaffolds_84_593					
+Scaffolds_84_594					
+Scaffolds_84_595					
+Scaffolds_84_598					
+Scaffolds_84_599					
+Scaffolds_84_600					
+Scaffolds_84_602					
+Scaffolds_84_605					
+Scaffolds_84_606					
+Scaffolds_84_607					
+Scaffolds_84_608					
+Scaffolds_84_609	K01992	ABC-2.P; ABC-2 type transport system permease protein			
+Scaffolds_84_610					
+Scaffolds_84_611					
+Scaffolds_84_612					
+Scaffolds_84_614					
+Scaffolds_84_615					
+Scaffolds_84_616	K03796	bax; Bax protein			
+Scaffolds_84_617					
+Scaffolds_84_618					
+Scaffolds_84_619					
+Scaffolds_84_620					
+Scaffolds_84_621					
+Scaffolds_84_622					
+Scaffolds_84_623					
+Scaffolds_84_624					
+Scaffolds_84_627					
+Scaffolds_84_630					
+Scaffolds_84_631	K09989	K09989; uncharacterized protein			
+Scaffolds_84_632					
+Scaffolds_84_634					
+Scaffolds_84_635					
+Scaffolds_84_636					
+Scaffolds_84_637	K00666	K00666; fatty-acyl-CoA synthase [EC:6.2.1.-]			
+Scaffolds_84_638					
+Scaffolds_84_640					
+Scaffolds_84_641					
+Scaffolds_84_642					
+Scaffolds_84_643					
+Scaffolds_84_644					
+Scaffolds_84_645					
+Scaffolds_84_646					
+Scaffolds_84_647	K22818	fadE26; 3-oxocholest-4-en-26-oyl-CoA dehydrogenase alpha subunit [EC:1.3.99.-]			
+Scaffolds_84_648					
+Scaffolds_84_649					
+Scaffolds_84_651					
+Scaffolds_84_652					
+Scaffolds_84_653					
+Scaffolds_84_654					
+Scaffolds_84_655					
+Scaffolds_84_656					
+Scaffolds_84_657					
+Scaffolds_84_658					
+Scaffolds_84_659					
+Scaffolds_84_660					
+Scaffolds_84_661					
+Scaffolds_84_662					
+Scaffolds_84_663					
+Scaffolds_84_664					
+Scaffolds_84_669					
+Scaffolds_84_670					
+Scaffolds_84_672					
+Scaffolds_84_673	K03088	rpoE; RNA polymerase sigma-70 factor, ECF subfamily			
+Scaffolds_84_674					
+Scaffolds_84_675					
+Scaffolds_84_677					
+Scaffolds_84_678					
+Scaffolds_84_679					
+Scaffolds_84_680					
+Scaffolds_84_681					
+Scaffolds_84_682					
+Scaffolds_84_683					
+Scaffolds_84_684					
+Scaffolds_84_686					
+Scaffolds_84_687					
+Scaffolds_84_689					
+Scaffolds_84_691					
+Scaffolds_84_692					
+Scaffolds_84_693					
+Scaffolds_84_694	K11991	tadA; tRNA(adenine34) deaminase [EC:3.5.4.33]			
+Scaffolds_84_695					
+Scaffolds_84_696					
+Scaffolds_84_697					
+Scaffolds_84_698					
+Scaffolds_84_699					
+Scaffolds_84_700					
+Scaffolds_84_701					
+Scaffolds_84_702					
+Scaffolds_84_703					
+Scaffolds_84_704					
+Scaffolds_84_708	K12257	secDF; SecD/SecF fusion protein			
+Scaffolds_84_709					
+Scaffolds_84_710					
+Scaffolds_84_711	K15396	trmJ; tRNA (cytidine32/uridine32-2'-O)-methyltransferase [EC:2.1.1.200]			
+Scaffolds_84_713	K04487	iscS, NFS1; cysteine desulfurase [EC:2.8.1.7]			
+Scaffolds_84_715					
+Scaffolds_84_716					
+Scaffolds_84_717					
+Scaffolds_84_718					
+Scaffolds_84_720					
+Scaffolds_84_721					
+Scaffolds_84_722					
+Scaffolds_84_723					
+Scaffolds_84_725					
+Scaffolds_84_726					
+Scaffolds_84_727					
+Scaffolds_84_728					
+Scaffolds_84_729	K17713	bamB; outer membrane protein assembly factor BamB			
+Scaffolds_84_730					
+Scaffolds_84_731					
+Scaffolds_84_732					
+Scaffolds_84_733					
+Scaffolds_84_734					
+Scaffolds_84_735					
+Scaffolds_84_736					
+Scaffolds_84_737					
+Scaffolds_84_738					
+Scaffolds_84_739					
+Scaffolds_84_740					
+Scaffolds_84_741	K07068	K07068; uncharacterized protein			
+Scaffolds_84_742					
+Scaffolds_84_743					
+Scaffolds_84_744					
+Scaffolds_84_745					
+Scaffolds_84_746					
+Scaffolds_84_747					
+Scaffolds_84_748					
+Scaffolds_84_749					
+Scaffolds_84_750					
+Scaffolds_84_751					
+Scaffolds_84_752					
+Scaffolds_84_753	K01692	paaF, echA; enoyl-CoA hydratase [EC:4.2.1.17]			
+Scaffolds_84_754					
+Scaffolds_84_755					
+Scaffolds_84_756					
+Scaffolds_84_757					
+Scaffolds_84_758					
+Scaffolds_84_760					
+Scaffolds_84_761					
+Scaffolds_84_763					
+Scaffolds_84_765					
+Scaffolds_84_766					
+Scaffolds_84_767	K14652	ribBA; 3,4-dihydroxy 2-butanone 4-phosphate synthase / GTP cyclohydrolase II [EC:4.1.99.12 3.5.4.25]			
+Scaffolds_84_768					
+Scaffolds_84_770					
+Scaffolds_84_771					
+Scaffolds_84_772					
+Scaffolds_84_774					
+Scaffolds_84_776					
+Scaffolds_84_778					
+Scaffolds_84_783					
+Scaffolds_84_784					
+Scaffolds_84_785	K01737	queD, ptpS, PTS; 6-pyruvoyltetrahydropterin/6-carboxytetrahydropterin synthase [EC:4.2.3.12 4.1.2.50]			
+Scaffolds_84_786					
+Scaffolds_84_787					
+Scaffolds_84_788					
+Scaffolds_84_789					
+Scaffolds_84_790					
+Scaffolds_84_791					
+Scaffolds_84_792					
+Scaffolds_84_793					
+Scaffolds_84_794					
+Scaffolds_84_797					
+Scaffolds_84_798					
+Scaffolds_84_800					
+Scaffolds_84_801					
+Scaffolds_84_802					
+Scaffolds_84_805	K07107	ybgC; acyl-CoA thioester hydrolase [EC:3.1.2.-]			
+Scaffolds_84_806					
+Scaffolds_84_808					
+Scaffolds_84_809					
+Scaffolds_84_810					
+Scaffolds_84_816					
+Scaffolds_84_818					
+Scaffolds_84_819					
+Scaffolds_84_820					
+Scaffolds_84_821	K22292	mupP; N-acetyl-D-muramate 6-phosphate phosphatase [EC:3.1.3.105]			
+Scaffolds_84_822					
+Scaffolds_84_823					
+Scaffolds_84_824	K06190	ispZ; intracellular septation protein			
+Scaffolds_84_825					
+Scaffolds_84_826					
+Scaffolds_84_827					
+Scaffolds_84_828					
+Scaffolds_84_829					
+Scaffolds_84_830					
+Scaffolds_84_831					
+Scaffolds_84_832					
+Scaffolds_84_833					
+Scaffolds_84_834					
+Scaffolds_84_835					
+Scaffolds_84_836					
+Scaffolds_84_837					
+Scaffolds_84_838					
+Scaffolds_84_839					
+Scaffolds_84_840					
+Scaffolds_84_841					
+Scaffolds_84_843					
+Scaffolds_84_844					
+Scaffolds_84_845					
+Scaffolds_84_846					
+Scaffolds_84_847					
+Scaffolds_84_848	K00945	cmk; CMP/dCMP kinase [EC:2.7.4.25]			
+Scaffolds_84_850	K02945	RP-S1, rpsA; small subunit ribosomal protein S1			
+Scaffolds_84_851					
+Scaffolds_84_873					
+Scaffolds_84_874					
+Scaffolds_84_875					
+Scaffolds_84_877					
+Scaffolds_84_882					
+Scaffolds_84_885					
+Scaffolds_84_887					
+Scaffolds_84_888					
+Scaffolds_136_2					
+Scaffolds_136_3	K01866	YARS, tyrS; tyrosyl-tRNA synthetase [EC:6.1.1.1]			
+Scaffolds_136_4					
+Scaffolds_136_5					
+Scaffolds_136_6					
+Scaffolds_136_7					
+Scaffolds_136_8					
+Scaffolds_136_10					
+Scaffolds_136_12					
+Scaffolds_136_13					
+Scaffolds_136_14					
+Scaffolds_136_15					
+Scaffolds_136_16					
+Scaffolds_136_18					
+Scaffolds_136_19					
+Scaffolds_136_20	K01845	hemL; glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]			
+Scaffolds_136_21					
+Scaffolds_136_22					
+Scaffolds_136_23					
+Scaffolds_136_24					
+Scaffolds_136_25	K00799	GST, gst; glutathione S-transferase [EC:2.5.1.18]			
+Scaffolds_136_26					
+Scaffolds_136_27					
+Scaffolds_136_28					
+Scaffolds_136_29					
+Scaffolds_136_30					
+Scaffolds_136_34					
+Scaffolds_136_35					
+Scaffolds_136_36					
+Scaffolds_136_37					
+Scaffolds_136_38					
+Scaffolds_136_39					
+Scaffolds_136_40					
+Scaffolds_136_41					
+Scaffolds_136_43					
+Scaffolds_136_44					
+Scaffolds_136_45					
+Scaffolds_136_46					
+Scaffolds_136_48					
+Scaffolds_136_50					
+Scaffolds_136_51					
+Scaffolds_136_52	K00826	E2.6.1.42, ilvE; branched-chain amino acid aminotransferase [EC:2.6.1.42]			
+Scaffolds_136_53					
+Scaffolds_136_54					
+Scaffolds_136_56					
+Scaffolds_136_57					
+Scaffolds_136_58					
+Scaffolds_136_59					
+Scaffolds_136_63					
+Scaffolds_136_64					
+Scaffolds_136_65					
+Scaffolds_136_66					
+Scaffolds_136_67					
+Scaffolds_136_78					
+Scaffolds_136_79					
+Scaffolds_136_81					
+Scaffolds_136_82					
+Scaffolds_136_84	K03658	helD; DNA helicase IV [EC:5.6.2.4]			
+Scaffolds_136_86					
+Scaffolds_136_88					
+Scaffolds_136_89					
+Scaffolds_136_90					
+Scaffolds_136_91					
+Scaffolds_136_92					
+Scaffolds_136_93					
+Scaffolds_136_94					
+Scaffolds_136_95					
+Scaffolds_136_96					
+Scaffolds_136_97					
+Scaffolds_136_98					
+Scaffolds_136_99					
+Scaffolds_136_100					
+Scaffolds_136_101					
+Scaffolds_136_102					
+Scaffolds_136_103					
+Scaffolds_136_104					
+Scaffolds_136_105					
+Scaffolds_136_106					
+Scaffolds_136_107					
+Scaffolds_136_110					
+Scaffolds_136_111					
+Scaffolds_136_113					
+Scaffolds_136_114					
+Scaffolds_136_115					
+Scaffolds_136_116					
+Scaffolds_136_117					
+Scaffolds_136_118					
+Scaffolds_136_119					
+Scaffolds_136_120					
+Scaffolds_136_121					
+Scaffolds_136_122					
+Scaffolds_136_123					
+Scaffolds_136_124					
+Scaffolds_136_125					
+Scaffolds_136_126					
+Scaffolds_136_127					
+Scaffolds_136_132					
+Scaffolds_136_134					
+Scaffolds_136_135					
+Scaffolds_136_136					
+Scaffolds_136_137					
+Scaffolds_136_138					
+Scaffolds_136_139					
+Scaffolds_136_140					
+Scaffolds_136_141					
+Scaffolds_136_143					
+Scaffolds_136_145	K01624	FBA, fbaA; fructose-bisphosphate aldolase, class II [EC:4.1.2.13]			
+Scaffolds_136_146					
+Scaffolds_136_147					
+Scaffolds_136_148					
+Scaffolds_136_149					
+Scaffolds_136_150					
+Scaffolds_136_152					
+Scaffolds_136_153					
+Scaffolds_136_154					
+Scaffolds_136_155					
+Scaffolds_136_156					
+Scaffolds_136_157	K00789	metK, MAT; S-adenosylmethionine synthetase [EC:2.5.1.6]			
+Scaffolds_136_158					
+Scaffolds_136_159					
+Scaffolds_136_160					
+Scaffolds_136_161					
+Scaffolds_136_162					
+Scaffolds_136_163					
+Scaffolds_136_164					
+Scaffolds_136_165					
+Scaffolds_136_166	K07315	rsbU_P; phosphoserine phosphatase RsbU/P [EC:3.1.3.3]			
+Scaffolds_136_167					
+Scaffolds_136_168					
+Scaffolds_136_169					
+Scaffolds_136_173					
+Scaffolds_136_175					
+Scaffolds_136_177	K06378	spoIIAA; stage II sporulation protein AA (anti-sigma F factor antagonist)			
+Scaffolds_136_178					
+Scaffolds_136_179					
+Scaffolds_136_180					
+Scaffolds_136_181	K02055	ABC.SP.S; putative spermidine/putrescine transport system substrate-binding protein			
+Scaffolds_136_182					
+Scaffolds_136_183					
+Scaffolds_136_184					
+Scaffolds_136_185	K02053	ABC.SP.P; putative spermidine/putrescine transport system permease protein			
+Scaffolds_136_186					
+Scaffolds_136_187					
+Scaffolds_136_190	K01609	trpC; indole-3-glycerol phosphate synthase [EC:4.1.1.48]			
+Scaffolds_136_191					
+Scaffolds_136_192					
+Scaffolds_136_193					
+Scaffolds_136_194					
+Scaffolds_136_195	K01658	trpG; anthranilate synthase component II [EC:4.1.3.27]			
+Scaffolds_136_196					
+Scaffolds_136_197					
+Scaffolds_136_198	K01783	rpe, RPE; ribulose-phosphate 3-epimerase [EC:5.1.3.1]			
+Scaffolds_136_199					
+Scaffolds_136_200					
+Scaffolds_136_201	K00992	murU; N-acetyl-alpha-D-muramate 1-phosphate uridylyltransferase [EC:2.7.7.99]			
+Scaffolds_136_202					
+Scaffolds_136_203					
+Scaffolds_136_204					
+Scaffolds_136_205					
+Scaffolds_136_206					
+Scaffolds_136_207	K03771	surA; peptidyl-prolyl cis-trans isomerase SurA [EC:5.2.1.8]			
+Scaffolds_136_208					
+Scaffolds_136_209					
+Scaffolds_136_210	K00097	pdxA; 4-hydroxythreonine-4-phosphate dehydrogenase [EC:1.1.1.262]			
+Scaffolds_136_211					
+Scaffolds_136_212	K02528	ksgA; 16S rRNA (adenine1518-N6/adenine1519-N6)-dimethyltransferase [EC:2.1.1.182]			
+Scaffolds_136_213					
+Scaffolds_136_214					
+Scaffolds_136_217	K00974	cca; tRNA nucleotidyltransferase (CCA-adding enzyme) [EC:2.7.7.72 3.1.3.- 3.1.4.-]			
+Scaffolds_136_218					
+Scaffolds_136_219					
+Scaffolds_136_220	K20940	phzS; 5-methylphenazine-1-carboxylate 1-monooxygenase [EC:1.14.13.218]			
+Scaffolds_136_221					
+Scaffolds_136_222					
+Scaffolds_136_223					
+Scaffolds_136_224					
+Scaffolds_136_225					
+Scaffolds_136_228	K02970	RP-S21, MRPS21, rpsU; small subunit ribosomal protein S21			
+Scaffolds_136_229	K09117	K09117; uncharacterized protein			
+Scaffolds_136_230					
+Scaffolds_136_231					
+Scaffolds_136_233					
+Scaffolds_136_234					
+Scaffolds_136_236					
+Scaffolds_136_237					
+Scaffolds_136_238	K18911	egtD; L-histidine Nalpha-methyltransferase [EC:2.1.1.44]			
+Scaffolds_136_239					
+Scaffolds_136_241	K09983	K09983; uncharacterized protein			
+Scaffolds_136_242					
+Scaffolds_136_243					
+Scaffolds_136_244					
+Scaffolds_136_245					
+Scaffolds_136_247					
+Scaffolds_136_248					
+Scaffolds_136_249					
+Scaffolds_136_250					
+Scaffolds_136_251					
+Scaffolds_136_252					
+Scaffolds_136_253					
+Scaffolds_136_254					
+Scaffolds_136_257					
+Scaffolds_136_258					
+Scaffolds_136_259					
+Scaffolds_136_260					
+Scaffolds_136_261					
+Scaffolds_136_262	K01690	edd; phosphogluconate dehydratase [EC:4.2.1.12]			
+Scaffolds_136_263					
+Scaffolds_136_264					
+Scaffolds_136_265					
+Scaffolds_136_266					
+Scaffolds_136_267					
+Scaffolds_136_268					
+Scaffolds_136_269					
+Scaffolds_136_272					
+Scaffolds_136_273					
+Scaffolds_136_274					
+Scaffolds_136_275					
+Scaffolds_136_276					
+Scaffolds_136_277					
+Scaffolds_136_278					
+Scaffolds_136_279					
+Scaffolds_136_280					
+Scaffolds_136_281					
+Scaffolds_136_282					
+Scaffolds_136_283					
+Scaffolds_136_284					
+Scaffolds_136_286					
+Scaffolds_136_288					
+Scaffolds_136_289					
+Scaffolds_136_290					
+Scaffolds_136_291					
+Scaffolds_136_293					
+Scaffolds_136_295					
+Scaffolds_136_296					
+Scaffolds_136_298					
+Scaffolds_136_299					
+Scaffolds_136_302					
+Scaffolds_136_303					
+Scaffolds_136_304					
+Scaffolds_136_305					
+Scaffolds_136_307	K00817	hisC; histidinol-phosphate aminotransferase [EC:2.6.1.9]			
+Scaffolds_136_308					
+Scaffolds_136_309	K01652	E2.2.1.6L, ilvB, ilvG, ilvI; acetolactate synthase I/II/III large subunit [EC:2.2.1.6]			
+Scaffolds_136_310					
+Scaffolds_136_312					
+Scaffolds_136_313					
+Scaffolds_136_314					
+Scaffolds_136_315					
+Scaffolds_136_316					
+Scaffolds_136_317					
+Scaffolds_136_320					
+Scaffolds_136_321					
+Scaffolds_136_322					
+Scaffolds_136_323					
+Scaffolds_136_324					
+Scaffolds_136_325					
+Scaffolds_136_326					
+Scaffolds_136_327					
+Scaffolds_136_328					
+Scaffolds_136_329	K07133	K07133; uncharacterized protein			
+Scaffolds_136_331					
+Scaffolds_136_332					
+Scaffolds_136_333					
+Scaffolds_136_334					
+Scaffolds_136_335					
+Scaffolds_136_336					
+Scaffolds_136_337					
+Scaffolds_136_340	K03310	TC.AGCS; alanine or glycine:cation symporter, AGCS family			
+Scaffolds_136_342					
+Scaffolds_136_343					
+Scaffolds_136_344					
+Scaffolds_136_347					
+Scaffolds_136_348	K01738	cysK; cysteine synthase [EC:2.5.1.47]			
+Scaffolds_136_349	K03673	dsbA; protein dithiol oxidoreductase (disulfide-forming) [EC:1.8.4.15]			
+Scaffolds_136_350					
+Scaffolds_136_351					
+Scaffolds_136_352					
+Scaffolds_136_353					
+Scaffolds_136_354					
+Scaffolds_136_355					
+Scaffolds_136_356					
+Scaffolds_136_357					
+Scaffolds_136_358					
+Scaffolds_136_359					
+Scaffolds_136_360					
+Scaffolds_136_362					
+Scaffolds_136_364					
+Scaffolds_136_365					
+Scaffolds_136_366					
+Scaffolds_136_367					
+Scaffolds_136_368					
+Scaffolds_136_369					
+Scaffolds_136_370					
+Scaffolds_136_372					
+Scaffolds_136_373					
+Scaffolds_136_374					
+Scaffolds_136_375					
+Scaffolds_136_376					
+Scaffolds_136_377					
+Scaffolds_136_378					
+Scaffolds_136_379					
+Scaffolds_136_380					
+Scaffolds_136_381	K00228	CPOX, hemF; coproporphyrinogen III oxidase [EC:1.3.3.3]			
+Scaffolds_136_382					
+Scaffolds_136_383					
+Scaffolds_136_384	K01588	purE; 5-(carboxyamino)imidazole ribonucleotide mutase [EC:5.4.99.18]			
+Scaffolds_136_386					
+Scaffolds_136_387					
+Scaffolds_136_388	K01462	PDF, def; peptide deformylase [EC:3.5.1.88]			
+Scaffolds_136_389					
+Scaffolds_136_390					
+Scaffolds_136_391					
+Scaffolds_136_392					
+Scaffolds_136_393					
+Scaffolds_136_394					
+Scaffolds_136_395					
+Scaffolds_136_398					
+Scaffolds_136_399	K03498	trkH, trkG, ktrB, ktrD; trk/ktr system potassium uptake protein			
+Scaffolds_136_400					
+Scaffolds_136_402					
+Scaffolds_136_403					
+Scaffolds_136_404					
+Scaffolds_136_405	K01878	glyQ; glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]			
+Scaffolds_136_407					
+Scaffolds_136_408					
+Scaffolds_136_409					
+Scaffolds_136_410					
+Scaffolds_136_411					
+Scaffolds_136_412					
+Scaffolds_136_413					
+Scaffolds_136_414					
+Scaffolds_136_415					
+Scaffolds_136_416					
+Scaffolds_136_417					
+Scaffolds_136_419	K03629	recF; DNA replication and repair protein RecF			
+Scaffolds_136_420					
+Scaffolds_136_421					
+Scaffolds_136_422					
+Scaffolds_136_423					
+Scaffolds_136_424					
+Scaffolds_136_425					
+Scaffolds_136_426					
+Scaffolds_136_433					
+Scaffolds_136_441					
+Scaffolds_136_444					
+Scaffolds_136_450					
+Scaffolds_136_451					
+Scaffolds_136_452					
+Scaffolds_136_454	K02914	RP-L34, MRPL34, rpmH; large subunit ribosomal protein L34			
+Scaffolds_136_456					
+Scaffolds_136_457					
+Scaffolds_136_458	K03217	yidC, spoIIIJ, OXA1, ccfA; YidC/Oxa1 family membrane protein insertase			
+Scaffolds_136_459					
+Scaffolds_136_460					
+Scaffolds_136_461					
+Scaffolds_136_462					
+Scaffolds_136_463					
+Scaffolds_136_464					
+Scaffolds_136_465					
+Scaffolds_136_466	K03501	gidB, rsmG; 16S rRNA (guanine527-N7)-methyltransferase [EC:2.1.1.170]			
+Scaffolds_136_467	K03496	parA, soj; chromosome partitioning protein			
+Scaffolds_136_468					
+Scaffolds_136_469	K03497	parB, spo0J; ParB family transcriptional regulator, chromosome partitioning protein			
+Scaffolds_136_473					
+Scaffolds_136_477					
+Scaffolds_136_478					
+Scaffolds_136_479	K02116	atpI; ATP synthase protein I			
+Scaffolds_136_480	K02108	ATPF0A, atpB; F-type H+-transporting ATPase subunit a			
+Scaffolds_136_481	K02110	ATPF0C, atpE; F-type H+-transporting ATPase subunit c			
+Scaffolds_136_482					
+Scaffolds_136_483	K02113	ATPF1D, atpH; F-type H+-transporting ATPase subunit delta			
+Scaffolds_136_484					
+Scaffolds_136_485					
+Scaffolds_136_486					
+Scaffolds_136_487					
+Scaffolds_136_488	K02115	ATPF1G, atpG; F-type H+-transporting ATPase subunit gamma			
+Scaffolds_136_489					
+Scaffolds_136_490					
+Scaffolds_136_491					
+Scaffolds_136_492					
+Scaffolds_136_493					
+Scaffolds_136_494					
+Scaffolds_136_495	K02114	ATPF1E, atpC; F-type H+-transporting ATPase subunit epsilon			
+Scaffolds_136_496					
+Scaffolds_136_498					
+Scaffolds_136_499					
+Scaffolds_136_500	K01593	DDC, TDC; aromatic-L-amino-acid/L-tryptophan decarboxylase [EC:4.1.1.28 4.1.1.105]			
+Scaffolds_136_503					
+Scaffolds_136_505					
+Scaffolds_136_506					
+Scaffolds_136_507					
+Scaffolds_136_508					
+Scaffolds_136_510					
+Scaffolds_136_511					
+Scaffolds_136_513					
+Scaffolds_136_514					
+Scaffolds_136_516					
+Scaffolds_136_517					
+Scaffolds_136_518					
+Scaffolds_136_519					
+Scaffolds_136_522	K00134	GAPDH, gapA; glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12]			
+Scaffolds_136_523	K00150	gap2, gapB; glyceraldehyde-3-phosphate dehydrogenase (NAD(P)+) (phosphorylating) [EC:1.2.1.59]			
+Scaffolds_136_525					
+Scaffolds_136_526					
+Scaffolds_136_527					
+Scaffolds_136_529					
+Scaffolds_136_530					
+Scaffolds_136_533					
+Scaffolds_136_534					
+Scaffolds_136_535					
+Scaffolds_136_536					
+Scaffolds_136_540					
+Scaffolds_136_542					
+Scaffolds_136_543					
+Scaffolds_136_544					
+Scaffolds_136_545					
+Scaffolds_136_546					
+Scaffolds_136_547					
+Scaffolds_136_548					
+Scaffolds_136_549					
+Scaffolds_136_550					
+Scaffolds_136_551					
+Scaffolds_136_553					
+Scaffolds_136_554					
+Scaffolds_136_555	K09861	K09861; uncharacterized protein			
+Scaffolds_136_556					
+Scaffolds_136_557					
+Scaffolds_136_558					
+Scaffolds_136_559	K03179	ubiA; 4-hydroxybenzoate polyprenyltransferase [EC:2.5.1.39]			
+Scaffolds_136_560					
+Scaffolds_136_561					
+Scaffolds_136_563					
+Scaffolds_136_566					
+Scaffolds_136_569					
+Scaffolds_136_571					
+Scaffolds_136_574					
+Scaffolds_136_576					
+Scaffolds_136_577	K05297	rubB, alkT; rubredoxin---NAD+ reductase [EC:1.18.1.1]			
+Scaffolds_136_578					
+Scaffolds_136_579					
+Scaffolds_136_580					
+Scaffolds_136_581					
+Scaffolds_136_582					
+Scaffolds_136_583					
+Scaffolds_136_584					
+Scaffolds_136_585					
+Scaffolds_136_586					
+Scaffolds_136_587					
+Scaffolds_136_588					
+Scaffolds_136_589					
+Scaffolds_136_590					
+Scaffolds_136_591					
+Scaffolds_136_592					
+Scaffolds_136_593					
+Scaffolds_136_594	K00762	pyrE; orotate phosphoribosyltransferase [EC:2.4.2.10]			
+Scaffolds_136_595	K05501	slmA, ttk; TetR/AcrR family transcriptional regulator			
+Scaffolds_136_596					
+Scaffolds_136_597					
+Scaffolds_136_598					
+Scaffolds_136_599					
+Scaffolds_136_600					
+Scaffolds_136_601					
+Scaffolds_136_602					
+Scaffolds_136_603					
+Scaffolds_136_605					
+Scaffolds_136_606					
+Scaffolds_136_608	K02902	RP-L28, MRPL28, rpmB; large subunit ribosomal protein L28			
+Scaffolds_136_609	K02913	RP-L33, MRPL33, rpmG; large subunit ribosomal protein L33			
+Scaffolds_136_610	K13292	lgt, umpA; phosphatidylglycerol---prolipoprotein diacylglyceryl transferase [EC:2.5.1.145]			
+Scaffolds_136_612	K00560	thyA, TYMS; thymidylate synthase [EC:2.1.1.45]			
+Scaffolds_136_613					
+Scaffolds_136_614	K00287	DHFR, folA; dihydrofolate reductase [EC:1.5.1.3]			
+Scaffolds_136_615					
+Scaffolds_136_617					
+Scaffolds_136_618					
+Scaffolds_136_620	K03561	exbB; biopolymer transport protein ExbB			
+Scaffolds_136_622	K03559	exbD; biopolymer transport protein ExbD			
+Scaffolds_136_623					
+Scaffolds_136_624					
+Scaffolds_136_625					
+Scaffolds_136_626					
+Scaffolds_136_627					
+Scaffolds_136_628					
+Scaffolds_136_629					
+Scaffolds_136_630					
+Scaffolds_136_631					
+Scaffolds_136_635	K00344	qor, CRYZ; NADPH:quinone reductase [EC:1.6.5.5]			
+Scaffolds_136_636					
+Scaffolds_136_637					
+Scaffolds_136_638					
+Scaffolds_136_639					
+Scaffolds_136_640					
+Scaffolds_136_641					
+Scaffolds_136_642					
+Scaffolds_136_643					
+Scaffolds_136_647	K02016	ABC.FEV.S; iron complex transport system substrate-binding protein			
+Scaffolds_136_648					
+Scaffolds_136_649					
+Scaffolds_136_650	K01669	phr, PHR1; deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]			
+Scaffolds_136_651					
+Scaffolds_136_652					
+Scaffolds_136_653					
+Scaffolds_136_654					
+Scaffolds_136_656					
+Scaffolds_136_657					
+Scaffolds_136_658					
+Scaffolds_136_659					
+Scaffolds_136_660					
+Scaffolds_136_661					
+Scaffolds_136_662	K02221	yggT; YggT family protein			
+Scaffolds_136_664					
+Scaffolds_136_665	K00641	metX; homoserine O-acetyltransferase/O-succinyltransferase [EC:2.3.1.31 2.3.1.46]			
+Scaffolds_136_666					
+Scaffolds_136_667					
+Scaffolds_136_668					
+Scaffolds_136_669					
+Scaffolds_136_670					
+Scaffolds_136_671	K03439	trmB, METTL1, TRM8; tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]			
+Scaffolds_136_672	K03089	rpoH; RNA polymerase sigma-32 factor			
+Scaffolds_136_673					
+Scaffolds_136_675					
+Scaffolds_136_676					
+Scaffolds_136_677					
+Scaffolds_136_678					
+Scaffolds_136_679					
+Scaffolds_136_680					
+Scaffolds_136_681					
+Scaffolds_136_682					
+Scaffolds_136_683					
+Scaffolds_136_686					
+Scaffolds_136_687					
+Scaffolds_136_688					
+Scaffolds_136_689					
+Scaffolds_136_690					
+Scaffolds_136_691					
+Scaffolds_136_692					
+Scaffolds_136_693	K09811	ftsX; cell division transport system permease protein			
+Scaffolds_136_694					
+Scaffolds_136_695					
+Scaffolds_136_696					
+Scaffolds_136_697					
+Scaffolds_136_698					
+Scaffolds_136_699	K00954	E2.7.7.3A, coaD, kdtB; pantetheine-phosphate adenylyltransferase [EC:2.7.7.3]			
+Scaffolds_136_700					
+Scaffolds_136_701					
+Scaffolds_136_702					
+Scaffolds_136_703					
+Scaffolds_136_704					
+Scaffolds_136_706					
+Scaffolds_136_707					
+Scaffolds_136_708					
+Scaffolds_136_709					
+Scaffolds_136_710					
+Scaffolds_136_711					
+Scaffolds_136_712	K02437	gcvH, GCSH; glycine cleavage system H protein			
+Scaffolds_136_713					
+Scaffolds_136_714	K18800	ubiI; 2-polyprenylphenol 6-hydroxylase [EC:1.14.13.240]			
+Scaffolds_136_715					
+Scaffolds_136_717	K09892	zapB; cell division protein ZapB			
+Scaffolds_136_718					
+Scaffolds_136_719					
+Scaffolds_136_720	K01934	MTHFS; 5-formyltetrahydrofolate cyclo-ligase [EC:6.3.3.2]			
+Scaffolds_136_722					
+Scaffolds_136_723					
+Scaffolds_136_724					
+Scaffolds_136_725					
+Scaffolds_136_726					
+Scaffolds_136_729					
+Scaffolds_136_730					
+Scaffolds_136_732					
+Scaffolds_136_733					
+Scaffolds_136_734					
+Scaffolds_136_735					
+Scaffolds_136_736					
+Scaffolds_136_737					
+Scaffolds_136_738					
+Scaffolds_136_740					
+Scaffolds_136_741					
+Scaffolds_136_742					
+Scaffolds_136_743					
+Scaffolds_136_744					
+Scaffolds_136_745					
+Scaffolds_136_746					
+Scaffolds_136_747					
+Scaffolds_136_748					
+Scaffolds_136_749					
+Scaffolds_136_750					
+Scaffolds_136_751					
+Scaffolds_136_752					
+Scaffolds_136_753					
+Scaffolds_136_754					
+Scaffolds_136_755					
+Scaffolds_136_756					
+Scaffolds_136_757					
+Scaffolds_136_759					
+Scaffolds_136_761					
+Scaffolds_136_762	K19119	cas5d; CRISPR-associated protein Cas5d			
+Scaffolds_136_763					
+Scaffolds_136_764	K07482	K07482; transposase, IS30 family			
+Scaffolds_136_765					
+Scaffolds_136_766					
+Scaffolds_136_767	K07464	cas4; CRISPR-associated exonuclease Cas4 [EC:3.1.12.1]			
+Scaffolds_136_769	K07482	K07482; transposase, IS30 family			
+Scaffolds_136_770					
+Scaffolds_136_771	K09951	cas2; CRISPR-associated protein Cas2			
+Scaffolds_136_776					
+Scaffolds_136_777					
+Scaffolds_136_778					
+Scaffolds_136_780					
+Scaffolds_136_781					
+Scaffolds_136_782					
+Scaffolds_136_783					
+Scaffolds_136_784					
+Scaffolds_136_786					
+Scaffolds_136_787	K04758	feoA; ferrous iron transport protein A			
+Scaffolds_136_788					
+Scaffolds_136_789	K01692	paaF, echA; enoyl-CoA hydratase [EC:4.2.1.17]			
+Scaffolds_136_790					
+Scaffolds_136_791					
+Scaffolds_136_795					
+Scaffolds_136_796					
+Scaffolds_136_797					
+Scaffolds_136_798					
+Scaffolds_136_799					
+Scaffolds_136_800					
+Scaffolds_136_801					
+Scaffolds_136_802					
+Scaffolds_136_803					
+Scaffolds_136_804	K03186	ubiX, bsdB, PAD1; flavin prenyltransferase [EC:2.5.1.129]			
+Scaffolds_136_805					
+Scaffolds_136_806					
+Scaffolds_136_807					
+Scaffolds_136_808					
+Scaffolds_136_809					
+Scaffolds_136_810					
+Scaffolds_136_811					
+Scaffolds_136_814					
+Scaffolds_136_815					
+Scaffolds_136_816					
+Scaffolds_136_817					
+Scaffolds_136_818					
+Scaffolds_136_819					
+Scaffolds_136_820					
+Scaffolds_136_821					
+Scaffolds_136_823					
+Scaffolds_136_824					
+Scaffolds_136_825					
+Scaffolds_136_826					
+Scaffolds_136_828					
+Scaffolds_136_829					
+Scaffolds_136_831					
+Scaffolds_136_834					
+Scaffolds_136_836					
+Scaffolds_136_838					
+Scaffolds_136_841					
+Scaffolds_136_842	K00383	GSR, gor; glutathione reductase (NADPH) [EC:1.8.1.7]			
+Scaffolds_136_843					
+Scaffolds_136_844	K03519	coxM, cutM; aerobic carbon-monoxide dehydrogenase medium subunit [EC:1.2.5.3]			
+Scaffolds_136_845	K03518	coxS; aerobic carbon-monoxide dehydrogenase small subunit [EC:1.2.5.3]			
+Scaffolds_136_846					
+Scaffolds_136_850					
+Scaffolds_136_851					
+Scaffolds_136_852					
+Scaffolds_136_853					
+Scaffolds_136_854					
+Scaffolds_136_856					
+Scaffolds_136_857					
+Scaffolds_136_858					
+Scaffolds_136_860	K00077	panE, apbA; 2-dehydropantoate 2-reductase [EC:1.1.1.169]			
+Scaffolds_136_861					
+Scaffolds_136_862					
+Scaffolds_136_863					
+Scaffolds_136_864					
+Scaffolds_136_866					
+Scaffolds_136_867					
+Scaffolds_136_868					
+Scaffolds_136_869					
+Scaffolds_136_870					
+Scaffolds_136_871					
+Scaffolds_136_875					
+Scaffolds_136_877					
+Scaffolds_136_878					
+Scaffolds_136_880					
+Scaffolds_136_882					
+Scaffolds_136_885					
+Scaffolds_136_886					
+Scaffolds_136_887					
+Scaffolds_136_888					
+Scaffolds_136_891	K01273	DPEP; membrane dipeptidase [EC:3.4.13.19]			
+Scaffolds_136_892					
+Scaffolds_136_893					
+Scaffolds_136_895					
+Scaffolds_136_896					
+Scaffolds_136_898					
+Scaffolds_136_899					
+Scaffolds_136_900					
+Scaffolds_136_901	K24821	atm1, pexA; ATP-binding cassette, subfamily B, heavy metal transporter			
+Scaffolds_136_902	K00344	qor, CRYZ; NADPH:quinone reductase [EC:1.6.5.5]			
+Scaffolds_136_903					
+Scaffolds_136_904					
+Scaffolds_136_905					
+Scaffolds_136_906					
+Scaffolds_136_909					
+Scaffolds_136_911					
+Scaffolds_136_912					
+Scaffolds_136_913	K03575	mutY; A/G-specific adenine glycosylase [EC:3.2.2.31]			
+Scaffolds_136_914					
+Scaffolds_136_915	K01693	hisB; imidazoleglycerol-phosphate dehydratase [EC:4.2.1.19]			
+Scaffolds_136_916					
+Scaffolds_136_917	K02501	hisH; imidazole glycerol-phosphate synthase subunit HisH [EC:4.3.2.10]			
+Scaffolds_136_918					
+Scaffolds_136_919	K01814	hisA; phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase [EC:5.3.1.16]			
+Scaffolds_136_920	K02500	hisF; imidazole glycerol-phosphate synthase subunit HisF [EC:4.3.2.10]			
+Scaffolds_136_925					
+Scaffolds_136_926					
+Scaffolds_136_927					
+Scaffolds_136_928					
+Scaffolds_136_929					
+Scaffolds_136_931	K15633	gpmI; 2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12]			
+Scaffolds_136_932					
+Scaffolds_136_933					
+Scaffolds_136_934	K03071	secB; preprotein translocase subunit SecB			
+Scaffolds_136_936					
+Scaffolds_136_937					
+Scaffolds_136_938					
+Scaffolds_136_939					
+Scaffolds_136_940					
+Scaffolds_136_941					
+Scaffolds_136_942					
+Scaffolds_136_943	K03151	thiI; tRNA uracil 4-sulfurtransferase [EC:2.8.1.4]			
+Scaffolds_136_944					
+Scaffolds_136_945	K07560	dtd, DTD; D-aminoacyl-tRNA deacylase [EC:3.1.1.96]			
+Scaffolds_136_948					
+Scaffolds_136_949					
+Scaffolds_136_950					
+Scaffolds_136_951					
+Scaffolds_136_954					
+Scaffolds_136_956					
+Scaffolds_136_957					
+Scaffolds_136_958					
+Scaffolds_136_960					
+Scaffolds_136_961					
+Scaffolds_136_962					
+Scaffolds_136_963					
+Scaffolds_136_964	K02348	elaA; ElaA protein			
+Scaffolds_136_968					
+Scaffolds_136_969					
+Scaffolds_136_970					
+Scaffolds_136_971					
+Scaffolds_136_976					
+Scaffolds_136_977					
+Scaffolds_136_978					
+Scaffolds_136_980					
+Scaffolds_136_981					
+Scaffolds_136_984	K02356	efp; elongation factor P			
+Scaffolds_136_986					
+Scaffolds_136_987					
+Scaffolds_136_988					
+Scaffolds_136_989					
+Scaffolds_136_990					
+Scaffolds_136_991					
+Scaffolds_136_992					
+Scaffolds_136_993					
+Scaffolds_136_994					
+Scaffolds_136_995					
+Scaffolds_136_996					
+Scaffolds_136_998					
+Scaffolds_136_999					
+Scaffolds_136_1000					
+Scaffolds_136_1001					
+Scaffolds_136_1002	K03088	rpoE; RNA polymerase sigma-70 factor, ECF subfamily			
+Scaffolds_136_1004					
+Scaffolds_136_1005					
+Scaffolds_136_1006					
+Scaffolds_136_1008					
+Scaffolds_136_1009	K00324	pntA; H+-translocating NAD(P) transhydrogenase subunit alpha [EC:1.6.1.2 7.1.1.1]			
+Scaffolds_136_1010	K00325	pntB; H+-translocating NAD(P) transhydrogenase subunit beta [EC:1.6.1.2 7.1.1.1]			
+Scaffolds_136_1011					
+Scaffolds_136_1012					
+Scaffolds_136_1013					
+Scaffolds_136_1014					
+Scaffolds_136_1015					
+Scaffolds_136_1016					
+Scaffolds_136_1017					
+Scaffolds_136_1018	K03116	tatA; sec-independent protein translocase protein TatA			
+Scaffolds_136_1019					
+Scaffolds_136_1020					
+Scaffolds_136_1021					
+Scaffolds_136_1022					
+Scaffolds_136_1023					
+Scaffolds_136_1024					
+Scaffolds_136_1025					
+Scaffolds_136_1026					
+Scaffolds_136_1029					
+Scaffolds_136_1030					
+Scaffolds_136_1031					
+Scaffolds_136_1034					
+Scaffolds_136_1036					
+Scaffolds_136_1039	K00558	DNMT1, dcm; DNA (cytosine-5)-methyltransferase 1 [EC:2.1.1.37]			
+Scaffolds_136_1042					
+Scaffolds_136_1043					
+Scaffolds_136_1044					
+Scaffolds_136_1045					
+Scaffolds_136_1046	K03690	ubiJ; ubiquinone biosynthesis accessory factor UbiJ			
+Scaffolds_136_1047					
+Scaffolds_136_1048					
+Scaffolds_136_1049					
+Scaffolds_136_1050					
+Scaffolds_136_1052					
+Scaffolds_136_1053					
+Scaffolds_136_1054					
+Scaffolds_136_1055					
+Scaffolds_136_1056	K01419	hslV, clpQ; ATP-dependent HslUV protease, peptidase subunit HslV [EC:3.4.25.2]			
+Scaffolds_136_1057					
+Scaffolds_136_1059	K01887	RARS, argS; arginyl-tRNA synthetase [EC:6.1.1.19]			
+Scaffolds_136_1061	K01284	dcp; peptidyl-dipeptidase Dcp [EC:3.4.15.5]			
+Scaffolds_136_1062					
+Scaffolds_136_1063					
+Scaffolds_136_1064					
+Scaffolds_136_1065					
+Scaffolds_136_1066	K04066	priA; primosomal protein N' (replication factor Y) (superfamily II helicase) [EC:5.6.2.4]			
+Scaffolds_136_1067					
+Scaffolds_136_1068					
+Scaffolds_136_1069	K02909	RP-L31, rpmE; large subunit ribosomal protein L31			
+Scaffolds_136_1070					
+Scaffolds_136_1071					
+Scaffolds_136_1072					
+Scaffolds_136_1073					
+Scaffolds_136_1074					
+Scaffolds_136_1075					
+Scaffolds_136_1076					
+Scaffolds_136_1077	K02662	pilM; type IV pilus assembly protein PilM			
+Scaffolds_136_1078					
+Scaffolds_136_1080					
+Scaffolds_136_1081					
+Scaffolds_136_1082	K02666	pilQ; type IV pilus assembly protein PilQ			
+Scaffolds_136_1083					
+Scaffolds_136_1084					
+Scaffolds_136_1085	K00891	aroK, aroL; shikimate kinase [EC:2.7.1.71]			
+Scaffolds_136_1086					
+Scaffolds_136_1087					
+Scaffolds_136_1088					
+Scaffolds_136_1089					
+Scaffolds_136_1090					
+Scaffolds_136_1091					
+Scaffolds_136_1093					
+Scaffolds_136_1094					
+Scaffolds_136_1095					
+Scaffolds_136_1096					
+Scaffolds_136_1097					
+Scaffolds_136_1099					
+Scaffolds_136_1100					
+Scaffolds_136_1101					
+Scaffolds_136_1102					
+Scaffolds_136_1103					
+Scaffolds_136_1104					
+Scaffolds_136_1105	K01599	hemE, UROD; uroporphyrinogen decarboxylase [EC:4.1.1.37]			
+Scaffolds_136_1108					
+Scaffolds_136_1109					
+Scaffolds_136_1110					
+Scaffolds_136_1111	K00640	cysE; serine O-acetyltransferase [EC:2.3.1.30]			
+Scaffolds_136_1112					
+Scaffolds_136_1113					
+Scaffolds_136_1114					
+Scaffolds_136_1115					
+Scaffolds_136_1116					
+Scaffolds_136_1117	K02018	modB; molybdate transport system permease protein			
+Scaffolds_136_1119					
+Scaffolds_136_1120	K02020	modA; molybdate transport system substrate-binding protein			
+Scaffolds_136_1121					
+Scaffolds_136_1123					
+Scaffolds_136_1124					
+Scaffolds_136_1125					
+Scaffolds_136_1126					
+Scaffolds_136_1128					
+Scaffolds_136_1129					
+Scaffolds_136_1130					
+Scaffolds_136_1131					
+Scaffolds_136_1132					
+Scaffolds_136_1135					
+Scaffolds_136_1136					
+Scaffolds_136_1137					
+Scaffolds_136_1138					
+Scaffolds_136_1139	K03786	aroQ, qutE; 3-dehydroquinate dehydratase II [EC:4.2.1.10]			
+Scaffolds_136_1140	K02160	accB, bccP; acetyl-CoA carboxylase biotin carboxyl carrier protein			
+Scaffolds_136_1141					
+Scaffolds_136_1142					
+Scaffolds_136_1143					
+Scaffolds_136_1144					
+Scaffolds_136_1145					
+Scaffolds_136_1146					
+Scaffolds_136_1147					
+Scaffolds_136_1148					
+Scaffolds_136_1149					
+Scaffolds_136_1151					
+Scaffolds_136_1152					
+Scaffolds_136_1153					
+Scaffolds_136_1155	K06134	COQ7; 3-demethoxyubiquinol 3-hydroxylase [EC:1.14.99.60]			
+Scaffolds_136_1158					
+Scaffolds_136_1159					
+Scaffolds_136_1160					
+Scaffolds_136_1168					
+Scaffolds_136_1169					
+Scaffolds_136_1170	K07447	ruvX; putative pre-16S rRNA nuclease [EC:3.1.-.-]			
+Scaffolds_136_1171					
+Scaffolds_136_1174					
+Scaffolds_136_1176					
+Scaffolds_136_1177					
+Scaffolds_136_1178					
+Scaffolds_136_1179					
+Scaffolds_136_1181					
+Scaffolds_136_1182					
+Scaffolds_136_1183					
+Scaffolds_136_1184					
+Scaffolds_136_1185					
+Scaffolds_136_1186					
+Scaffolds_136_1187					
+Scaffolds_136_1188					
+Scaffolds_136_1189					
+Scaffolds_136_1190					
+Scaffolds_136_1191					
+Scaffolds_136_1192					
+Scaffolds_136_1195					
+Scaffolds_136_1196	K01918	panC; pantoate--beta-alanine ligase [EC:6.3.2.1]			
+Scaffolds_136_1198					
+Scaffolds_136_1202	K02950	RP-S12, MRPS12, rpsL; small subunit ribosomal protein S12			
+Scaffolds_136_1203					
+Scaffolds_136_1204	K02992	RP-S7, MRPS7, rpsG; small subunit ribosomal protein S7			
+Scaffolds_136_1205					
+Scaffolds_136_1207					
+Scaffolds_136_1208					
+Scaffolds_136_1209					
+Scaffolds_136_1210					
+Scaffolds_136_1211					
+Scaffolds_136_1212					
+Scaffolds_136_1213					
+Scaffolds_136_1214	K02358	tuf, TUFM; elongation factor Tu			
+Scaffolds_136_1215					
+Scaffolds_136_1216					
+Scaffolds_136_1217					
+Scaffolds_136_1218					
+Scaffolds_136_1219	K02946	RP-S10, MRPS10, rpsJ; small subunit ribosomal protein S10			
+Scaffolds_136_1220	K02906	RP-L3, MRPL3, rplC; large subunit ribosomal protein L3			
+Scaffolds_136_1221	K02926	RP-L4, MRPL4, rplD; large subunit ribosomal protein L4			
+Scaffolds_136_1222	K02886	RP-L2, MRPL2, rplB; large subunit ribosomal protein L2			
+Scaffolds_136_1223					
+Scaffolds_136_1224					
+Scaffolds_136_1225					
+Scaffolds_136_1226	K02982	RP-S3, rpsC; small subunit ribosomal protein S3			
+Scaffolds_136_1227	K02878	RP-L16, MRPL16, rplP; large subunit ribosomal protein L16			
+Scaffolds_136_1228	K02904	RP-L29, rpmC; large subunit ribosomal protein L29			
+Scaffolds_136_1229	K02961	RP-S17, MRPS17, rpsQ; small subunit ribosomal protein S17			
+Scaffolds_136_1231	K02895	RP-L24, MRPL24, rplX; large subunit ribosomal protein L24			
+Scaffolds_136_1232					
+Scaffolds_136_1233					
+Scaffolds_136_1234					
+Scaffolds_136_1235	K02994	RP-S8, rpsH; small subunit ribosomal protein S8			
+Scaffolds_136_1236	K02933	RP-L6, MRPL6, rplF; large subunit ribosomal protein L6			
+Scaffolds_136_1237					
+Scaffolds_136_1238	K02988	RP-S5, MRPS5, rpsE; small subunit ribosomal protein S5			
+Scaffolds_136_1239					
+Scaffolds_136_1240	K02907	RP-L30, MRPL30, rpmD; large subunit ribosomal protein L30			
+Scaffolds_136_1241	K02876	RP-L15, MRPL15, rplO; large subunit ribosomal protein L15			
+Scaffolds_136_1242					
+Scaffolds_136_1243					
+Scaffolds_136_1244					
+Scaffolds_136_1245	K02952	RP-S13, rpsM; small subunit ribosomal protein S13			
+Scaffolds_136_1246					
+Scaffolds_136_1247					
+Scaffolds_136_1249					
+Scaffolds_136_1250					
+Scaffolds_136_1251					
+Scaffolds_136_1252					
+Scaffolds_136_1253					
+Scaffolds_136_1254					
+Scaffolds_136_1255					
+Scaffolds_136_1256					
+Scaffolds_136_1258					
+Scaffolds_136_1259					
+Scaffolds_136_1260					
+Scaffolds_136_1262					
+Scaffolds_136_1263					
+Scaffolds_136_1264	K06917	selU, mnmH; tRNA 2-selenouridine synthase [EC:2.9.1.3]			
+Scaffolds_136_1265					
+Scaffolds_136_1266					
+Scaffolds_136_1267					
+Scaffolds_136_1268					
+Scaffolds_136_1269					
+Scaffolds_136_1270					
+Scaffolds_136_1271					
+Scaffolds_136_1272					
+Scaffolds_136_1274					
+Scaffolds_136_1275					
+Scaffolds_136_1276					
+Scaffolds_136_1277					
+Scaffolds_136_1278					
+Scaffolds_136_1280					
+Scaffolds_136_1281					
+Scaffolds_136_1282					
+Scaffolds_136_1285					
+Scaffolds_136_1286					
+Scaffolds_136_1287					
+Scaffolds_136_1288					
+Scaffolds_136_1290					
+Scaffolds_136_1291					
+Scaffolds_136_1292	K21416	acoA; acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit alpha [EC:1.1.1.-]			
+Scaffolds_136_1294					
+Scaffolds_136_1295	K21417	acoB; acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit beta [EC:1.1.1.-]			
+Scaffolds_136_1296					
+Scaffolds_136_1298					
+Scaffolds_136_1299					
+Scaffolds_136_1300					
+Scaffolds_136_1302					
+Scaffolds_136_1303					
+Scaffolds_136_1304					
+Scaffolds_136_1305					
+Scaffolds_136_1306					
+Scaffolds_136_1307					
+Scaffolds_136_1309					
+Scaffolds_136_1310					
+Scaffolds_136_1311					
+Scaffolds_136_1312					
+Scaffolds_136_1313					
+Scaffolds_136_1315					
+Scaffolds_136_1318					
+Scaffolds_136_1322					
+Scaffolds_136_1323	K03704	cspA; cold shock protein			
+Scaffolds_136_1325					
+Scaffolds_136_1326					
+Scaffolds_136_1327					
+Scaffolds_136_1329					
+Scaffolds_136_1330					
+Scaffolds_136_1332					
+Scaffolds_136_1333					
+Scaffolds_136_1334					
+Scaffolds_136_1335					
+Scaffolds_136_1340					
+Scaffolds_136_1341					
+Scaffolds_136_1342					
+Scaffolds_136_1343					
+Scaffolds_136_1347					
+Scaffolds_136_1349					
+Scaffolds_136_1354					
+Scaffolds_136_1355					
+Scaffolds_136_1356					
+Scaffolds_136_1357					
+Scaffolds_136_1358					
+Scaffolds_136_1360					
+Scaffolds_136_1361					
+Scaffolds_136_1362					
+Scaffolds_136_1363					
+Scaffolds_136_1364					
+Scaffolds_136_1365					
+Scaffolds_136_1366					
+Scaffolds_136_1367					
+Scaffolds_136_1368					
+Scaffolds_136_1369					
+Scaffolds_136_1370					
+Scaffolds_136_1372					
+Scaffolds_136_1373					
+Scaffolds_136_1374					
+Scaffolds_136_1375					
+Scaffolds_136_1376	K03664	smpB; SsrA-binding protein			
+Scaffolds_136_1377					
+Scaffolds_136_1379					
+Scaffolds_136_1381					
+Scaffolds_136_1382	K03631	recN; DNA repair protein RecN (Recombination protein N)			
+Scaffolds_136_1383	K03705	hrcA; heat-inducible transcriptional repressor			
+Scaffolds_136_1385					
+Scaffolds_136_1386					
+Scaffolds_136_1387					
+Scaffolds_136_1388					
+Scaffolds_136_1389					
+Scaffolds_136_1390					
+Scaffolds_136_1392					
+Scaffolds_136_1394	K00215	dapB; 4-hydroxy-tetrahydrodipicolinate reductase [EC:1.17.1.8]			
+Scaffolds_136_1395	K05838	ybbN; putative thioredoxin			
+Scaffolds_136_1396					
+Scaffolds_136_1397					
+Scaffolds_136_1399					
+Scaffolds_136_1400					
+Scaffolds_136_1401					
+Scaffolds_136_1403					
+Scaffolds_136_1404					
+Scaffolds_136_1406					
+Scaffolds_136_1407					
+Scaffolds_136_1408					
+Scaffolds_136_1410					
+Scaffolds_136_1413					
+Scaffolds_136_1414					
+Scaffolds_136_1415					
+Scaffolds_136_1416					
+Scaffolds_136_1417					
+Scaffolds_136_1418	K01246	tag; DNA-3-methyladenine glycosylase I [EC:3.2.2.20]			
+Scaffolds_136_1420					
+Scaffolds_136_1421					
+Scaffolds_136_1422					
+Scaffolds_136_1423					
+Scaffolds_136_1424					
+Scaffolds_136_1428					
+Scaffolds_136_1429					
+Scaffolds_136_1430					
+Scaffolds_136_1433					
+Scaffolds_136_1434					
+Scaffolds_136_1435					
+Scaffolds_136_1436					
+Scaffolds_136_1437					
+Scaffolds_136_1438					
+Scaffolds_136_1439					
+Scaffolds_136_1440	K03548	perM; putative permease			
+Scaffolds_136_1441					
+Scaffolds_136_1442					
+Scaffolds_136_1443					
+Scaffolds_136_1444					
+Scaffolds_136_1447					
+Scaffolds_136_1449	K00163	aceE; pyruvate dehydrogenase E1 component [EC:1.2.4.1]			
+Scaffolds_136_1450					
+Scaffolds_136_1451					
+Scaffolds_136_1452					
+Scaffolds_136_1453					
+Scaffolds_136_1454					
+Scaffolds_136_1455					
+Scaffolds_136_1456					
+Scaffolds_136_1457					
+Scaffolds_136_1458					
+Scaffolds_136_1459					
+Scaffolds_136_1460					
+Scaffolds_136_1461					
+Scaffolds_136_1463					
+Scaffolds_136_1464					
+Scaffolds_136_1465					
+Scaffolds_136_1466					
+Scaffolds_136_1467					
+Scaffolds_136_1470					
+Scaffolds_136_1471					
+Scaffolds_136_1472					
+Scaffolds_136_1473					
+Scaffolds_136_1474					
+Scaffolds_136_1476					
+Scaffolds_136_1477	K01040	gctB; glutaconate CoA-transferase, subunit B [EC:2.8.3.12]			
+Scaffolds_136_1478					
+Scaffolds_136_1479					
+Scaffolds_136_1480					
+Scaffolds_136_1481					
+Scaffolds_136_1482					
+Scaffolds_136_1483	K20862	yigB; FMN hydrolase / 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.102 3.1.3.104]			
+Scaffolds_136_1484					
+Scaffolds_136_1486	K09921	K09921; uncharacterized protein			
+Scaffolds_136_1487					
+Scaffolds_136_1488					
+Scaffolds_136_1489					
+Scaffolds_136_1490					
+Scaffolds_136_1491					
+Scaffolds_136_1492					
+Scaffolds_136_1494					
+Scaffolds_136_1495					
+Scaffolds_136_1496					
+Scaffolds_136_1503					
+Scaffolds_136_1504	K01749	hemC, HMBS; hydroxymethylbilane synthase [EC:2.5.1.61]			
+Scaffolds_136_1505					
+Scaffolds_136_1506					
+Scaffolds_136_1509					
+Scaffolds_136_1511					
+Scaffolds_136_1512					
+Scaffolds_136_1513					
+Scaffolds_136_1514					
+Scaffolds_136_1515					
+Scaffolds_136_1516					
+Scaffolds_136_1517					
+Scaffolds_136_1518					
+Scaffolds_136_1519					
+Scaffolds_136_1520					
+Scaffolds_136_1521					
+Scaffolds_136_1522					
+Scaffolds_136_1523					
+Scaffolds_136_1525					
+Scaffolds_136_1526					
+Scaffolds_136_1527	K03628	rho; transcription termination factor Rho			
+Scaffolds_136_1528					
+Scaffolds_136_1529					
+Scaffolds_136_1532					
+Scaffolds_136_1534					
+Scaffolds_136_1535					
+Scaffolds_136_1539					
+Scaffolds_136_1540					
+Scaffolds_136_1541					
+Scaffolds_136_1542					
+Scaffolds_136_1543					
+Scaffolds_136_1544					
+Scaffolds_136_1545					
+Scaffolds_136_1546					
+Scaffolds_136_1547					
+Scaffolds_136_1548					
+Scaffolds_136_1549					
+Scaffolds_136_1555	K02888	RP-L21, MRPL21, rplU; large subunit ribosomal protein L21			
+Scaffolds_136_1556					
+Scaffolds_136_1557					
+Scaffolds_136_1558					
+Scaffolds_136_1559					
+Scaffolds_136_1560					
+Scaffolds_136_1561					
+Scaffolds_136_1562					
+Scaffolds_136_1563					
+Scaffolds_136_1564					
+Scaffolds_136_1565					
+Scaffolds_136_1566					
+Scaffolds_136_1567	K17103	CHO1, pssA; CDP-diacylglycerol---serine O-phosphatidyltransferase [EC:2.7.8.8]			
+Scaffolds_136_1568					
+Scaffolds_136_1570					
+Scaffolds_136_1571	K07147	msrP; methionine sulfoxide reductase catalytic subunit [EC:1.8.-.-]			
+Scaffolds_136_1572					
+Scaffolds_136_1573					
+Scaffolds_136_1575	K07395	K07395; putative proteasome-type protease			
+Scaffolds_136_1577					
+Scaffolds_136_1578					
+Scaffolds_136_1579					
+Scaffolds_136_1580					
+Scaffolds_136_1582					
+Scaffolds_136_1583					
+Scaffolds_136_1584					
+Scaffolds_136_1587					
+Scaffolds_136_1588					
+Scaffolds_136_1589					
+Scaffolds_136_1590					
+Scaffolds_136_1592					
+Scaffolds_136_1594					
+Scaffolds_136_1596					
+Scaffolds_136_1597	K20534	gtrB; polyisoprenyl-phosphate glycosyltransferase [EC:2.4.-.-]			
+Scaffolds_136_1602					
+Scaffolds_136_1603					
+Scaffolds_136_1604					
+Scaffolds_136_1605					
+Scaffolds_136_1606					
+Scaffolds_136_1607					
+Scaffolds_136_1614					
+Scaffolds_136_1615					
+Scaffolds_136_1616					
+Scaffolds_136_1617					
+Scaffolds_136_1618					
+Scaffolds_136_1619					
+Scaffolds_136_1620					
+Scaffolds_136_1621					
+Scaffolds_136_1622					
+Scaffolds_136_1625					
+Scaffolds_136_1626					
+Scaffolds_136_1627					
+Scaffolds_136_1630					
+Scaffolds_136_1631					
+Scaffolds_136_1635					
+Scaffolds_136_1636					
+Scaffolds_136_1641					
+Scaffolds_136_1642					
+Scaffolds_136_1643					
+Scaffolds_136_1644					
+Scaffolds_136_1645					
+Scaffolds_136_1646	K19221	cobA, btuR; cob(I)alamin adenosyltransferase [EC:2.5.1.17]			
+Scaffolds_136_1647	K03613	rnfE; H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit E			
+Scaffolds_136_1648	K03614	rnfD; H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit D [EC:7.1.1.11 7.2.1.2]			
+Scaffolds_136_1649					
+Scaffolds_136_1650					
+Scaffolds_136_1651					
+Scaffolds_136_1653					
+Scaffolds_136_1654	K03616	rnfB; H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit B [EC:7.1.1.11 7.2.1.2]			
+Scaffolds_136_1655	K03617	rnfA; H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit A			
+Scaffolds_136_1656					
+Scaffolds_136_1657					
+Scaffolds_136_1658					
+Scaffolds_136_1659					
+Scaffolds_136_1660					
+Scaffolds_136_1661					
+Scaffolds_136_1662	K03593	mrp, NUBPL; ATP-binding protein involved in chromosome partitioning			
+Scaffolds_136_1663	K01494	dcd; dCTP deaminase [EC:3.5.4.13]			
+Scaffolds_136_1664					
+Scaffolds_136_1665					
+Scaffolds_136_1666					
+Scaffolds_136_1667					
+Scaffolds_136_1668					
+Scaffolds_136_1669					
+Scaffolds_136_1670					
+Scaffolds_136_1671	K10763	hda; DnaA-homolog protein			
+Scaffolds_136_1673	K03286	TC.OOP; OmpA-OmpF porin, OOP family			
+Scaffolds_136_1674					
+Scaffolds_136_1676					
+Scaffolds_136_1677					
+Scaffolds_136_1678					
+Scaffolds_136_1679					
+Scaffolds_136_1680					
+Scaffolds_136_1681					
+Scaffolds_136_1682					
+Scaffolds_136_1683					
+Scaffolds_136_1684					
+Scaffolds_136_1685	K00263	E1.4.1.9; leucine dehydrogenase [EC:1.4.1.9]			
+Scaffolds_136_1686					
+Scaffolds_136_1687					
+Scaffolds_136_1688					
+Scaffolds_136_1689					
+Scaffolds_136_1690					
+Scaffolds_136_1692					
+Scaffolds_136_1694					
+Scaffolds_136_1695					
+Scaffolds_136_1696					
+Scaffolds_136_1698	K15981	CYP125A; cholest-4-en-3-one 26-monooxygenase [EC:1.14.15.29]			
+Scaffolds_136_1699					
+Scaffolds_136_1700					
+Scaffolds_136_1701					
+Scaffolds_136_1702					
+Scaffolds_136_1704					
+Scaffolds_136_1705					
+Scaffolds_136_1706	K03719	lrp; Lrp/AsnC family transcriptional regulator, leucine-responsive regulatory protein			
+Scaffolds_136_1707					
+Scaffolds_136_1708					
+Scaffolds_136_1709					
+Scaffolds_136_1710	K01555	FAH, fahA; fumarylacetoacetase [EC:3.7.1.2]			
+Scaffolds_136_1711					
+Scaffolds_136_1712					
+Scaffolds_136_1713					
+Scaffolds_136_1714					
+Scaffolds_136_1715					
+Scaffolds_136_1718					
+Scaffolds_136_1719					
+Scaffolds_136_1720					
+Scaffolds_136_1721	K00101	lldD; L-lactate dehydrogenase (cytochrome) [EC:1.1.2.3]			
+Scaffolds_136_1723					
+Scaffolds_136_1724	K09125	yhhQ; queuosine precursor transporter			
+Scaffolds_136_1725					
+Scaffolds_136_1727	K01737	queD, ptpS, PTS; 6-pyruvoyltetrahydropterin/6-carboxytetrahydropterin synthase [EC:4.2.3.12 4.1.2.50]			
+Scaffolds_136_1730					
+Scaffolds_136_1731					
+Scaffolds_136_1732					
+Scaffolds_136_1734					
+Scaffolds_136_1735					
+Scaffolds_136_1737					
+Scaffolds_136_1740					
+Scaffolds_136_1741					
+Scaffolds_136_1742					
+Scaffolds_136_1744					
+Scaffolds_136_1745					
+Scaffolds_136_1746	K01738	cysK; cysteine synthase [EC:2.5.1.47]			
+Scaffolds_136_1748					
+Scaffolds_136_1751					
+Scaffolds_136_1752					
+Scaffolds_136_1753					
+Scaffolds_136_1754					
+Scaffolds_136_1755					
+Scaffolds_136_1756					
+Scaffolds_136_1758					
+Scaffolds_136_1759					
+Scaffolds_136_1760					
+Scaffolds_136_1761					
+Scaffolds_136_1763					
+Scaffolds_136_1764					
+Scaffolds_136_1765					
+Scaffolds_136_1766					
+Scaffolds_136_1768					
+Scaffolds_136_1769					
+Scaffolds_136_1772					
+Scaffolds_136_1773					
+Scaffolds_136_1774					
+Scaffolds_136_1775	K25622	chsH1; 3-oxo-4,17-pregnadiene-20-carboxyl-CoA hydratase beta subunit [EC:4.2.1.-]			
+Scaffolds_136_1776					
+Scaffolds_136_1777					
+Scaffolds_136_1778					
+Scaffolds_136_1780					
+Scaffolds_136_1781	K10680	nemA; N-ethylmaleimide reductase [EC:1.-.-.-]			
+Scaffolds_136_1783					
+Scaffolds_136_1784					
+Scaffolds_136_1785					
+Scaffolds_136_1786	K15067	amnD; 2-aminomuconate deaminase [EC:3.5.99.5]			
+Scaffolds_136_1787					
+Scaffolds_136_1788	K15058	amnA; 2-aminophenol/2-amino-5-chlorophenol 1,6-dioxygenase subunit alpha			
+Scaffolds_136_1789	K15059	amnB; 2-aminophenol/2-amino-5-chlorophenol 1,6-dioxygenase subunit beta [EC:1.13.11.74 1.13.11.76]			
+Scaffolds_136_1790					
+Scaffolds_136_1791					
+Scaffolds_136_1792					
+Scaffolds_136_1793					
+Scaffolds_136_1795	K01617	dmpH, xylI, nahK; 2-oxo-3-hexenedioate decarboxylase [EC:4.1.1.77]			
+Scaffolds_136_1796					
+Scaffolds_136_1797	K18364	bphH, xylJ, tesE; 2-oxopent-4-enoate/cis-2-oxohex-4-enoate hydratase [EC:4.2.1.80 4.2.1.132]			
+Scaffolds_136_1798					
+Scaffolds_136_1799					
+Scaffolds_136_1801					
+Scaffolds_136_1802					
+Scaffolds_136_1803					
+Scaffolds_136_1804					
+Scaffolds_136_1806					
+Scaffolds_136_1807					
+Scaffolds_136_1808					
+Scaffolds_136_1809					
+Scaffolds_136_1810					
+Scaffolds_136_1811					
+Scaffolds_136_1812					
+Scaffolds_136_1813					
+Scaffolds_136_1814	K16244	dmpM, poxC, tomA2; phenol/toluene 2-monooxygenase (NADH) P2/A2 [EC:1.14.13.244 1.14.13.243]			
+Scaffolds_136_1815	K16243	dmpL, poxB, tomA1; phenol/toluene 2-monooxygenase (NADH) P1/A1 [EC:1.14.13.244 1.14.13.243]			
+Scaffolds_136_1816	K16249	dmpK, poxA, tomA0; phenol/toluene 2-monooxygenase (NADH) P0/A0			
+Scaffolds_136_1818					
+Scaffolds_136_1819					
+Scaffolds_136_1821					
+Scaffolds_136_1822					
+Scaffolds_136_1823					
+Scaffolds_136_1824					
+Scaffolds_136_1825					
+Scaffolds_136_1826					
+Scaffolds_136_1827					
+Scaffolds_136_1828					
+Scaffolds_136_1829					
+Scaffolds_136_1830					
+Scaffolds_136_1834					
+Scaffolds_136_1835					
+Scaffolds_136_1836					
+Scaffolds_136_1837					
+Scaffolds_136_1838					
+Scaffolds_136_1839					
+Scaffolds_136_1840					
+Scaffolds_136_1842					
+Scaffolds_136_1843					
+Scaffolds_136_1844					
+Scaffolds_136_1845					
+Scaffolds_136_1846					
+Scaffolds_136_1847					
+Scaffolds_136_1848					
+Scaffolds_136_1850					
+Scaffolds_136_1851					
+Scaffolds_136_1852					
+Scaffolds_136_1853					
+Scaffolds_136_1854					
+Scaffolds_136_1856					
+Scaffolds_136_1857					
+Scaffolds_136_1858					
+Scaffolds_136_1859					
+Scaffolds_136_1860					
+Scaffolds_136_1861					
+Scaffolds_136_1862					
+Scaffolds_136_1863					
+Scaffolds_136_1864					
+Scaffolds_136_1865					
+Scaffolds_136_1866					
+Scaffolds_136_1867					
+Scaffolds_136_1868					
+Scaffolds_136_1869					
+Scaffolds_136_1870					
+Scaffolds_136_1871					
+Scaffolds_136_1872					
+Scaffolds_136_1873					
+Scaffolds_136_1874					
+Scaffolds_136_1875					
+Scaffolds_136_1877					
+Scaffolds_136_1878	K02014	TC.FEV.OM; iron complex outermembrane recepter protein			
+Scaffolds_136_1879					
+Scaffolds_136_1880					
+Scaffolds_136_1881	K01640	HMGCL, hmgL; hydroxymethylglutaryl-CoA lyase [EC:4.1.3.4]			
+Scaffolds_136_1882					
+Scaffolds_136_1883	K11209	yghU, yfcG; GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]			
+Scaffolds_136_1884					
+Scaffolds_136_1885					
+Scaffolds_136_1886					
+Scaffolds_136_1887	K12410	npdA; NAD-dependent deacetylase [EC:2.3.1.286]			
+Scaffolds_136_1888					
+Scaffolds_136_1889					
+Scaffolds_136_1890					
+Scaffolds_136_1891					
+Scaffolds_136_1892	K16211	malY, malT; maltose/moltooligosaccharide transporter			
+Scaffolds_136_1893					
+Scaffolds_136_1894					
+Scaffolds_136_1895					
+Scaffolds_136_1897					
+Scaffolds_136_1898					
+Scaffolds_136_1901					
+Scaffolds_136_1904					
+Scaffolds_136_1905					
+Scaffolds_136_1907					
+Scaffolds_136_1908					
+Scaffolds_136_1909					
+Scaffolds_136_1910					
+Scaffolds_136_1911					
+Scaffolds_136_1912					
+Scaffolds_136_1913					
+Scaffolds_136_1915					
+Scaffolds_136_1916					
+Scaffolds_136_1917					
+Scaffolds_136_1918					
+Scaffolds_136_1919					
+Scaffolds_136_1921					
+Scaffolds_136_1922					
+Scaffolds_136_1923					
+Scaffolds_136_1924					
+Scaffolds_136_1925					
+Scaffolds_136_1927					
+Scaffolds_136_1928					
+Scaffolds_136_1929					
+Scaffolds_136_1930					
+Scaffolds_136_1931					
+Scaffolds_136_1934					
+Scaffolds_136_1935					
+Scaffolds_136_1937					
+Scaffolds_136_1938					
+Scaffolds_136_1939					
+Scaffolds_136_1943					
+Scaffolds_136_1944					
+Scaffolds_136_1945					
+Scaffolds_136_1946					
+Scaffolds_136_1947					
+Scaffolds_136_1948					
+Scaffolds_136_1949					
+Scaffolds_136_1950					
+Scaffolds_136_1953					
+Scaffolds_136_1956					
+Scaffolds_136_1959					
+Scaffolds_136_1962					
+Scaffolds_136_1965					
+Scaffolds_136_1967					
+Scaffolds_136_1968					
+Scaffolds_136_1970					
+Scaffolds_136_1973					
+Scaffolds_136_1974					
+Scaffolds_136_1976					
+Scaffolds_136_1978					
+Scaffolds_136_1979					
+Scaffolds_136_1980					
+Scaffolds_136_1983					
+Scaffolds_136_1985					
+Scaffolds_136_1987					
+Scaffolds_136_1992					
+Scaffolds_136_1994					
+Scaffolds_136_1996					
+Scaffolds_136_1997					
+Scaffolds_136_1999					
+Scaffolds_136_2000					
+Scaffolds_136_2002					
+Scaffolds_136_2003					
+Scaffolds_136_2008					
+Scaffolds_136_2009	K01822	E5.3.3.1; steroid Delta-isomerase [EC:5.3.3.1]			
+Scaffolds_136_2010					
+Scaffolds_136_2013					
+Scaffolds_136_2014					
+Scaffolds_136_2016					
+Scaffolds_136_2017					
+Scaffolds_136_2018					
+Scaffolds_136_2019					
+Scaffolds_136_2020					
+Scaffolds_136_2021					
+Scaffolds_136_2022					
+Scaffolds_136_2023					
+Scaffolds_136_2024					
+Scaffolds_136_2025					
+Scaffolds_136_2026					
+Scaffolds_136_2027					
+Scaffolds_136_2029					
+Scaffolds_136_2030					
+Scaffolds_136_2033					
+Scaffolds_136_2034					
+Scaffolds_136_2035					
+Scaffolds_136_2036	K01607	pcaC; 4-carboxymuconolactone decarboxylase [EC:4.1.1.44]			
+Scaffolds_136_2038					
+Scaffolds_136_2039					
+Scaffolds_136_2040					
+Scaffolds_136_2041					
+Scaffolds_136_2042					
+Scaffolds_136_2043					
+Scaffolds_136_2044					
+Scaffolds_136_2045					
+Scaffolds_136_2046	K04755	fdx; ferredoxin, 2Fe-2S			
+Scaffolds_136_2047					
+Scaffolds_136_2048					
+Scaffolds_136_2049					
+Scaffolds_136_2050					
+Scaffolds_136_2051					
+Scaffolds_136_2052					
+Scaffolds_136_2053	K25622	chsH1; 3-oxo-4,17-pregnadiene-20-carboxyl-CoA hydratase beta subunit [EC:4.2.1.-]			
+Scaffolds_136_2054					
+Scaffolds_136_2055	K25621	chsH2; 3-oxo-4,17-pregnadiene-20-carboxyl-CoA hydratase alpha subunit [EC:4.2.1.-]			
+Scaffolds_136_2056					
+Scaffolds_136_2057					
+Scaffolds_136_2058					
+Scaffolds_136_2059					
+Scaffolds_136_2060					
+Scaffolds_136_2061					
+Scaffolds_136_2063					
+Scaffolds_136_2065					
+Scaffolds_136_2066					
+Scaffolds_136_2067					
+Scaffolds_136_2068					
+Scaffolds_136_2069					
+Scaffolds_136_2072					
+Scaffolds_136_2075					
+Scaffolds_136_2076					
+Scaffolds_136_2077	K01822	E5.3.3.1; steroid Delta-isomerase [EC:5.3.3.1]			
+Scaffolds_136_2078					
+Scaffolds_136_2079					
+Scaffolds_136_2080					
+Scaffolds_136_2081					
+Scaffolds_136_2082					
+Scaffolds_136_2083					
+Scaffolds_136_2084					
+Scaffolds_136_2087					
+Scaffolds_136_2088					
+Scaffolds_136_2089					
+Scaffolds_136_2090					
+Scaffolds_136_2091					
+Scaffolds_136_2092					
+Scaffolds_136_2093					
+Scaffolds_136_2094					
+Scaffolds_136_2095					
+Scaffolds_136_2098					
+Scaffolds_136_2099					
+Scaffolds_136_2100					
+Scaffolds_136_2101					
+Scaffolds_136_2102					
+Scaffolds_136_2104	K00121	frmA, ADH5, adhC; S-(hydroxymethyl)glutathione dehydrogenase / alcohol dehydrogenase [EC:1.1.1.284 1.1.1.1]			
+Scaffolds_136_2105					
+Scaffolds_136_2106	K01070	frmB, ESD, fghA; S-formylglutathione hydrolase [EC:3.1.2.12]			
+Scaffolds_136_2107					
+Scaffolds_136_2108					
+Scaffolds_136_2109					
+Scaffolds_136_2111					
+Scaffolds_136_2112					
+Scaffolds_136_2113					
+Scaffolds_136_2116					
+Scaffolds_136_2122	K07136	K07136; uncharacterized protein			
+Scaffolds_136_2123					
+Scaffolds_136_2125					
+Scaffolds_136_2126					
+Scaffolds_136_2127					
+Scaffolds_136_2129					
+Scaffolds_136_2130					
+Scaffolds_136_2131					
+Scaffolds_136_2133					
+Scaffolds_136_2134					
+Scaffolds_136_2135					
+Scaffolds_136_2137					
+Scaffolds_136_2138					
+Scaffolds_136_2144					
+Scaffolds_136_2148					
+Scaffolds_136_2150					
+Scaffolds_136_2151					
+Scaffolds_136_2152					
+Scaffolds_136_2154					
+Scaffolds_136_2155					
+Scaffolds_136_2156					
+Scaffolds_136_2157					
+Scaffolds_136_2161					
+Scaffolds_136_2162					
+Scaffolds_136_2163					
+Scaffolds_136_2164	K00065	kduD; 2-dehydro-3-deoxy-D-gluconate 5-dehydrogenase [EC:1.1.1.127]			
+Scaffolds_136_2165					
+Scaffolds_136_2166					
+Scaffolds_136_2167					
+Scaffolds_136_2168					
+Scaffolds_136_2170					
+Scaffolds_136_2171					
+Scaffolds_136_2172					
+Scaffolds_136_2173	K15781	serB-plsC; putative phosphoserine phosphatase / 1-acylglycerol-3-phosphate O-acyltransferase [EC:3.1.3.3 2.3.1.51]			
+Scaffolds_136_2174					
+Scaffolds_136_2177					
+Scaffolds_136_2178					
+Scaffolds_136_2179					
+Scaffolds_136_2180					
+Scaffolds_136_2181					
+Scaffolds_136_2182	K00057	gpsA; glycerol-3-phosphate dehydrogenase (NAD(P)+) [EC:1.1.1.94]			
+Scaffolds_136_2183					
+Scaffolds_136_2184					
+Scaffolds_136_2187					
+Scaffolds_136_2188					
+Scaffolds_136_2189					
+Scaffolds_136_2191	K09931	K09931; uncharacterized protein			
+Scaffolds_136_2193	K03113	EIF1, SUI1; translation initiation factor 1			
+Scaffolds_136_2194	K07075	K07075; uncharacterized protein			
+Scaffolds_136_2205					
+Scaffolds_136_2206					
+Scaffolds_136_2207					
+Scaffolds_136_2208					
+Scaffolds_136_2211					
+Scaffolds_136_2212					
+Scaffolds_136_2213					
+Scaffolds_136_2215					
+Scaffolds_136_2216	K21159	sgcF, ncsF2, kedF; epoxide hydrolase			
+Scaffolds_136_2217					
+Scaffolds_136_2219	K03424	tatD; TatD DNase family protein [EC:3.1.21.-]			
+Scaffolds_136_2220					
+Scaffolds_136_2221					
+Scaffolds_136_2223					
+Scaffolds_136_2225					
+Scaffolds_136_2226					
+Scaffolds_136_2231					
+Scaffolds_136_2232					
+Scaffolds_136_2233					
+Scaffolds_136_2235					
+Scaffolds_136_2240					
+Scaffolds_136_2241					
+Scaffolds_136_2245					
+Scaffolds_136_2246					
+Scaffolds_136_2247					
+Scaffolds_136_2248	K01868	TARS, thrS; threonyl-tRNA synthetase [EC:6.1.1.3]			
+Scaffolds_136_2249					
+Scaffolds_136_2250					
+Scaffolds_136_2251					
+Scaffolds_136_2252					
+Scaffolds_136_2254	K02887	RP-L20, MRPL20, rplT; large subunit ribosomal protein L20			
+Scaffolds_136_2255					
+Scaffolds_136_2256					
+Scaffolds_136_2257					
+Scaffolds_136_2258					
+Scaffolds_136_2259					
+Scaffolds_136_2260	K01890	FARSB, pheT; phenylalanyl-tRNA synthetase beta chain [EC:6.1.1.20]			
+Scaffolds_136_2261					
+Scaffolds_136_2262	K04764	ihfA, himA; integration host factor subunit alpha			
+Scaffolds_136_2263					
+Scaffolds_136_2264					
+Scaffolds_136_2265					
+Scaffolds_136_2266					
+Scaffolds_136_2267					
+Scaffolds_136_2268	K00674	dapD; 2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [EC:2.3.1.117]			
+Scaffolds_136_2270	K10773	NTHL1, nth; endonuclease III [EC:3.2.2.- 4.2.99.18]			
+Scaffolds_136_2271					
+Scaffolds_136_2272					
+Scaffolds_136_2273					
+Scaffolds_136_2274					
+Scaffolds_136_2275					
+Scaffolds_136_2276					
+Scaffolds_136_2277					
+Scaffolds_136_2278					
+Scaffolds_136_2279					
+Scaffolds_136_2281					
+Scaffolds_136_2282					
+Scaffolds_136_2283					
+Scaffolds_136_2284					
+Scaffolds_136_2285	K07133	K07133; uncharacterized protein			
+Scaffolds_136_2286	K06223	dam; DNA adenine methylase [EC:2.1.1.72]			
+Scaffolds_136_2287					
+Scaffolds_136_2288	K02967	RP-S2, MRPS2, rpsB; small subunit ribosomal protein S2			
+Scaffolds_136_2291					
+Scaffolds_136_2292					
+Scaffolds_136_2293					
+Scaffolds_136_2294	K09903	pyrH; uridylate kinase [EC:2.7.4.22]			
+Scaffolds_136_2295	K02838	frr, MRRF, RRF; ribosome recycling factor			
+Scaffolds_136_2296					
+Scaffolds_136_2297	K00981	E2.7.7.41, CDS1, CDS2, cdsA; phosphatidate cytidylyltransferase [EC:2.7.7.41]			
+Scaffolds_136_2298					
+Scaffolds_136_2299	K00099	dxr; 1-deoxy-D-xylulose-5-phosphate reductoisomerase [EC:1.1.1.267]			
+Scaffolds_136_2300					
+Scaffolds_136_2301					
+Scaffolds_136_2302					
+Scaffolds_136_2304					
+Scaffolds_136_2306					
+Scaffolds_136_2308					
+Scaffolds_136_2312					
+Scaffolds_136_2313					
+Scaffolds_136_2315					
+Scaffolds_136_2316					
+Scaffolds_136_2317					
+Scaffolds_136_2318					
+Scaffolds_136_2319					
+Scaffolds_136_2320					
+Scaffolds_136_2321					
+Scaffolds_136_2322					
+Scaffolds_136_2324	K01497	ribA, RIB1; GTP cyclohydrolase II [EC:3.5.4.25]			
+Scaffolds_136_2325					
+Scaffolds_136_2326					
+Scaffolds_136_2327					
+Scaffolds_136_2328					
+Scaffolds_136_2330					
+Scaffolds_225_3	K05788	ihfB, himD; integration host factor subunit beta			
+Scaffolds_225_4	K08992	lapA; lipopolysaccharide assembly protein A			
+Scaffolds_225_5	K01591	pyrF; orotidine-5'-phosphate decarboxylase [EC:4.1.1.23]			
+Scaffolds_225_6					
+Scaffolds_225_8					
+Scaffolds_225_9					
+Scaffolds_225_10					
+Scaffolds_225_12					
+Scaffolds_225_13	K24300	wbpM, wbgZ, aatA; UDP-N-acetylglucosamine 4,6-dehydratase [EC:4.2.1.135]			
+Scaffolds_225_14					
+Scaffolds_225_19					
+Scaffolds_225_20					
+Scaffolds_225_22					
+Scaffolds_225_23					
+Scaffolds_225_25					
+Scaffolds_225_26					
+Scaffolds_225_27	K02911	RP-L32, MRPL32, rpmF; large subunit ribosomal protein L32			
+Scaffolds_225_28					
+Scaffolds_225_29					
+Scaffolds_225_30					
+Scaffolds_225_31	K00059	fabG, OAR1; 3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]			
+Scaffolds_225_32	K02078	acpP; acyl carrier protein			
+Scaffolds_225_33	K09458	fabF, OXSM, CEM1; 3-oxoacyl-[acyl-carrier-protein] synthase II [EC:2.3.1.179]			
+Scaffolds_225_34					
+Scaffolds_225_36					
+Scaffolds_225_40					
+Scaffolds_225_41					
+Scaffolds_225_42					
+Scaffolds_225_43	K01358	clpP, CLPP; ATP-dependent Clp protease, protease subunit [EC:3.4.21.92]			
+Scaffolds_225_44					
+Scaffolds_225_45	K03544	clpX, CLPX; ATP-dependent Clp protease ATP-binding subunit ClpX			
+Scaffolds_225_46					
+Scaffolds_225_47					
+Scaffolds_225_48					
+Scaffolds_225_49					
+Scaffolds_225_50					
+Scaffolds_225_51					
+Scaffolds_225_52					
+Scaffolds_225_53					
+Scaffolds_225_54					
+Scaffolds_225_55					
+Scaffolds_225_57					
+Scaffolds_225_58					
+Scaffolds_225_59	K00058	serA, PHGDH; D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]			
+Scaffolds_225_60					
+Scaffolds_225_61					
+Scaffolds_225_64					
+Scaffolds_225_67					
+Scaffolds_225_68					
+Scaffolds_225_69					
+Scaffolds_225_71					
+Scaffolds_225_72					
+Scaffolds_225_73	K03636	moaD, cysO; sulfur-carrier protein			
+Scaffolds_225_74	K03635	MOCS2B, moaE; molybdopterin synthase catalytic subunit [EC:2.8.1.12]			
+Scaffolds_225_75					
+Scaffolds_225_76	K23470	C1-hpah; 4-hydroxyphenylacetate 3-hydroxylase, reductase component [EC:1.5.1.36]			
+Scaffolds_225_77					
+Scaffolds_225_78	K03564	BCP, PRXQ, DOT5; thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]			
+Scaffolds_225_79					
+Scaffolds_225_80					
+Scaffolds_225_81					
+Scaffolds_225_82					
+Scaffolds_225_83					
+Scaffolds_225_84					
+Scaffolds_225_85					
+Scaffolds_225_86					
+Scaffolds_225_87					
+Scaffolds_225_88					
+Scaffolds_225_89					
+Scaffolds_225_90					
+Scaffolds_225_91					
+Scaffolds_225_92					
+Scaffolds_225_93					
+Scaffolds_225_94					
+Scaffolds_225_95					
+Scaffolds_225_97					
+Scaffolds_225_98					
+Scaffolds_225_99					
+Scaffolds_225_100					
+Scaffolds_225_101	K02860	rimM; 16S rRNA processing protein RimM			
+Scaffolds_225_102					
+Scaffolds_225_103	K00554	trmD; tRNA (guanine37-N1)-methyltransferase [EC:2.1.1.228]			
+Scaffolds_225_104	K02884	RP-L19, MRPL19, rplS; large subunit ribosomal protein L19			
+Scaffolds_225_105					
+Scaffolds_225_107	K03981	dsbC; thiol:disulfide interchange protein DsbC [EC:5.3.4.1]			
+Scaffolds_225_108					
+Scaffolds_225_109					
+Scaffolds_225_110					
+Scaffolds_225_111	K14261	alaC; alanine-synthesizing transaminase [EC:2.6.1.-]			
+Scaffolds_225_112					
+Scaffolds_225_113					
+Scaffolds_225_114					
+Scaffolds_225_115					
+Scaffolds_225_116					
+Scaffolds_225_118					
+Scaffolds_225_119					
+Scaffolds_225_120					
+Scaffolds_225_122					
+Scaffolds_225_123					
+Scaffolds_225_124					
+Scaffolds_225_125					
+Scaffolds_225_127					
+Scaffolds_225_128					
+Scaffolds_225_129					
+Scaffolds_225_131	K10914	crp; CRP/FNR family transcriptional regulator, cyclic AMP receptor protein			
+Scaffolds_225_132					
+Scaffolds_225_133					
+Scaffolds_225_135					
+Scaffolds_225_136					
+Scaffolds_225_141					
+Scaffolds_225_144					
+Scaffolds_225_145					
+Scaffolds_225_146					
+Scaffolds_225_147					
+Scaffolds_225_148					
+Scaffolds_225_149					
+Scaffolds_225_151					
+Scaffolds_225_152					
+Scaffolds_225_153					
+Scaffolds_225_154					
+Scaffolds_225_158					
+Scaffolds_225_159	K01356	lexA; repressor LexA [EC:3.4.21.88]			
+Scaffolds_225_160					
+Scaffolds_225_161					
+Scaffolds_225_164					
+Scaffolds_225_165					
+Scaffolds_225_166					
+Scaffolds_225_167					
+Scaffolds_225_168					
+Scaffolds_225_170					
+Scaffolds_225_171					
+Scaffolds_225_172					
+Scaffolds_225_173					
+Scaffolds_225_174					
+Scaffolds_225_175					
+Scaffolds_225_176					
+Scaffolds_225_177					
+Scaffolds_225_178					
+Scaffolds_225_179					
+Scaffolds_225_180					
+Scaffolds_225_181	K00349	nqrD; Na+-transporting NADH:ubiquinone oxidoreductase subunit D [EC:7.2.1.1]			
+Scaffolds_225_182					
+Scaffolds_225_184					
+Scaffolds_225_185					
+Scaffolds_225_186	K00351	nqrF; Na+-transporting NADH:ubiquinone oxidoreductase subunit F [EC:7.2.1.1]			
+Scaffolds_225_187	K03734	apbE; FAD:protein FMN transferase [EC:2.7.1.180]			
+Scaffolds_225_190					
+Scaffolds_225_192					
+Scaffolds_225_193					
+Scaffolds_225_194					
+Scaffolds_225_196					
+Scaffolds_225_197	K09928	K09928; uncharacterized protein			
+Scaffolds_225_199					
+Scaffolds_225_201					
+Scaffolds_225_202					
+Scaffolds_225_203					
+Scaffolds_225_204	K00979	kdsB; 3-deoxy-manno-octulosonate cytidylyltransferase (CMP-KDO synthetase) [EC:2.7.7.38]			
+Scaffolds_225_206					
+Scaffolds_225_208					
+Scaffolds_225_209					
+Scaffolds_225_210					
+Scaffolds_225_211					
+Scaffolds_225_212					
+Scaffolds_225_213					
+Scaffolds_225_214					
+Scaffolds_225_215					
+Scaffolds_225_216					
+Scaffolds_225_217					
+Scaffolds_225_218					
+Scaffolds_225_219					
+Scaffolds_225_221					
+Scaffolds_225_222					
+Scaffolds_225_223					
+Scaffolds_225_225					
+Scaffolds_225_226					
+Scaffolds_225_227					
+Scaffolds_225_228	K19416	yccA; modulator of FtsH protease			
+Scaffolds_225_231					
+Scaffolds_225_234					
+Scaffolds_225_235					
+Scaffolds_225_237					
+Scaffolds_225_241					
+Scaffolds_225_242					
+Scaffolds_225_243					
+Scaffolds_225_244					
+Scaffolds_225_245					
+Scaffolds_225_246					
+Scaffolds_225_247					
+Scaffolds_225_248					
+Scaffolds_225_249					
+Scaffolds_225_250					
+Scaffolds_225_251					
+Scaffolds_225_252					
+Scaffolds_225_253					
+Scaffolds_225_254					
+Scaffolds_225_255					
+Scaffolds_225_256					
+Scaffolds_225_257					
+Scaffolds_225_258					
+Scaffolds_225_259					
+Scaffolds_225_260					
+Scaffolds_225_261					
+Scaffolds_225_262					
+Scaffolds_225_263					
+Scaffolds_225_264					
+Scaffolds_225_265	K00566	mnmA, trmU; tRNA-uridine 2-sulfurtransferase [EC:2.8.1.13]			
+Scaffolds_225_266	K01756	purB, ADSL; adenylosuccinate lyase [EC:4.3.2.2]			
+Scaffolds_225_267					
+Scaffolds_225_268					
+Scaffolds_225_269					
+Scaffolds_225_270					
+Scaffolds_225_271					
+Scaffolds_225_272					
+Scaffolds_225_273					
+Scaffolds_225_274					
+Scaffolds_225_275					
+Scaffolds_225_276					
+Scaffolds_225_277					
+Scaffolds_225_278					
+Scaffolds_225_280					
+Scaffolds_225_281					
+Scaffolds_225_284					
+Scaffolds_225_285					
+Scaffolds_225_288					
+Scaffolds_225_289					
+Scaffolds_225_290					
+Scaffolds_225_291					
+Scaffolds_225_292					
+Scaffolds_225_293					
+Scaffolds_225_295					
+Scaffolds_225_297					
+Scaffolds_225_298					
+Scaffolds_225_299					
+Scaffolds_225_300					
+Scaffolds_225_301					
+Scaffolds_225_302					
+Scaffolds_225_303					
+Scaffolds_225_304					
+Scaffolds_225_305					
+Scaffolds_225_306					
+Scaffolds_225_307					
+Scaffolds_225_308					
+Scaffolds_225_309					
+Scaffolds_225_310					
+Scaffolds_225_318	K02518	infA; translation initiation factor IF-1			
+Scaffolds_225_319					
+Scaffolds_225_320	K00384	trxB, TRR; thioredoxin reductase (NADPH) [EC:1.8.1.9]			
+Scaffolds_225_321					
+Scaffolds_225_322					
+Scaffolds_225_323					
+Scaffolds_225_325					
+Scaffolds_225_326					
+Scaffolds_225_327					
+Scaffolds_225_329					
+Scaffolds_225_330					
+Scaffolds_225_333	K02302	cysG; uroporphyrin-III C-methyltransferase / precorrin-2 dehydrogenase / sirohydrochlorin ferrochelatase [EC:2.1.1.107 1.3.1.76 4.99.1.4]			
+Scaffolds_225_334					
+Scaffolds_225_335					
+Scaffolds_225_336					
+Scaffolds_225_337					
+Scaffolds_225_338	K02257	COX10, ctaB, cyoE; heme o synthase [EC:2.5.1.141]			
+Scaffolds_225_339	K02275	coxB, ctaC; cytochrome c oxidase subunit II [EC:7.1.1.9]			
+Scaffolds_225_340					
+Scaffolds_225_341					
+Scaffolds_225_342					
+Scaffolds_225_343	K02274	coxA, ctaD; cytochrome c oxidase subunit I [EC:7.1.1.9]			
+Scaffolds_225_344					
+Scaffolds_225_345	K02276	coxC, ctaE; cytochrome c oxidase subunit III [EC:7.1.1.9]			
+Scaffolds_225_346					
+Scaffolds_225_347					
+Scaffolds_225_349					
+Scaffolds_225_351					
+Scaffolds_225_354					
+Scaffolds_225_357					
+Scaffolds_225_358					
+Scaffolds_225_359					
+Scaffolds_225_360					
+Scaffolds_225_361					
+Scaffolds_225_362					
+Scaffolds_225_363					
+Scaffolds_225_364					
+Scaffolds_225_365					
+Scaffolds_225_366					
+Scaffolds_225_367	K03469	rnhA, RNASEH1; ribonuclease HI [EC:3.1.26.4]			
+Scaffolds_225_368					
+Scaffolds_225_370	K01069	gloB, gloC, HAGH; hydroxyacylglutathione hydrolase [EC:3.1.2.6]			
+Scaffolds_225_372					
+Scaffolds_225_373					
+Scaffolds_225_374					
+Scaffolds_225_375					
+Scaffolds_225_376					
+Scaffolds_225_377					
+Scaffolds_225_378					
+Scaffolds_225_379					
+Scaffolds_225_380					
+Scaffolds_225_381					
+Scaffolds_225_382					
+Scaffolds_225_383					
+Scaffolds_225_384	K07400	nfuA; Fe/S biogenesis protein NfuA			
+Scaffolds_225_385					
+Scaffolds_225_386					
+Scaffolds_225_387					
+Scaffolds_225_388					
+Scaffolds_225_389					
+Scaffolds_225_390					
+Scaffolds_225_391					
+Scaffolds_225_392					
+Scaffolds_225_393					
+Scaffolds_225_394					
+Scaffolds_225_395					
+Scaffolds_225_396					
+Scaffolds_225_397					
+Scaffolds_225_398	K03522	fixB, etfA; electron transfer flavoprotein alpha subunit			
+Scaffolds_225_399					
+Scaffolds_225_400	K03521	fixA, etfB; electron transfer flavoprotein beta subunit			
+Scaffolds_225_401	K01491	folD; methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5 3.5.4.9]			
+Scaffolds_225_402					
+Scaffolds_225_403					
+Scaffolds_225_404					
+Scaffolds_225_405					
+Scaffolds_225_406					
+Scaffolds_225_407					
+Scaffolds_225_408					
+Scaffolds_225_412					
+Scaffolds_225_413					
+Scaffolds_225_416					
+Scaffolds_225_417					
+Scaffolds_225_418					
+Scaffolds_225_419	K09951	cas2; CRISPR-associated protein Cas2			
+Scaffolds_225_420					
+Scaffolds_225_422	K19124	casC, cse4; CRISPR system Cascade subunit CasC			
+Scaffolds_225_423					
+Scaffolds_225_424	K19046	casB, cse2; CRISPR system Cascade subunit CasB			
+Scaffolds_225_426					
+Scaffolds_225_427					
+Scaffolds_225_428					
+Scaffolds_225_429					
+Scaffolds_225_430					
+Scaffolds_225_431					
+Scaffolds_225_432					
+Scaffolds_225_434					
+Scaffolds_225_436					
+Scaffolds_225_437					
+Scaffolds_225_438					
+Scaffolds_225_439					
+Scaffolds_225_440					
+Scaffolds_225_441					
+Scaffolds_225_442					
+Scaffolds_225_443	K10764	metZ; O-succinylhomoserine sulfhydrylase [EC:2.5.1.-]			
+Scaffolds_225_445					
+Scaffolds_225_446					
+Scaffolds_225_447					
+Scaffolds_225_448					
+Scaffolds_225_449					
+Scaffolds_225_450					
+Scaffolds_225_451	K03749	dedD; DedD protein			
+Scaffolds_225_452					
+Scaffolds_225_453					
+Scaffolds_225_454					
+Scaffolds_225_455					
+Scaffolds_225_456					
+Scaffolds_225_458	K01696	trpB; tryptophan synthase beta chain [EC:4.2.1.20]			
+Scaffolds_225_459					
+Scaffolds_225_460					
+Scaffolds_225_461					
+Scaffolds_225_462					
+Scaffolds_225_465					
+Scaffolds_225_466					
+Scaffolds_225_467	K00133	asd; aspartate-semialdehyde dehydrogenase [EC:1.2.1.11]			
+Scaffolds_225_468					
+Scaffolds_225_469					
+Scaffolds_225_470					
+Scaffolds_225_471					
+Scaffolds_225_472					
+Scaffolds_225_474					
+Scaffolds_225_476					
+Scaffolds_225_477					
+Scaffolds_225_479					
+Scaffolds_225_480					
+Scaffolds_225_482					
+Scaffolds_225_483					
+Scaffolds_225_484					
+Scaffolds_225_485					
+Scaffolds_225_486					
+Scaffolds_225_488					
+Scaffolds_225_489					
+Scaffolds_225_490					
+Scaffolds_225_491					
+Scaffolds_225_492					
+Scaffolds_225_493					
+Scaffolds_225_494					
+Scaffolds_225_495					
+Scaffolds_225_496					
+Scaffolds_225_497	K07114	yfbK; Ca-activated chloride channel homolog			
+Scaffolds_225_498					
+Scaffolds_225_499					
+Scaffolds_225_502					
+Scaffolds_225_504					
+Scaffolds_225_505					
+Scaffolds_225_508					
+Scaffolds_225_509					
+Scaffolds_225_510					
+Scaffolds_225_511					
+Scaffolds_225_515					
+Scaffolds_225_518					
+Scaffolds_225_520					
+Scaffolds_234_4					
+Scaffolds_234_6					
+Scaffolds_234_7					
+Scaffolds_234_10					
+Scaffolds_234_11					
+Scaffolds_234_14					
+Scaffolds_234_16					
+Scaffolds_234_17					
+Scaffolds_234_18	K03602	xseB; exodeoxyribonuclease VII small subunit [EC:3.1.11.6]			
+Scaffolds_234_19					
+Scaffolds_234_20					
+Scaffolds_234_22					
+Scaffolds_234_24					
+Scaffolds_234_25					
+Scaffolds_234_29					
+Scaffolds_234_30					
+Scaffolds_234_31	K02340	holA; DNA polymerase III subunit delta [EC:2.7.7.7]			
+Scaffolds_234_34					
+Scaffolds_234_37					
+Scaffolds_234_38					
+Scaffolds_234_39					
+Scaffolds_234_40					
+Scaffolds_234_41					
+Scaffolds_234_42	K06189	corC, tlyC; hemolysin (HlyC) family protein			
+Scaffolds_234_43					
+Scaffolds_234_44					
+Scaffolds_234_45	K06217	phoH, phoL; phosphate starvation-inducible protein PhoH and related proteins			
+Scaffolds_234_47					
+Scaffolds_234_49	K06168	miaB; tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]			
+Scaffolds_234_50					
+Scaffolds_234_51					
+Scaffolds_234_53					
+Scaffolds_234_54					
+Scaffolds_234_55					
+Scaffolds_234_56					
+Scaffolds_234_57	K15257	cmoB; tRNA (mo5U34)-methyltransferase [EC:2.1.1.-]			
+Scaffolds_234_58					
+Scaffolds_234_59	K15256	cmoA; tRNA (cmo5U34)-methyltransferase [EC:2.1.1.-]			
+Scaffolds_234_60					
+Scaffolds_234_61					
+Scaffolds_234_62					
+Scaffolds_234_63					
+Scaffolds_234_65					
+Scaffolds_234_66					
+Scaffolds_234_67					
+Scaffolds_234_68					
+Scaffolds_234_70	K04095	fic, FICD, HYPE; cell filamentation protein, protein adenylyltransferase [EC:2.7.7.108]			
+Scaffolds_234_71					
+Scaffolds_234_72					
+Scaffolds_234_73					
+Scaffolds_234_74					
+Scaffolds_234_75					
+Scaffolds_234_77					
+Scaffolds_234_78					
+Scaffolds_234_79					
+Scaffolds_234_80					
+Scaffolds_234_82					
+Scaffolds_234_83					
+Scaffolds_234_84					
+Scaffolds_234_85					
+Scaffolds_234_86					
+Scaffolds_234_88					
+Scaffolds_234_90					
+Scaffolds_234_91					
+Scaffolds_234_92	K06942	ychF; ribosome-binding ATPase			
+Scaffolds_234_93					
+Scaffolds_234_94	K01056	PTH1, PTRH1, pth, spoVC; peptidyl-tRNA hydrolase, PTH1 family [EC:3.1.1.29]			
+Scaffolds_234_96					
+Scaffolds_234_97	K02897	RP-L25, rplY; large subunit ribosomal protein L25			
+Scaffolds_234_98	K00948	PRPS, prsA; ribose-phosphate pyrophosphokinase [EC:2.7.6.1]			
+Scaffolds_234_99					
+Scaffolds_234_100					
+Scaffolds_234_101					
+Scaffolds_234_103					
+Scaffolds_234_104					
+Scaffolds_234_105					
+Scaffolds_234_107					
+Scaffolds_234_108					
+Scaffolds_234_109					
+Scaffolds_234_110					
+Scaffolds_234_111					
+Scaffolds_234_112					
+Scaffolds_234_113					
+Scaffolds_234_114					
+Scaffolds_234_115					
+Scaffolds_234_116					
+Scaffolds_234_117					
+Scaffolds_234_118	K06203	cysZ; CysZ protein			
+Scaffolds_234_119					
+Scaffolds_234_120					
+Scaffolds_234_121					
+Scaffolds_234_122					
+Scaffolds_234_123					
+Scaffolds_234_124					
+Scaffolds_234_125					
+Scaffolds_234_126					
+Scaffolds_234_127	K02435	gatC, GATC; aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit C [EC:6.3.5.6 6.3.5.7]			
+Scaffolds_234_129	K03569	mreB; rod shape-determining protein MreB and related proteins			
+Scaffolds_234_130					
+Scaffolds_234_131					
+Scaffolds_234_132					
+Scaffolds_234_134					
+Scaffolds_234_135					
+Scaffolds_234_136					
+Scaffolds_234_138					
+Scaffolds_234_139					
+Scaffolds_234_140					
+Scaffolds_234_141					
+Scaffolds_234_143					
+Scaffolds_234_144					
+Scaffolds_234_146					
+Scaffolds_234_147	K02806	ptsN; nitrogen PTS system EIIA component [EC:2.7.1.-]			
+Scaffolds_234_148	K05808	yhbH; putative sigma-54 modulation protein			
+Scaffolds_234_150					
+Scaffolds_234_151					
+Scaffolds_234_152					
+Scaffolds_234_153	K06861	lptB; lipopolysaccharide export system ATP-binding protein [EC:7.5.2.5]			
+Scaffolds_234_154					
+Scaffolds_234_156					
+Scaffolds_234_157					
+Scaffolds_234_158					
+Scaffolds_234_159					
+Scaffolds_234_161	K07301	yrbG; cation:H+ antiporter			
+Scaffolds_234_163					
+Scaffolds_234_164					
+Scaffolds_234_165					
+Scaffolds_234_166					
+Scaffolds_234_167					
+Scaffolds_234_168					
+Scaffolds_234_169	K04772	degQ, hhoA; serine protease DegQ [EC:3.4.21.-]			
+Scaffolds_234_172					
+Scaffolds_234_173					
+Scaffolds_234_176					
+Scaffolds_234_177					
+Scaffolds_234_178					
+Scaffolds_234_179					
+Scaffolds_234_180					
+Scaffolds_234_181					
+Scaffolds_234_182					
+Scaffolds_234_183					
+Scaffolds_234_184					
+Scaffolds_234_185					
+Scaffolds_234_186					
+Scaffolds_234_188					
+Scaffolds_234_189					
+Scaffolds_234_191					
+Scaffolds_234_192					
+Scaffolds_234_194					
+Scaffolds_234_196					
+Scaffolds_234_197					
+Scaffolds_234_200					
+Scaffolds_234_202					
+Scaffolds_234_203					
+Scaffolds_234_204					
+Scaffolds_234_206					
+Scaffolds_234_207					
+Scaffolds_234_208					
+Scaffolds_234_209					
+Scaffolds_234_210					
+Scaffolds_234_211					
+Scaffolds_234_212					
+Scaffolds_234_214					
+Scaffolds_234_215					
+Scaffolds_234_218					
+Scaffolds_234_219					
+Scaffolds_234_220					
+Scaffolds_234_223					
+Scaffolds_234_224					
+Scaffolds_234_225					
+Scaffolds_234_226					
+Scaffolds_234_227					
+Scaffolds_234_228	K16556	exoM; succinoglycan biosynthesis protein ExoM [EC:2.4.-.-]			
+Scaffolds_234_229					
+Scaffolds_234_230					
+Scaffolds_234_233					
+Scaffolds_234_237					
+Scaffolds_234_240					
+Scaffolds_234_241					
+Scaffolds_234_243					
+Scaffolds_234_245					
+Scaffolds_234_246					
+Scaffolds_234_248					
+Scaffolds_234_252					
+Scaffolds_234_254					
+Scaffolds_234_256					
+Scaffolds_234_257					
+Scaffolds_234_259					
+Scaffolds_234_260					
+Scaffolds_234_261	K02342	dnaQ; DNA polymerase III subunit epsilon [EC:2.7.7.7]			
+Scaffolds_234_262					
+Scaffolds_234_263					
+Scaffolds_234_264					
+Scaffolds_234_265					
+Scaffolds_234_266					
+Scaffolds_234_267					
+Scaffolds_234_268					
+Scaffolds_234_269					
+Scaffolds_234_270					
+Scaffolds_234_271					
+Scaffolds_234_272					
+Scaffolds_234_273					
+Scaffolds_234_274					
+Scaffolds_234_275					
+Scaffolds_234_276					
+Scaffolds_234_277					
+Scaffolds_234_279					
+Scaffolds_234_281					
+Scaffolds_234_282					
+Scaffolds_234_283	K13408	cvaA, mchE, raxA; membrane fusion protein			
+Scaffolds_234_286					
+Scaffolds_234_287					
+Scaffolds_234_288					
+Scaffolds_234_290	K03969	pspA; phage shock protein A			
+Scaffolds_234_291					
+Scaffolds_234_292					
+Scaffolds_234_293					
+Scaffolds_234_295	K09966	K09966; uncharacterized protein			
+Scaffolds_234_298					
+Scaffolds_234_299					
+Scaffolds_234_300					
+Scaffolds_234_301					
+Scaffolds_234_302					
+Scaffolds_234_303	K00626	ACAT, atoB; acetyl-CoA C-acetyltransferase [EC:2.3.1.9]			
+Scaffolds_234_304					
+Scaffolds_234_305					
+Scaffolds_234_306					
+Scaffolds_234_307					
+Scaffolds_234_308					
+Scaffolds_234_309					
+Scaffolds_234_311					
+Scaffolds_234_312					
+Scaffolds_234_313					
+Scaffolds_234_315					
+Scaffolds_234_316					
+Scaffolds_234_317					
+Scaffolds_234_319					
+Scaffolds_234_320					
+Scaffolds_234_321					
+Scaffolds_234_322					
+Scaffolds_234_323	K00655	plsC; 1-acyl-sn-glycerol-3-phosphate acyltransferase [EC:2.3.1.51]			
+Scaffolds_234_324					
+Scaffolds_234_325					
+Scaffolds_234_326					
+Scaffolds_234_327					
+Scaffolds_234_328	K07403	nfeD; membrane-bound serine protease (ClpP class)			
+Scaffolds_234_329					
+Scaffolds_234_330					
+Scaffolds_234_331					
+Scaffolds_234_332					
+Scaffolds_234_333					
+Scaffolds_234_335					
+Scaffolds_234_336					
+Scaffolds_234_338					
+Scaffolds_234_340					
+Scaffolds_234_342	K03704	cspA; cold shock protein			
+Scaffolds_234_343					
+Scaffolds_234_344					
+Scaffolds_234_345					
+Scaffolds_234_346					
+Scaffolds_234_347	K01873	VARS, valS; valyl-tRNA synthetase [EC:6.1.1.9]			
+Scaffolds_234_348					
+Scaffolds_234_349					
+Scaffolds_234_350					
+Scaffolds_234_351	K01255	CARP, pepA; leucyl aminopeptidase [EC:3.4.11.1]			
+Scaffolds_234_354					
+Scaffolds_234_355	K04095	fic, FICD, HYPE; cell filamentation protein, protein adenylyltransferase [EC:2.7.7.108]			
+Scaffolds_234_356					
+Scaffolds_234_357	K05527	bolA; BolA family transcriptional regulator, general stress-responsive regulator			
+Scaffolds_234_358					
+Scaffolds_234_359					
+Scaffolds_234_363					
+Scaffolds_234_364	K16871	POP2; 4-aminobutyrate---pyruvate transaminase [EC:2.6.1.96]			
+Scaffolds_234_365					
+Scaffolds_234_366					
+Scaffolds_234_367	K19156	prlF, sohA; antitoxin PrlF			
+Scaffolds_234_368					
+Scaffolds_234_369					
+Scaffolds_234_371					
+Scaffolds_234_372	K16050	hsaD; 4,5:9,10-diseco-3-hydroxy-5,9,17-trioxoandrosta-1(10),2-diene-4-oate hydrolase [EC:3.7.1.17]			
+Scaffolds_234_373					
+Scaffolds_234_374	K18366	bphJ, xylQ, nahO, tesF; acetaldehyde/propanal dehydrogenase [EC:1.2.1.10 1.2.1.87]			
+Scaffolds_234_375	K18365	bphI, xylK, nahM, tesG; 4-hydroxy-2-oxovalerate/4-hydroxy-2-oxohexanoate aldolase [EC:4.1.3.39 4.1.3.43]			
+Scaffolds_234_378					
+Scaffolds_234_379					
+Scaffolds_234_380					
+Scaffolds_234_381					
+Scaffolds_234_382					
+Scaffolds_234_383					
+Scaffolds_234_384	K09926	K09926; uncharacterized protein			
+Scaffolds_234_385					
+Scaffolds_234_386					
+Scaffolds_234_387	K00407	ccoQ; cytochrome c oxidase cbb3-type subunit IV			
+Scaffolds_234_388	K00405	ccoO; cytochrome c oxidase cbb3-type subunit II			
+Scaffolds_234_389					
+Scaffolds_234_390					
+Scaffolds_234_391	K00404	ccoN; cytochrome c oxidase cbb3-type subunit I [EC:7.1.1.9]			
+Scaffolds_234_392					
+Scaffolds_234_393					
+Scaffolds_234_395					
+Scaffolds_234_396	K07154	hipA; serine/threonine-protein kinase HipA [EC:2.7.11.1]			
+Scaffolds_234_397					
+Scaffolds_234_398					
+Scaffolds_234_399					
+Scaffolds_234_400					
+Scaffolds_234_403					
+Scaffolds_234_407					
+Scaffolds_234_408					
+Scaffolds_234_410					
+Scaffolds_234_411					
+Scaffolds_234_412					
+Scaffolds_234_413					
+Scaffolds_234_414					
+Scaffolds_234_415					
+Scaffolds_234_416					
+Scaffolds_234_417					
+Scaffolds_234_419					
+Scaffolds_234_420					
+Scaffolds_234_423					
+Scaffolds_234_424					
+Scaffolds_234_425					
+Scaffolds_234_426					
+Scaffolds_234_427					
+Scaffolds_234_428					
+Scaffolds_234_429					
+Scaffolds_234_430					
+Scaffolds_234_432					
+Scaffolds_234_434	K21498	higA-1; antitoxin HigA-1			
+Scaffolds_234_435					
+Scaffolds_234_436					
+Scaffolds_234_437					
+Scaffolds_234_442					
+Scaffolds_234_443					
+Scaffolds_234_444					
+Scaffolds_234_445					
+Scaffolds_234_446					
+Scaffolds_234_447					
+Scaffolds_234_448					
+Scaffolds_234_453					
+Scaffolds_234_454					
+Scaffolds_234_455					
+Scaffolds_234_456					
+Scaffolds_234_457					
+Scaffolds_234_458					
+Scaffolds_234_459					
+Scaffolds_234_460					
+Scaffolds_234_461					
+Scaffolds_234_462					
+Scaffolds_234_463					
+Scaffolds_234_465	K09930	K09930; uncharacterized protein			
+Scaffolds_234_466					
+Scaffolds_234_467					
+Scaffolds_234_468					
+Scaffolds_234_488					
+Scaffolds_234_489					
+Scaffolds_234_490					
+Scaffolds_234_491					
+Scaffolds_234_495					
+Scaffolds_234_496					
+Scaffolds_234_505					
+Scaffolds_348_2					
+Scaffolds_348_3	K01866	YARS, tyrS; tyrosyl-tRNA synthetase [EC:6.1.1.1]			
+Scaffolds_348_4					
+Scaffolds_348_5					
+Scaffolds_348_6					
+Scaffolds_348_7					
+Scaffolds_348_8					
+Scaffolds_348_10					
+Scaffolds_348_12					
+Scaffolds_348_13					
+Scaffolds_348_14					
+Scaffolds_348_15					
+Scaffolds_348_16					
+Scaffolds_348_18					
+Scaffolds_348_19					
+Scaffolds_348_20	K01845	hemL; glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]			
+Scaffolds_348_21					
+Scaffolds_348_22					
+Scaffolds_348_23					
+Scaffolds_348_24					
+Scaffolds_348_25	K00799	GST, gst; glutathione S-transferase [EC:2.5.1.18]			
+Scaffolds_348_26					
+Scaffolds_348_27					
+Scaffolds_348_28					
+Scaffolds_348_29					
+Scaffolds_348_30					
+Scaffolds_348_34					
+Scaffolds_348_35					
+Scaffolds_348_36					
+Scaffolds_348_37					
+Scaffolds_348_38					
+Scaffolds_348_39					
+Scaffolds_348_40					
+Scaffolds_348_41					
+Scaffolds_348_43					
+Scaffolds_348_44					
+Scaffolds_348_45					
+Scaffolds_348_46					
+Scaffolds_348_48					
+Scaffolds_348_50					
+Scaffolds_348_51					
+Scaffolds_348_52	K00826	E2.6.1.42, ilvE; branched-chain amino acid aminotransferase [EC:2.6.1.42]			
+Scaffolds_348_53					
+Scaffolds_348_54					
+Scaffolds_348_56					
+Scaffolds_348_57					
+Scaffolds_348_58					
+Scaffolds_348_59					
+Scaffolds_348_63					
+Scaffolds_348_64					
+Scaffolds_348_65					
+Scaffolds_348_66					
+Scaffolds_348_67					
+Scaffolds_348_78					
+Scaffolds_348_79					
+Scaffolds_348_81					
+Scaffolds_348_82					
+Scaffolds_348_84	K03658	helD; DNA helicase IV [EC:5.6.2.4]			
+Scaffolds_348_86					
+Scaffolds_348_88					
+Scaffolds_348_89					
+Scaffolds_348_90					
+Scaffolds_348_91					
+Scaffolds_348_92					
+Scaffolds_348_93					
+Scaffolds_348_94					
+Scaffolds_348_95					
+Scaffolds_348_96					
+Scaffolds_348_97					
+Scaffolds_348_98					
+Scaffolds_348_99					
+Scaffolds_348_100					
+Scaffolds_348_101					
+Scaffolds_348_102					
+Scaffolds_348_103					
+Scaffolds_348_104					
+Scaffolds_348_105					
+Scaffolds_348_106					
+Scaffolds_348_107					
+Scaffolds_348_110					
+Scaffolds_348_111					
+Scaffolds_348_113					
+Scaffolds_348_114					
+Scaffolds_348_115					
+Scaffolds_348_116					
+Scaffolds_348_117					
+Scaffolds_348_118					
+Scaffolds_348_119					
+Scaffolds_348_120					
+Scaffolds_348_121					
+Scaffolds_348_122					
+Scaffolds_348_123					
+Scaffolds_348_124					
+Scaffolds_348_125					
+Scaffolds_348_126					
+Scaffolds_348_127					
+Scaffolds_348_132					
+Scaffolds_348_134					
+Scaffolds_348_135					
+Scaffolds_348_136					
+Scaffolds_348_137					
+Scaffolds_348_138					
+Scaffolds_348_139					
+Scaffolds_348_140					
+Scaffolds_348_141					
+Scaffolds_348_143					
+Scaffolds_348_145	K01624	FBA, fbaA; fructose-bisphosphate aldolase, class II [EC:4.1.2.13]			
+Scaffolds_348_146					
+Scaffolds_348_147					
+Scaffolds_348_148					
+Scaffolds_348_149					
+Scaffolds_348_150					
+Scaffolds_348_152					
+Scaffolds_348_153					
+Scaffolds_348_154					
+Scaffolds_348_155					
+Scaffolds_348_156					
+Scaffolds_348_157	K00789	metK, MAT; S-adenosylmethionine synthetase [EC:2.5.1.6]			
+Scaffolds_348_158					
+Scaffolds_348_159					
+Scaffolds_348_160					
+Scaffolds_348_161					
+Scaffolds_348_162					
+Scaffolds_348_163					
+Scaffolds_348_164					
+Scaffolds_348_165					
+Scaffolds_348_166	K07315	rsbU_P; phosphoserine phosphatase RsbU/P [EC:3.1.3.3]			
+Scaffolds_348_167					
+Scaffolds_348_168					
+Scaffolds_348_169					
+Scaffolds_348_173					
+Scaffolds_348_175					
+Scaffolds_348_177	K06378	spoIIAA; stage II sporulation protein AA (anti-sigma F factor antagonist)			
+Scaffolds_348_178					
+Scaffolds_348_179					
+Scaffolds_348_180					
+Scaffolds_348_181	K02055	ABC.SP.S; putative spermidine/putrescine transport system substrate-binding protein			
+Scaffolds_348_182					
+Scaffolds_348_183					
+Scaffolds_348_184					
+Scaffolds_348_185	K02053	ABC.SP.P; putative spermidine/putrescine transport system permease protein			
+Scaffolds_348_186					
+Scaffolds_348_187					
+Scaffolds_348_190	K01609	trpC; indole-3-glycerol phosphate synthase [EC:4.1.1.48]			
+Scaffolds_348_191					
+Scaffolds_348_192					
+Scaffolds_348_193					
+Scaffolds_348_194					
+Scaffolds_348_195	K01658	trpG; anthranilate synthase component II [EC:4.1.3.27]			
+Scaffolds_348_196					
+Scaffolds_348_197					
+Scaffolds_348_198	K01783	rpe, RPE; ribulose-phosphate 3-epimerase [EC:5.1.3.1]			
+Scaffolds_348_199					
+Scaffolds_348_200					
+Scaffolds_348_201	K00992	murU; N-acetyl-alpha-D-muramate 1-phosphate uridylyltransferase [EC:2.7.7.99]			
+Scaffolds_348_202					
+Scaffolds_348_203					
+Scaffolds_348_204					
+Scaffolds_348_205					
+Scaffolds_348_206					
+Scaffolds_348_207	K03771	surA; peptidyl-prolyl cis-trans isomerase SurA [EC:5.2.1.8]			
+Scaffolds_348_208					
+Scaffolds_348_209					
+Scaffolds_348_210	K00097	pdxA; 4-hydroxythreonine-4-phosphate dehydrogenase [EC:1.1.1.262]			
+Scaffolds_348_211					
+Scaffolds_348_212	K02528	ksgA; 16S rRNA (adenine1518-N6/adenine1519-N6)-dimethyltransferase [EC:2.1.1.182]			
+Scaffolds_348_213					
+Scaffolds_348_214					
+Scaffolds_348_217	K00974	cca; tRNA nucleotidyltransferase (CCA-adding enzyme) [EC:2.7.7.72 3.1.3.- 3.1.4.-]			
+Scaffolds_348_218					
+Scaffolds_348_219					
+Scaffolds_348_220	K20940	phzS; 5-methylphenazine-1-carboxylate 1-monooxygenase [EC:1.14.13.218]			
+Scaffolds_348_221					
+Scaffolds_348_222					
+Scaffolds_348_223					
+Scaffolds_348_224					
+Scaffolds_348_225					
+Scaffolds_348_228	K02970	RP-S21, MRPS21, rpsU; small subunit ribosomal protein S21			
+Scaffolds_348_229	K09117	K09117; uncharacterized protein			
+Scaffolds_348_230					
+Scaffolds_348_231					
+Scaffolds_348_233					
+Scaffolds_348_234					
+Scaffolds_348_236					
+Scaffolds_348_237					
+Scaffolds_348_238	K18911	egtD; L-histidine Nalpha-methyltransferase [EC:2.1.1.44]			
+Scaffolds_348_239					
+Scaffolds_348_241	K09983	K09983; uncharacterized protein			
+Scaffolds_348_242					
+Scaffolds_348_243					
+Scaffolds_348_244					
+Scaffolds_348_245					
+Scaffolds_348_247					
+Scaffolds_348_248					
+Scaffolds_348_249					
+Scaffolds_348_250					
+Scaffolds_348_251					
+Scaffolds_348_252					
+Scaffolds_348_253					
+Scaffolds_348_254					
+Scaffolds_348_257					
+Scaffolds_348_258					
+Scaffolds_348_259					
+Scaffolds_348_260					
+Scaffolds_348_261					
+Scaffolds_348_262	K01690	edd; phosphogluconate dehydratase [EC:4.2.1.12]			
+Scaffolds_348_263					
+Scaffolds_348_264					
+Scaffolds_348_265					
+Scaffolds_348_266					
+Scaffolds_348_267					
+Scaffolds_348_268					
+Scaffolds_348_269					
+Scaffolds_348_272					
+Scaffolds_348_273					
+Scaffolds_348_274					
+Scaffolds_348_275					
+Scaffolds_348_276					
+Scaffolds_348_277					
+Scaffolds_348_278					
+Scaffolds_348_279					
+Scaffolds_348_280					
+Scaffolds_348_281					
+Scaffolds_348_282					
+Scaffolds_348_283					
+Scaffolds_348_284					
+Scaffolds_348_286					
+Scaffolds_348_288					
+Scaffolds_348_289					
+Scaffolds_348_290					
+Scaffolds_348_291					
+Scaffolds_348_293					
+Scaffolds_348_295					
+Scaffolds_348_296					
+Scaffolds_348_298					
+Scaffolds_348_299					
+Scaffolds_348_302					
+Scaffolds_348_303					
+Scaffolds_348_304					
+Scaffolds_348_305					
+Scaffolds_348_307	K00817	hisC; histidinol-phosphate aminotransferase [EC:2.6.1.9]			
+Scaffolds_348_308					
+Scaffolds_348_309	K01652	E2.2.1.6L, ilvB, ilvG, ilvI; acetolactate synthase I/II/III large subunit [EC:2.2.1.6]			
+Scaffolds_348_310					
+Scaffolds_348_312					
+Scaffolds_348_313					
+Scaffolds_348_314					
+Scaffolds_348_315					
+Scaffolds_348_316					
+Scaffolds_348_317					
+Scaffolds_348_320					
+Scaffolds_348_321					
+Scaffolds_348_322					
+Scaffolds_348_323					
+Scaffolds_348_324					
+Scaffolds_348_325					
+Scaffolds_348_326					
+Scaffolds_348_327					
+Scaffolds_348_328					
+Scaffolds_348_329	K07133	K07133; uncharacterized protein			
+Scaffolds_348_331					
+Scaffolds_348_332					
+Scaffolds_348_333					
+Scaffolds_348_334					
+Scaffolds_348_335					
+Scaffolds_348_336					
+Scaffolds_348_337					
+Scaffolds_348_340	K03310	TC.AGCS; alanine or glycine:cation symporter, AGCS family			
+Scaffolds_348_342					
+Scaffolds_348_343					
+Scaffolds_348_344					
+Scaffolds_348_347					
+Scaffolds_348_348	K01738	cysK; cysteine synthase [EC:2.5.1.47]			
+Scaffolds_348_349	K03673	dsbA; protein dithiol oxidoreductase (disulfide-forming) [EC:1.8.4.15]			
+Scaffolds_348_350					
+Scaffolds_348_351					
+Scaffolds_348_352					
+Scaffolds_348_353					
+Scaffolds_348_354					
+Scaffolds_348_355					
+Scaffolds_348_356					
+Scaffolds_348_357					
+Scaffolds_348_358					
+Scaffolds_348_359					
+Scaffolds_348_360					
+Scaffolds_348_362					
+Scaffolds_348_364					
+Scaffolds_348_365					
+Scaffolds_348_366					
+Scaffolds_348_367					
+Scaffolds_348_368					
+Scaffolds_348_369					
+Scaffolds_348_370					
+Scaffolds_348_372					
+Scaffolds_348_373					
+Scaffolds_348_374					
+Scaffolds_348_375					
+Scaffolds_348_376					
+Scaffolds_348_377					
+Scaffolds_348_378					
+Scaffolds_348_379					
+Scaffolds_348_380					
+Scaffolds_348_381	K00228	CPOX, hemF; coproporphyrinogen III oxidase [EC:1.3.3.3]			
+Scaffolds_348_382					
+Scaffolds_348_383					
+Scaffolds_348_384	K01588	purE; 5-(carboxyamino)imidazole ribonucleotide mutase [EC:5.4.99.18]			
+Scaffolds_348_386					
+Scaffolds_348_387					
+Scaffolds_348_388	K01462	PDF, def; peptide deformylase [EC:3.5.1.88]			
+Scaffolds_348_389					
+Scaffolds_348_390					
+Scaffolds_348_391					
+Scaffolds_348_392					
+Scaffolds_348_393					
+Scaffolds_348_394					
+Scaffolds_348_395					
+Scaffolds_348_398					
+Scaffolds_348_399	K03498	trkH, trkG, ktrB, ktrD; trk/ktr system potassium uptake protein			
+Scaffolds_348_400					
+Scaffolds_348_402					
+Scaffolds_348_403					
+Scaffolds_348_404					
+Scaffolds_348_405	K01878	glyQ; glycyl-tRNA synthetase alpha chain [EC:6.1.1.14]			
+Scaffolds_348_407					
+Scaffolds_348_408					
+Scaffolds_348_409					
+Scaffolds_348_410					
+Scaffolds_348_411					
+Scaffolds_348_412					
+Scaffolds_348_413					
+Scaffolds_348_414					
+Scaffolds_348_415					
+Scaffolds_348_416					
+Scaffolds_348_417					
+Scaffolds_348_419	K03629	recF; DNA replication and repair protein RecF			
+Scaffolds_348_420					
+Scaffolds_348_421					
+Scaffolds_348_422					
+Scaffolds_348_423					
+Scaffolds_348_424					
+Scaffolds_348_425					
+Scaffolds_348_426					
+Scaffolds_348_433					
+Scaffolds_348_441					
+Scaffolds_348_444					
+Scaffolds_348_450					
+Scaffolds_348_451					
+Scaffolds_348_452					
+Scaffolds_348_454	K02914	RP-L34, MRPL34, rpmH; large subunit ribosomal protein L34			
+Scaffolds_348_456					
+Scaffolds_348_457					
+Scaffolds_348_458	K03217	yidC, spoIIIJ, OXA1, ccfA; YidC/Oxa1 family membrane protein insertase			
+Scaffolds_348_459					
+Scaffolds_348_460					
+Scaffolds_348_461					
+Scaffolds_348_462					
+Scaffolds_348_463					
+Scaffolds_348_464					
+Scaffolds_348_465					
+Scaffolds_348_466	K03501	gidB, rsmG; 16S rRNA (guanine527-N7)-methyltransferase [EC:2.1.1.170]			
+Scaffolds_348_467	K03496	parA, soj; chromosome partitioning protein			
+Scaffolds_348_468					
+Scaffolds_348_469	K03497	parB, spo0J; ParB family transcriptional regulator, chromosome partitioning protein			
+Scaffolds_348_473					
+Scaffolds_348_477					
+Scaffolds_348_478					
+Scaffolds_348_479	K02116	atpI; ATP synthase protein I			
+Scaffolds_348_480	K02108	ATPF0A, atpB; F-type H+-transporting ATPase subunit a			
+Scaffolds_348_481	K02110	ATPF0C, atpE; F-type H+-transporting ATPase subunit c			
+Scaffolds_348_482					
+Scaffolds_348_483	K02113	ATPF1D, atpH; F-type H+-transporting ATPase subunit delta			
+Scaffolds_348_484					
+Scaffolds_348_485					
+Scaffolds_348_486					
+Scaffolds_348_487					
+Scaffolds_348_488	K02115	ATPF1G, atpG; F-type H+-transporting ATPase subunit gamma			
+Scaffolds_348_489					
+Scaffolds_348_490					
+Scaffolds_348_491					
+Scaffolds_348_492					
+Scaffolds_348_493					
+Scaffolds_348_494					
+Scaffolds_348_495	K02114	ATPF1E, atpC; F-type H+-transporting ATPase subunit epsilon			
+Scaffolds_348_496					
+Scaffolds_348_498					
+Scaffolds_348_499					
+Scaffolds_348_500	K01593	DDC, TDC; aromatic-L-amino-acid/L-tryptophan decarboxylase [EC:4.1.1.28 4.1.1.105]			
+Scaffolds_348_503					
+Scaffolds_348_505					
+Scaffolds_348_506					
+Scaffolds_348_507					
+Scaffolds_348_508					
+Scaffolds_348_510					
+Scaffolds_348_511					
+Scaffolds_348_513					
+Scaffolds_348_514					
+Scaffolds_348_516					
+Scaffolds_348_517					
+Scaffolds_348_518					
+Scaffolds_348_519					
+Scaffolds_348_522	K00134	GAPDH, gapA; glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12]			
+Scaffolds_348_523	K00150	gap2, gapB; glyceraldehyde-3-phosphate dehydrogenase (NAD(P)+) (phosphorylating) [EC:1.2.1.59]			
+Scaffolds_348_525					
+Scaffolds_348_526					
+Scaffolds_348_527					
+Scaffolds_348_529					
+Scaffolds_348_530					
+Scaffolds_348_533					
+Scaffolds_348_534					
+Scaffolds_348_535					
+Scaffolds_348_536					
+Scaffolds_348_540					
+Scaffolds_348_542					
+Scaffolds_348_543					
+Scaffolds_348_544					
+Scaffolds_348_545					
+Scaffolds_348_546					
+Scaffolds_348_547					
+Scaffolds_348_548					
+Scaffolds_348_549					
+Scaffolds_348_550					
+Scaffolds_348_551					
+Scaffolds_348_553					
+Scaffolds_348_554					
+Scaffolds_348_555	K09861	K09861; uncharacterized protein			
+Scaffolds_348_556					
+Scaffolds_348_557					
+Scaffolds_348_558					
+Scaffolds_348_559	K03179	ubiA; 4-hydroxybenzoate polyprenyltransferase [EC:2.5.1.39]			
+Scaffolds_348_560					
+Scaffolds_348_561					
+Scaffolds_348_563					
+Scaffolds_348_566					
+Scaffolds_348_569					
+Scaffolds_348_571					
+Scaffolds_348_574					
+Scaffolds_348_576					
+Scaffolds_348_577	K05297	rubB, alkT; rubredoxin---NAD+ reductase [EC:1.18.1.1]			
+Scaffolds_348_578					
+Scaffolds_348_579					
+Scaffolds_348_580					
+Scaffolds_348_581					
+Scaffolds_348_582					
+Scaffolds_348_583					
+Scaffolds_348_584					
+Scaffolds_348_585					
+Scaffolds_348_586					
+Scaffolds_348_587					
+Scaffolds_348_588					
+Scaffolds_348_589					
+Scaffolds_348_590					
+Scaffolds_348_591					
+Scaffolds_348_592					
+Scaffolds_348_593					
+Scaffolds_348_594	K00762	pyrE; orotate phosphoribosyltransferase [EC:2.4.2.10]			
+Scaffolds_348_595	K05501	slmA, ttk; TetR/AcrR family transcriptional regulator			
+Scaffolds_348_596					
+Scaffolds_348_597					
+Scaffolds_348_598					
+Scaffolds_348_599					
+Scaffolds_348_600					
+Scaffolds_348_601					
+Scaffolds_348_602					
+Scaffolds_348_603					
+Scaffolds_348_605					
+Scaffolds_348_606					
+Scaffolds_348_608	K02902	RP-L28, MRPL28, rpmB; large subunit ribosomal protein L28			
+Scaffolds_348_609	K02913	RP-L33, MRPL33, rpmG; large subunit ribosomal protein L33			
+Scaffolds_348_610	K13292	lgt, umpA; phosphatidylglycerol---prolipoprotein diacylglyceryl transferase [EC:2.5.1.145]			
+Scaffolds_348_612	K00560	thyA, TYMS; thymidylate synthase [EC:2.1.1.45]			
+Scaffolds_348_613					
+Scaffolds_348_614	K00287	DHFR, folA; dihydrofolate reductase [EC:1.5.1.3]			
+Scaffolds_348_615					
+Scaffolds_348_617					
+Scaffolds_348_618					
+Scaffolds_348_620	K03561	exbB; biopolymer transport protein ExbB			
+Scaffolds_348_622	K03559	exbD; biopolymer transport protein ExbD			
+Scaffolds_348_623					
+Scaffolds_348_624					
+Scaffolds_348_625					
+Scaffolds_348_626					
+Scaffolds_348_627					
+Scaffolds_348_628					
+Scaffolds_348_629					
+Scaffolds_348_630					
+Scaffolds_348_631					
+Scaffolds_348_635	K00344	qor, CRYZ; NADPH:quinone reductase [EC:1.6.5.5]			
+Scaffolds_348_636					
+Scaffolds_348_637					
+Scaffolds_348_638					
+Scaffolds_348_639					
+Scaffolds_348_640					
+Scaffolds_348_641					
+Scaffolds_348_642					
+Scaffolds_348_643					
+Scaffolds_348_647	K02016	ABC.FEV.S; iron complex transport system substrate-binding protein			
+Scaffolds_348_648					
+Scaffolds_348_649					
+Scaffolds_348_650	K01669	phr, PHR1; deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]			
+Scaffolds_348_651					
+Scaffolds_348_652					
+Scaffolds_348_653					
+Scaffolds_348_654					
+Scaffolds_348_656					
+Scaffolds_348_657					
+Scaffolds_348_658					
+Scaffolds_348_659					
+Scaffolds_348_660					
+Scaffolds_348_661					
+Scaffolds_348_662	K02221	yggT; YggT family protein			
+Scaffolds_348_664					
+Scaffolds_348_665	K00641	metX; homoserine O-acetyltransferase/O-succinyltransferase [EC:2.3.1.31 2.3.1.46]			
+Scaffolds_348_666					
+Scaffolds_348_667					
+Scaffolds_348_668					
+Scaffolds_348_669					
+Scaffolds_348_670					
+Scaffolds_348_671	K03439	trmB, METTL1, TRM8; tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]			
+Scaffolds_348_672	K03089	rpoH; RNA polymerase sigma-32 factor			
+Scaffolds_348_673					
+Scaffolds_348_675					
+Scaffolds_348_676					
+Scaffolds_348_677					
+Scaffolds_348_678					
+Scaffolds_348_679					
+Scaffolds_348_680					
+Scaffolds_348_681					
+Scaffolds_348_682					
+Scaffolds_348_683					
+Scaffolds_348_686					
+Scaffolds_348_687					
+Scaffolds_348_688					
+Scaffolds_348_689					
+Scaffolds_348_690					
+Scaffolds_348_691					
+Scaffolds_348_692					
+Scaffolds_348_693	K09811	ftsX; cell division transport system permease protein			
+Scaffolds_348_694					
+Scaffolds_348_695					
+Scaffolds_348_696					
+Scaffolds_348_697					
+Scaffolds_348_698					
+Scaffolds_348_699	K00954	E2.7.7.3A, coaD, kdtB; pantetheine-phosphate adenylyltransferase [EC:2.7.7.3]			
+Scaffolds_348_700					
+Scaffolds_348_701					
+Scaffolds_348_702					
+Scaffolds_348_703					
+Scaffolds_348_704					
+Scaffolds_348_706					
+Scaffolds_348_707					
+Scaffolds_348_708					
+Scaffolds_348_709					
+Scaffolds_348_710					
+Scaffolds_348_711					
+Scaffolds_348_712	K02437	gcvH, GCSH; glycine cleavage system H protein			
+Scaffolds_348_713					
+Scaffolds_348_714	K18800	ubiI; 2-polyprenylphenol 6-hydroxylase [EC:1.14.13.240]			
+Scaffolds_348_715					
+Scaffolds_348_717	K09892	zapB; cell division protein ZapB			
+Scaffolds_348_718					
+Scaffolds_348_719					
+Scaffolds_348_720	K01934	MTHFS; 5-formyltetrahydrofolate cyclo-ligase [EC:6.3.3.2]			
+Scaffolds_348_722					
+Scaffolds_348_723					
+Scaffolds_348_724					
+Scaffolds_348_725					
+Scaffolds_348_726					
+Scaffolds_348_729					
+Scaffolds_348_730					
+Scaffolds_348_732					
+Scaffolds_348_733					
+Scaffolds_348_734					
+Scaffolds_348_735					
+Scaffolds_348_736					
+Scaffolds_348_737					
+Scaffolds_348_738					
+Scaffolds_348_740					
+Scaffolds_348_741					
+Scaffolds_348_742					
+Scaffolds_348_743					
+Scaffolds_348_744					
+Scaffolds_348_745					
+Scaffolds_348_746					
+Scaffolds_348_747					
+Scaffolds_348_748					
+Scaffolds_348_749					
+Scaffolds_348_750					
+Scaffolds_348_751					
+Scaffolds_348_752					
+Scaffolds_348_753					
+Scaffolds_348_754					
+Scaffolds_348_755					
+Scaffolds_348_756					
+Scaffolds_348_757					
+Scaffolds_348_759					
+Scaffolds_348_761					
+Scaffolds_348_762	K19119	cas5d; CRISPR-associated protein Cas5d			
+Scaffolds_348_763					
+Scaffolds_348_764	K07482	K07482; transposase, IS30 family			
+Scaffolds_348_765					
+Scaffolds_348_766					
+Scaffolds_348_767	K07464	cas4; CRISPR-associated exonuclease Cas4 [EC:3.1.12.1]			
+Scaffolds_348_769	K07482	K07482; transposase, IS30 family			
+Scaffolds_348_770					
+Scaffolds_348_771	K09951	cas2; CRISPR-associated protein Cas2			
+Scaffolds_348_776					
+Scaffolds_348_777					
+Scaffolds_348_778					
+Scaffolds_348_780					
+Scaffolds_348_781					
+Scaffolds_348_782					
+Scaffolds_348_783					
+Scaffolds_348_784					
+Scaffolds_348_786					
+Scaffolds_348_787	K04758	feoA; ferrous iron transport protein A			
+Scaffolds_348_788					
+Scaffolds_348_789	K01692	paaF, echA; enoyl-CoA hydratase [EC:4.2.1.17]			
+Scaffolds_348_790					
+Scaffolds_348_791					
+Scaffolds_348_795					
+Scaffolds_348_796					
+Scaffolds_348_797					
+Scaffolds_348_798					
+Scaffolds_348_799					
+Scaffolds_348_800					
+Scaffolds_348_801					
+Scaffolds_348_802					
+Scaffolds_348_803					
+Scaffolds_348_804	K03186	ubiX, bsdB, PAD1; flavin prenyltransferase [EC:2.5.1.129]			
+Scaffolds_348_805					
+Scaffolds_348_806					
+Scaffolds_348_807					
+Scaffolds_348_808					
+Scaffolds_348_809					
+Scaffolds_348_810					
+Scaffolds_348_811					
+Scaffolds_348_814					
+Scaffolds_348_815					
+Scaffolds_348_816					
+Scaffolds_348_817					
+Scaffolds_348_818					
+Scaffolds_348_819					
+Scaffolds_348_820					
+Scaffolds_348_821					
+Scaffolds_348_823					
+Scaffolds_348_824					
+Scaffolds_348_825					
+Scaffolds_348_826					
+Scaffolds_348_828					
+Scaffolds_348_829					
+Scaffolds_348_831					
+Scaffolds_348_834					
+Scaffolds_348_836					
+Scaffolds_348_838					
+Scaffolds_348_841					
+Scaffolds_348_842	K00383	GSR, gor; glutathione reductase (NADPH) [EC:1.8.1.7]			
+Scaffolds_348_843					
+Scaffolds_348_844	K03519	coxM, cutM; aerobic carbon-monoxide dehydrogenase medium subunit [EC:1.2.5.3]			
+Scaffolds_348_845	K03518	coxS; aerobic carbon-monoxide dehydrogenase small subunit [EC:1.2.5.3]			
+Scaffolds_348_846					
+Scaffolds_348_850					
+Scaffolds_348_851					
+Scaffolds_348_852					
+Scaffolds_348_853					
+Scaffolds_348_854					
+Scaffolds_348_856					
+Scaffolds_348_857					
+Scaffolds_348_858					
+Scaffolds_348_860	K00077	panE, apbA; 2-dehydropantoate 2-reductase [EC:1.1.1.169]			
+Scaffolds_348_861					
+Scaffolds_348_862					
+Scaffolds_348_863					
+Scaffolds_348_864					
+Scaffolds_348_866					
+Scaffolds_348_867					
+Scaffolds_348_868					
+Scaffolds_348_869					
+Scaffolds_348_870					
+Scaffolds_348_871					
+Scaffolds_348_875					
+Scaffolds_348_877					
+Scaffolds_348_878					
+Scaffolds_348_880					
+Scaffolds_348_882					
+Scaffolds_348_885					
+Scaffolds_348_886					
+Scaffolds_348_887					
+Scaffolds_348_888					
+Scaffolds_348_891	K01273	DPEP; membrane dipeptidase [EC:3.4.13.19]			
+Scaffolds_348_892					
+Scaffolds_348_893					
+Scaffolds_348_895					
+Scaffolds_348_896					
+Scaffolds_348_898					
+Scaffolds_348_899					
+Scaffolds_348_900					
+Scaffolds_348_901	K24821	atm1, pexA; ATP-binding cassette, subfamily B, heavy metal transporter			
+Scaffolds_348_902	K00344	qor, CRYZ; NADPH:quinone reductase [EC:1.6.5.5]			
+Scaffolds_348_903					
+Scaffolds_348_904					
+Scaffolds_348_905					
+Scaffolds_348_906					
+Scaffolds_348_909					
+Scaffolds_348_911					
+Scaffolds_348_912					
+Scaffolds_348_913	K03575	mutY; A/G-specific adenine glycosylase [EC:3.2.2.31]			
+Scaffolds_348_914					
+Scaffolds_348_915	K01693	hisB; imidazoleglycerol-phosphate dehydratase [EC:4.2.1.19]			
+Scaffolds_348_916					
+Scaffolds_348_917	K02501	hisH; imidazole glycerol-phosphate synthase subunit HisH [EC:4.3.2.10]			
+Scaffolds_348_918					
+Scaffolds_348_919	K01814	hisA; phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase [EC:5.3.1.16]			
+Scaffolds_348_920	K02500	hisF; imidazole glycerol-phosphate synthase subunit HisF [EC:4.3.2.10]			
+Scaffolds_348_925					
+Scaffolds_348_926					
+Scaffolds_348_927					
+Scaffolds_348_928					
+Scaffolds_348_929					
+Scaffolds_348_931	K15633	gpmI; 2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12]			
+Scaffolds_348_932					
+Scaffolds_348_933					
+Scaffolds_348_934	K03071	secB; preprotein translocase subunit SecB			
+Scaffolds_348_936					
+Scaffolds_348_937					
+Scaffolds_348_938					
+Scaffolds_348_939					
+Scaffolds_348_940					
+Scaffolds_348_941					
+Scaffolds_348_942					
+Scaffolds_348_943	K03151	thiI; tRNA uracil 4-sulfurtransferase [EC:2.8.1.4]			
+Scaffolds_348_944					
+Scaffolds_348_945	K07560	dtd, DTD; D-aminoacyl-tRNA deacylase [EC:3.1.1.96]			
+Scaffolds_348_948					
+Scaffolds_348_949					
+Scaffolds_348_950					
+Scaffolds_348_951					
+Scaffolds_348_954					
+Scaffolds_348_956					
+Scaffolds_348_957					
+Scaffolds_348_958					
+Scaffolds_348_960					
+Scaffolds_348_961					
+Scaffolds_348_962					
+Scaffolds_348_963					
+Scaffolds_348_964	K02348	elaA; ElaA protein			
+Scaffolds_348_968					
+Scaffolds_348_969					
+Scaffolds_348_970					
+Scaffolds_348_971					
+Scaffolds_348_976					
+Scaffolds_348_977					
+Scaffolds_348_978					
+Scaffolds_348_980					
+Scaffolds_348_981					
+Scaffolds_348_984	K02356	efp; elongation factor P			
+Scaffolds_348_986					
+Scaffolds_348_987					
+Scaffolds_348_988					
+Scaffolds_348_989					
+Scaffolds_348_990					
+Scaffolds_348_991					
+Scaffolds_348_992					
+Scaffolds_348_993					
+Scaffolds_348_994					
+Scaffolds_348_995					
+Scaffolds_348_996					
+Scaffolds_348_998					
+Scaffolds_348_999					
+Scaffolds_348_1000					
+Scaffolds_348_1001					
+Scaffolds_348_1002	K03088	rpoE; RNA polymerase sigma-70 factor, ECF subfamily			
+Scaffolds_348_1004					
+Scaffolds_348_1005					
+Scaffolds_348_1006					
+Scaffolds_348_1008					
+Scaffolds_348_1009	K00324	pntA; H+-translocating NAD(P) transhydrogenase subunit alpha [EC:1.6.1.2 7.1.1.1]			
+Scaffolds_348_1010	K00325	pntB; H+-translocating NAD(P) transhydrogenase subunit beta [EC:1.6.1.2 7.1.1.1]			
+Scaffolds_348_1011					
+Scaffolds_348_1012					
+Scaffolds_348_1013					
+Scaffolds_348_1014					
+Scaffolds_348_1015					
+Scaffolds_348_1016					
+Scaffolds_348_1017					
+Scaffolds_348_1018	K03116	tatA; sec-independent protein translocase protein TatA			
+Scaffolds_348_1019					
+Scaffolds_348_1020					
+Scaffolds_348_1021					
+Scaffolds_348_1022					
+Scaffolds_348_1023					
+Scaffolds_348_1024					
+Scaffolds_348_1025					
+Scaffolds_348_1026					
+Scaffolds_348_1029					
+Scaffolds_348_1030					
+Scaffolds_348_1031					
+Scaffolds_348_1034					
+Scaffolds_348_1036					
+Scaffolds_348_1039	K00558	DNMT1, dcm; DNA (cytosine-5)-methyltransferase 1 [EC:2.1.1.37]			
+Scaffolds_348_1042					
+Scaffolds_348_1043					
+Scaffolds_348_1044					
+Scaffolds_348_1045					
+Scaffolds_348_1046	K03690	ubiJ; ubiquinone biosynthesis accessory factor UbiJ			
+Scaffolds_348_1047					
+Scaffolds_348_1048					
+Scaffolds_348_1049					
+Scaffolds_348_1050					
+Scaffolds_348_1052					
+Scaffolds_348_1053					
+Scaffolds_348_1054					
+Scaffolds_348_1055					
+Scaffolds_348_1056	K01419	hslV, clpQ; ATP-dependent HslUV protease, peptidase subunit HslV [EC:3.4.25.2]			
+Scaffolds_348_1057					
+Scaffolds_348_1059	K01887	RARS, argS; arginyl-tRNA synthetase [EC:6.1.1.19]			
+Scaffolds_348_1061	K01284	dcp; peptidyl-dipeptidase Dcp [EC:3.4.15.5]			
+Scaffolds_348_1062					
+Scaffolds_348_1063					
+Scaffolds_348_1064					
+Scaffolds_348_1065					
+Scaffolds_348_1066	K04066	priA; primosomal protein N' (replication factor Y) (superfamily II helicase) [EC:5.6.2.4]			
+Scaffolds_348_1067					
+Scaffolds_348_1068					
+Scaffolds_348_1069	K02909	RP-L31, rpmE; large subunit ribosomal protein L31			
+Scaffolds_348_1070					
+Scaffolds_348_1071					
+Scaffolds_348_1072					
+Scaffolds_348_1073					
+Scaffolds_348_1074					
+Scaffolds_348_1075					
+Scaffolds_348_1076					
+Scaffolds_348_1077	K02662	pilM; type IV pilus assembly protein PilM			
+Scaffolds_348_1078					
+Scaffolds_348_1080					
+Scaffolds_348_1081					
+Scaffolds_348_1082	K02666	pilQ; type IV pilus assembly protein PilQ			
+Scaffolds_348_1083					
+Scaffolds_348_1084					
+Scaffolds_348_1085	K00891	aroK, aroL; shikimate kinase [EC:2.7.1.71]			
+Scaffolds_348_1086					
+Scaffolds_348_1087					
+Scaffolds_348_1088					
+Scaffolds_348_1089					
+Scaffolds_348_1090					
+Scaffolds_348_1091					
+Scaffolds_348_1093					
+Scaffolds_348_1094					
+Scaffolds_348_1095					
+Scaffolds_348_1096					
+Scaffolds_348_1097					
+Scaffolds_348_1099					
+Scaffolds_348_1100					
+Scaffolds_348_1101					
+Scaffolds_348_1102					
+Scaffolds_348_1103					
+Scaffolds_348_1104					
+Scaffolds_348_1105	K01599	hemE, UROD; uroporphyrinogen decarboxylase [EC:4.1.1.37]			
+Scaffolds_348_1108					
+Scaffolds_348_1109					
+Scaffolds_348_1110					
+Scaffolds_348_1111	K00640	cysE; serine O-acetyltransferase [EC:2.3.1.30]			
+Scaffolds_348_1112					
+Scaffolds_348_1113					
+Scaffolds_348_1114					
+Scaffolds_348_1115					
+Scaffolds_348_1116					
+Scaffolds_348_1117	K02018	modB; molybdate transport system permease protein			
+Scaffolds_348_1119					
+Scaffolds_348_1120	K02020	modA; molybdate transport system substrate-binding protein			
+Scaffolds_348_1121					
+Scaffolds_348_1123					
+Scaffolds_348_1124					
+Scaffolds_348_1125					
+Scaffolds_348_1126					
+Scaffolds_348_1128					
+Scaffolds_348_1129					
+Scaffolds_348_1130					
+Scaffolds_348_1131					
+Scaffolds_348_1132					
+Scaffolds_348_1135					
+Scaffolds_348_1136					
+Scaffolds_348_1137					
+Scaffolds_348_1138					
+Scaffolds_348_1139	K03786	aroQ, qutE; 3-dehydroquinate dehydratase II [EC:4.2.1.10]			
+Scaffolds_348_1140	K02160	accB, bccP; acetyl-CoA carboxylase biotin carboxyl carrier protein			
+Scaffolds_348_1141					
+Scaffolds_348_1142					
+Scaffolds_348_1143					
+Scaffolds_348_1144					
+Scaffolds_348_1145					
+Scaffolds_348_1146					
+Scaffolds_348_1147					
+Scaffolds_348_1148					
+Scaffolds_348_1149					
+Scaffolds_348_1151					
+Scaffolds_348_1152					
+Scaffolds_348_1153					
+Scaffolds_348_1155	K06134	COQ7; 3-demethoxyubiquinol 3-hydroxylase [EC:1.14.99.60]			
+Scaffolds_348_1158					
+Scaffolds_348_1159					
+Scaffolds_348_1160					
+Scaffolds_348_1168					
+Scaffolds_348_1169					
+Scaffolds_348_1170	K07447	ruvX; putative pre-16S rRNA nuclease [EC:3.1.-.-]			
+Scaffolds_348_1171					
+Scaffolds_348_1174					
+Scaffolds_348_1176					
+Scaffolds_348_1177					
+Scaffolds_348_1178					
+Scaffolds_348_1179					
+Scaffolds_348_1181					
+Scaffolds_348_1182					
+Scaffolds_348_1183					
+Scaffolds_348_1184					
+Scaffolds_348_1185					
+Scaffolds_348_1186					
+Scaffolds_348_1187					
+Scaffolds_348_1188					
+Scaffolds_348_1189					
+Scaffolds_348_1190					
+Scaffolds_348_1191					
+Scaffolds_348_1192					
+Scaffolds_348_1195					
+Scaffolds_348_1196	K01918	panC; pantoate--beta-alanine ligase [EC:6.3.2.1]			
+Scaffolds_348_1198					
+Scaffolds_348_1202	K02950	RP-S12, MRPS12, rpsL; small subunit ribosomal protein S12			
+Scaffolds_348_1203					
+Scaffolds_348_1204	K02992	RP-S7, MRPS7, rpsG; small subunit ribosomal protein S7			
+Scaffolds_348_1205					
+Scaffolds_348_1207					
+Scaffolds_348_1208					
+Scaffolds_348_1209					
+Scaffolds_348_1210					
+Scaffolds_348_1211					
+Scaffolds_348_1212					
+Scaffolds_348_1213					
+Scaffolds_348_1214	K02358	tuf, TUFM; elongation factor Tu			
+Scaffolds_348_1215					
+Scaffolds_348_1216					
+Scaffolds_348_1217					
+Scaffolds_348_1218					
+Scaffolds_348_1219	K02946	RP-S10, MRPS10, rpsJ; small subunit ribosomal protein S10			
+Scaffolds_348_1220	K02906	RP-L3, MRPL3, rplC; large subunit ribosomal protein L3			
+Scaffolds_348_1221	K02926	RP-L4, MRPL4, rplD; large subunit ribosomal protein L4			
+Scaffolds_348_1222	K02886	RP-L2, MRPL2, rplB; large subunit ribosomal protein L2			
+Scaffolds_348_1223					
+Scaffolds_348_1224					
+Scaffolds_348_1225					
+Scaffolds_348_1226	K02982	RP-S3, rpsC; small subunit ribosomal protein S3			
+Scaffolds_348_1227	K02878	RP-L16, MRPL16, rplP; large subunit ribosomal protein L16			
+Scaffolds_348_1228	K02904	RP-L29, rpmC; large subunit ribosomal protein L29			
+Scaffolds_348_1229	K02961	RP-S17, MRPS17, rpsQ; small subunit ribosomal protein S17			
+Scaffolds_348_1231	K02895	RP-L24, MRPL24, rplX; large subunit ribosomal protein L24			
+Scaffolds_348_1232					
+Scaffolds_348_1233					
+Scaffolds_348_1234					
+Scaffolds_348_1235	K02994	RP-S8, rpsH; small subunit ribosomal protein S8			
+Scaffolds_348_1236	K02933	RP-L6, MRPL6, rplF; large subunit ribosomal protein L6			
+Scaffolds_348_1237					
+Scaffolds_348_1238	K02988	RP-S5, MRPS5, rpsE; small subunit ribosomal protein S5			
+Scaffolds_348_1239					
+Scaffolds_348_1240	K02907	RP-L30, MRPL30, rpmD; large subunit ribosomal protein L30			
+Scaffolds_348_1241	K02876	RP-L15, MRPL15, rplO; large subunit ribosomal protein L15			
+Scaffolds_348_1242					
+Scaffolds_348_1243					
+Scaffolds_348_1244					
+Scaffolds_348_1245	K02952	RP-S13, rpsM; small subunit ribosomal protein S13			
+Scaffolds_348_1246					
+Scaffolds_348_1247					
+Scaffolds_348_1249					
+Scaffolds_348_1250					
+Scaffolds_348_1251					
+Scaffolds_348_1252					
+Scaffolds_348_1253					
+Scaffolds_348_1254					
+Scaffolds_348_1255					
+Scaffolds_348_1256					
+Scaffolds_348_1258					
+Scaffolds_348_1259					
+Scaffolds_348_1260					
+Scaffolds_348_1262					
+Scaffolds_348_1263					
+Scaffolds_348_1264	K06917	selU, mnmH; tRNA 2-selenouridine synthase [EC:2.9.1.3]			
+Scaffolds_348_1265					
+Scaffolds_348_1266					
+Scaffolds_348_1267					
+Scaffolds_348_1268					
+Scaffolds_348_1269					
+Scaffolds_348_1270					
+Scaffolds_348_1271					
+Scaffolds_348_1272					
+Scaffolds_348_1274					
+Scaffolds_348_1275					
+Scaffolds_348_1276					
+Scaffolds_348_1277					
+Scaffolds_348_1278					
+Scaffolds_348_1280					
+Scaffolds_348_1281					
+Scaffolds_348_1282					
+Scaffolds_348_1285					
+Scaffolds_348_1286					
+Scaffolds_348_1287					
+Scaffolds_348_1288					
+Scaffolds_348_1290					
+Scaffolds_348_1291					
+Scaffolds_348_1292	K21416	acoA; acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit alpha [EC:1.1.1.-]			
+Scaffolds_348_1294					
+Scaffolds_348_1295	K21417	acoB; acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit beta [EC:1.1.1.-]			
+Scaffolds_348_1296					
+Scaffolds_348_1298					
+Scaffolds_348_1299					
+Scaffolds_348_1300					
+Scaffolds_348_1302					
+Scaffolds_348_1303					
+Scaffolds_348_1304					
+Scaffolds_348_1305					
+Scaffolds_348_1306					
+Scaffolds_348_1307					
+Scaffolds_348_1309					
+Scaffolds_348_1310					
+Scaffolds_348_1311					
+Scaffolds_348_1312					
+Scaffolds_348_1313					
+Scaffolds_348_1315					
+Scaffolds_348_1318					
+Scaffolds_348_1322					
+Scaffolds_348_1323	K03704	cspA; cold shock protein			
+Scaffolds_348_1325					
+Scaffolds_348_1326					
+Scaffolds_348_1327					
+Scaffolds_348_1329					
+Scaffolds_348_1330					
+Scaffolds_348_1332					
+Scaffolds_348_1333					
+Scaffolds_348_1334					
+Scaffolds_348_1335					
+Scaffolds_348_1340					
+Scaffolds_348_1341					
+Scaffolds_348_1342					
+Scaffolds_348_1343					
+Scaffolds_348_1347					
+Scaffolds_348_1349					
+Scaffolds_348_1354					
+Scaffolds_348_1355					
+Scaffolds_348_1356					
+Scaffolds_348_1357					
+Scaffolds_348_1358					
+Scaffolds_348_1360					
+Scaffolds_348_1361					
+Scaffolds_348_1362					
+Scaffolds_348_1363					
+Scaffolds_348_1364					
+Scaffolds_348_1365					
+Scaffolds_348_1366					
+Scaffolds_348_1367					
+Scaffolds_348_1368					
+Scaffolds_348_1369					
+Scaffolds_348_1370					
+Scaffolds_348_1372					
+Scaffolds_348_1373					
+Scaffolds_348_1374					
+Scaffolds_348_1375					
+Scaffolds_348_1376	K03664	smpB; SsrA-binding protein			
+Scaffolds_348_1377					
+Scaffolds_348_1379					
+Scaffolds_348_1381					
+Scaffolds_348_1382	K03631	recN; DNA repair protein RecN (Recombination protein N)			
+Scaffolds_348_1383	K03705	hrcA; heat-inducible transcriptional repressor			
+Scaffolds_348_1385					
+Scaffolds_348_1386					
+Scaffolds_348_1387					
+Scaffolds_348_1388					
+Scaffolds_348_1389					
+Scaffolds_348_1390					
+Scaffolds_348_1392					
+Scaffolds_348_1394	K00215	dapB; 4-hydroxy-tetrahydrodipicolinate reductase [EC:1.17.1.8]			
+Scaffolds_348_1395	K05838	ybbN; putative thioredoxin			
+Scaffolds_348_1396					
+Scaffolds_348_1397					
+Scaffolds_348_1399					
+Scaffolds_348_1400					
+Scaffolds_348_1401					
+Scaffolds_348_1403					
+Scaffolds_348_1404					
+Scaffolds_348_1406					
+Scaffolds_348_1407					
+Scaffolds_348_1408					
+Scaffolds_348_1410					
+Scaffolds_348_1413					
+Scaffolds_348_1414					
+Scaffolds_348_1415					
+Scaffolds_348_1416					
+Scaffolds_348_1417					
+Scaffolds_348_1418	K01246	tag; DNA-3-methyladenine glycosylase I [EC:3.2.2.20]			
+Scaffolds_348_1420					
+Scaffolds_348_1421					
+Scaffolds_348_1422					
+Scaffolds_348_1423					
+Scaffolds_348_1424					
+Scaffolds_348_1428					
+Scaffolds_348_1429					
+Scaffolds_348_1430					
+Scaffolds_348_1433					
+Scaffolds_348_1434					
+Scaffolds_348_1435					
+Scaffolds_348_1436					
+Scaffolds_348_1437					
+Scaffolds_348_1438					
+Scaffolds_348_1439					
+Scaffolds_348_1440	K03548	perM; putative permease			
+Scaffolds_348_1441					
+Scaffolds_348_1442					
+Scaffolds_348_1443					
+Scaffolds_348_1444					
+Scaffolds_348_1447					
+Scaffolds_348_1449	K00163	aceE; pyruvate dehydrogenase E1 component [EC:1.2.4.1]			
+Scaffolds_348_1450					
+Scaffolds_348_1451					
+Scaffolds_348_1452					
+Scaffolds_348_1453					
+Scaffolds_348_1454					
+Scaffolds_348_1455					
+Scaffolds_348_1456					
+Scaffolds_348_1457					
+Scaffolds_348_1458					
+Scaffolds_348_1459					
+Scaffolds_348_1460					
+Scaffolds_348_1461					
+Scaffolds_348_1463					
+Scaffolds_348_1464					
+Scaffolds_348_1465					
+Scaffolds_348_1466					
+Scaffolds_348_1467					
+Scaffolds_348_1470					
+Scaffolds_348_1471					
+Scaffolds_348_1472					
+Scaffolds_348_1473					
+Scaffolds_348_1474					
+Scaffolds_348_1476					
+Scaffolds_348_1477	K01040	gctB; glutaconate CoA-transferase, subunit B [EC:2.8.3.12]			
+Scaffolds_348_1478					
+Scaffolds_348_1479					
+Scaffolds_348_1480					
+Scaffolds_348_1481					
+Scaffolds_348_1482					
+Scaffolds_348_1483	K20862	yigB; FMN hydrolase / 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.102 3.1.3.104]			
+Scaffolds_348_1484					
+Scaffolds_348_1486	K09921	K09921; uncharacterized protein			
+Scaffolds_348_1487					
+Scaffolds_348_1488					
+Scaffolds_348_1489					
+Scaffolds_348_1490					
+Scaffolds_348_1491					
+Scaffolds_348_1492					
+Scaffolds_348_1494					
+Scaffolds_348_1495					
+Scaffolds_348_1496					
+Scaffolds_348_1503					
+Scaffolds_348_1504	K01749	hemC, HMBS; hydroxymethylbilane synthase [EC:2.5.1.61]			
+Scaffolds_348_1505					
+Scaffolds_348_1506					
+Scaffolds_348_1509					
+Scaffolds_348_1511					
+Scaffolds_348_1512					
+Scaffolds_348_1513					
+Scaffolds_348_1514					
+Scaffolds_348_1515					
+Scaffolds_348_1516					
+Scaffolds_348_1517					
+Scaffolds_348_1518					
+Scaffolds_348_1519					
+Scaffolds_348_1520					
+Scaffolds_348_1521					
+Scaffolds_348_1522					
+Scaffolds_348_1523					
+Scaffolds_348_1525					
+Scaffolds_348_1526					
+Scaffolds_348_1527	K03628	rho; transcription termination factor Rho			
+Scaffolds_348_1528					
+Scaffolds_348_1529					
+Scaffolds_348_1532					
+Scaffolds_348_1534					
+Scaffolds_348_1535					
+Scaffolds_348_1539					
+Scaffolds_348_1540					
+Scaffolds_348_1541					
+Scaffolds_348_1542					
+Scaffolds_348_1543					
+Scaffolds_348_1544					
+Scaffolds_348_1545					
+Scaffolds_348_1546					
+Scaffolds_348_1547					
+Scaffolds_348_1548					
+Scaffolds_348_1549					
+Scaffolds_348_1555	K02888	RP-L21, MRPL21, rplU; large subunit ribosomal protein L21			
+Scaffolds_348_1556					
+Scaffolds_348_1557					
+Scaffolds_348_1558					
+Scaffolds_348_1559					
+Scaffolds_348_1560					
+Scaffolds_348_1561					
+Scaffolds_348_1562					
+Scaffolds_348_1563					
+Scaffolds_348_1564					
+Scaffolds_348_1565					
+Scaffolds_348_1566					
+Scaffolds_348_1567	K17103	CHO1, pssA; CDP-diacylglycerol---serine O-phosphatidyltransferase [EC:2.7.8.8]			
+Scaffolds_348_1568					
+Scaffolds_348_1570					
+Scaffolds_348_1571	K07147	msrP; methionine sulfoxide reductase catalytic subunit [EC:1.8.-.-]			
+Scaffolds_348_1572					
+Scaffolds_348_1573					
+Scaffolds_348_1575	K07395	K07395; putative proteasome-type protease			
+Scaffolds_348_1577					
+Scaffolds_348_1578					
+Scaffolds_348_1579					
+Scaffolds_348_1580					
+Scaffolds_348_1582					
+Scaffolds_348_1583					
+Scaffolds_348_1584					
+Scaffolds_348_1587					
+Scaffolds_348_1588					
+Scaffolds_348_1589					
+Scaffolds_348_1590					
+Scaffolds_348_1592					
+Scaffolds_348_1594					
+Scaffolds_348_1596					
+Scaffolds_348_1597	K20534	gtrB; polyisoprenyl-phosphate glycosyltransferase [EC:2.4.-.-]			
+Scaffolds_348_1602					
+Scaffolds_348_1603					
+Scaffolds_348_1604					
+Scaffolds_348_1605					
+Scaffolds_348_1606					
+Scaffolds_348_1607					
+Scaffolds_348_1614					
+Scaffolds_348_1615					
+Scaffolds_348_1616					
+Scaffolds_348_1617					
+Scaffolds_348_1618					
+Scaffolds_348_1619					
+Scaffolds_348_1620					
+Scaffolds_348_1621					
+Scaffolds_348_1622					
+Scaffolds_348_1625					
+Scaffolds_348_1626					
+Scaffolds_348_1627					
+Scaffolds_348_1630					
+Scaffolds_348_1631					
+Scaffolds_348_1635					
+Scaffolds_348_1636					
+Scaffolds_348_1641					
+Scaffolds_348_1642					
+Scaffolds_348_1643					
+Scaffolds_348_1644					
+Scaffolds_348_1645					
+Scaffolds_348_1646	K19221	cobA, btuR; cob(I)alamin adenosyltransferase [EC:2.5.1.17]			
+Scaffolds_348_1647	K03613	rnfE; H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit E			
+Scaffolds_348_1648	K03614	rnfD; H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit D [EC:7.1.1.11 7.2.1.2]			
+Scaffolds_348_1649					
+Scaffolds_348_1650					
+Scaffolds_348_1651					
+Scaffolds_348_1653					
+Scaffolds_348_1654	K03616	rnfB; H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit B [EC:7.1.1.11 7.2.1.2]			
+Scaffolds_348_1655	K03617	rnfA; H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit A			
+Scaffolds_348_1656					
+Scaffolds_348_1657					
+Scaffolds_348_1658					
+Scaffolds_348_1659					
+Scaffolds_348_1660					
+Scaffolds_348_1661					
+Scaffolds_348_1662	K03593	mrp, NUBPL; ATP-binding protein involved in chromosome partitioning			
+Scaffolds_348_1663	K01494	dcd; dCTP deaminase [EC:3.5.4.13]			
+Scaffolds_348_1664					
+Scaffolds_348_1665					
+Scaffolds_348_1666					
+Scaffolds_348_1667					
+Scaffolds_348_1668					
+Scaffolds_348_1669					
+Scaffolds_348_1670					
+Scaffolds_348_1671	K10763	hda; DnaA-homolog protein			
+Scaffolds_348_1673	K03286	TC.OOP; OmpA-OmpF porin, OOP family			
+Scaffolds_348_1674					
+Scaffolds_348_1676					
+Scaffolds_348_1677					
+Scaffolds_348_1678					
+Scaffolds_348_1679					
+Scaffolds_348_1680					
+Scaffolds_348_1681					
+Scaffolds_348_1682					
+Scaffolds_348_1683					
+Scaffolds_348_1684					
+Scaffolds_348_1685	K00263	E1.4.1.9; leucine dehydrogenase [EC:1.4.1.9]			
+Scaffolds_348_1686					
+Scaffolds_348_1687					
+Scaffolds_348_1688					
+Scaffolds_348_1689					
+Scaffolds_348_1690					
+Scaffolds_348_1692					
+Scaffolds_348_1694					
+Scaffolds_348_1695					
+Scaffolds_348_1696					
+Scaffolds_348_1698	K15981	CYP125A; cholest-4-en-3-one 26-monooxygenase [EC:1.14.15.29]			
+Scaffolds_348_1699					
+Scaffolds_348_1700					
+Scaffolds_348_1701					
+Scaffolds_348_1702					
+Scaffolds_348_1704					
+Scaffolds_348_1705					
+Scaffolds_348_1706	K03719	lrp; Lrp/AsnC family transcriptional regulator, leucine-responsive regulatory protein			
+Scaffolds_348_1707					
+Scaffolds_348_1708					
+Scaffolds_348_1709					
+Scaffolds_348_1710	K01555	FAH, fahA; fumarylacetoacetase [EC:3.7.1.2]			
+Scaffolds_348_1711					
+Scaffolds_348_1712					
+Scaffolds_348_1713					
+Scaffolds_348_1714					
+Scaffolds_348_1715					
+Scaffolds_348_1718					
+Scaffolds_348_1719					
+Scaffolds_348_1720					
+Scaffolds_348_1721	K00101	lldD; L-lactate dehydrogenase (cytochrome) [EC:1.1.2.3]			
+Scaffolds_348_1723					
+Scaffolds_348_1724	K09125	yhhQ; queuosine precursor transporter			
+Scaffolds_348_1725					
+Scaffolds_348_1727	K01737	queD, ptpS, PTS; 6-pyruvoyltetrahydropterin/6-carboxytetrahydropterin synthase [EC:4.2.3.12 4.1.2.50]			
+Scaffolds_348_1730					
+Scaffolds_348_1731					
+Scaffolds_348_1732					
+Scaffolds_348_1734					
+Scaffolds_348_1735					
+Scaffolds_348_1737					
+Scaffolds_348_1740					
+Scaffolds_348_1741					
+Scaffolds_348_1742					
+Scaffolds_348_1744					
+Scaffolds_348_1745					
+Scaffolds_348_1746	K01738	cysK; cysteine synthase [EC:2.5.1.47]			
+Scaffolds_348_1748					
+Scaffolds_348_1751					
+Scaffolds_348_1752					
+Scaffolds_348_1753					
+Scaffolds_348_1754					
+Scaffolds_348_1755					
+Scaffolds_348_1756					
+Scaffolds_348_1758					
+Scaffolds_348_1759					
+Scaffolds_348_1760					
+Scaffolds_348_1761					
+Scaffolds_348_1763					
+Scaffolds_348_1764					
+Scaffolds_348_1765					
+Scaffolds_348_1766					
+Scaffolds_348_1768					
+Scaffolds_348_1769					
+Scaffolds_348_1772					
+Scaffolds_348_1773					
+Scaffolds_348_1774					
+Scaffolds_348_1775	K25622	chsH1; 3-oxo-4,17-pregnadiene-20-carboxyl-CoA hydratase beta subunit [EC:4.2.1.-]			
+Scaffolds_348_1776					
+Scaffolds_348_1777					
+Scaffolds_348_1778					
+Scaffolds_348_1780					
+Scaffolds_348_1781	K10680	nemA; N-ethylmaleimide reductase [EC:1.-.-.-]			
+Scaffolds_348_1783					
+Scaffolds_348_1784					
+Scaffolds_348_1785					
+Scaffolds_348_1786	K15067	amnD; 2-aminomuconate deaminase [EC:3.5.99.5]			
+Scaffolds_348_1787					
+Scaffolds_348_1788	K15058	amnA; 2-aminophenol/2-amino-5-chlorophenol 1,6-dioxygenase subunit alpha			
+Scaffolds_348_1789	K15059	amnB; 2-aminophenol/2-amino-5-chlorophenol 1,6-dioxygenase subunit beta [EC:1.13.11.74 1.13.11.76]			
+Scaffolds_348_1790					
+Scaffolds_348_1791					
+Scaffolds_348_1792					
+Scaffolds_348_1793					
+Scaffolds_348_1795	K01617	dmpH, xylI, nahK; 2-oxo-3-hexenedioate decarboxylase [EC:4.1.1.77]			
+Scaffolds_348_1796					
+Scaffolds_348_1797	K18364	bphH, xylJ, tesE; 2-oxopent-4-enoate/cis-2-oxohex-4-enoate hydratase [EC:4.2.1.80 4.2.1.132]			
+Scaffolds_348_1798					
+Scaffolds_348_1799					
+Scaffolds_348_1801					
+Scaffolds_348_1802					
+Scaffolds_348_1803					
+Scaffolds_348_1804					
+Scaffolds_348_1806					
+Scaffolds_348_1807					
+Scaffolds_348_1808					
+Scaffolds_348_1809					
+Scaffolds_348_1810					
+Scaffolds_348_1811					
+Scaffolds_348_1812					
+Scaffolds_348_1813					
+Scaffolds_348_1814	K16244	dmpM, poxC, tomA2; phenol/toluene 2-monooxygenase (NADH) P2/A2 [EC:1.14.13.244 1.14.13.243]			
+Scaffolds_348_1815	K16243	dmpL, poxB, tomA1; phenol/toluene 2-monooxygenase (NADH) P1/A1 [EC:1.14.13.244 1.14.13.243]			
+Scaffolds_348_1816	K16249	dmpK, poxA, tomA0; phenol/toluene 2-monooxygenase (NADH) P0/A0			
+Scaffolds_348_1818					
+Scaffolds_348_1819					
+Scaffolds_348_1821					
+Scaffolds_348_1822					
+Scaffolds_348_1823					
+Scaffolds_348_1824					
+Scaffolds_348_1825					
+Scaffolds_348_1826					
+Scaffolds_348_1827					
+Scaffolds_348_1828					
+Scaffolds_348_1829					
+Scaffolds_348_1830					
+Scaffolds_348_1834					
+Scaffolds_348_1835					
+Scaffolds_348_1836					
+Scaffolds_348_1837					
+Scaffolds_348_1838					
+Scaffolds_348_1839					
+Scaffolds_348_1840					
+Scaffolds_348_1842					
+Scaffolds_348_1843					
+Scaffolds_348_1844					
+Scaffolds_348_1845					
+Scaffolds_348_1846					
+Scaffolds_348_1847					
+Scaffolds_348_1848					
+Scaffolds_348_1850					
+Scaffolds_348_1851					
+Scaffolds_348_1852					
+Scaffolds_348_1853					
+Scaffolds_348_1854					
+Scaffolds_348_1856					
+Scaffolds_348_1857					
+Scaffolds_348_1858					
+Scaffolds_348_1859					
+Scaffolds_348_1860					
+Scaffolds_348_1861					
+Scaffolds_348_1862					
+Scaffolds_348_1863					
+Scaffolds_348_1864					
+Scaffolds_348_1865					
+Scaffolds_348_1866					
+Scaffolds_348_1867					
+Scaffolds_348_1868					
+Scaffolds_348_1869					
+Scaffolds_348_1870					
+Scaffolds_348_1871					
+Scaffolds_348_1872					
+Scaffolds_348_1873					
+Scaffolds_348_1874					
+Scaffolds_348_1875					
+Scaffolds_348_1877					
+Scaffolds_348_1878	K02014	TC.FEV.OM; iron complex outermembrane recepter protein			
+Scaffolds_348_1879					
+Scaffolds_348_1880					
+Scaffolds_348_1881	K01640	HMGCL, hmgL; hydroxymethylglutaryl-CoA lyase [EC:4.1.3.4]			
+Scaffolds_348_1882					
+Scaffolds_348_1883	K11209	yghU, yfcG; GSH-dependent disulfide-bond oxidoreductase [EC:1.8.4.-]			
+Scaffolds_348_1884					
+Scaffolds_348_1885					
+Scaffolds_348_1886					
+Scaffolds_348_1887	K12410	npdA; NAD-dependent deacetylase [EC:2.3.1.286]			
+Scaffolds_348_1888					
+Scaffolds_348_1889					
+Scaffolds_348_1890					
+Scaffolds_348_1891					
+Scaffolds_348_1892	K16211	malY, malT; maltose/moltooligosaccharide transporter			
+Scaffolds_348_1893					
+Scaffolds_348_1894					
+Scaffolds_348_1895					
+Scaffolds_348_1897					
+Scaffolds_348_1898					
+Scaffolds_348_1901					
+Scaffolds_348_1904					
+Scaffolds_348_1905					
+Scaffolds_348_1907					
+Scaffolds_348_1908					
+Scaffolds_348_1909					
+Scaffolds_348_1910					
+Scaffolds_348_1911					
+Scaffolds_348_1912					
+Scaffolds_348_1913					
+Scaffolds_348_1915					
+Scaffolds_348_1916					
+Scaffolds_348_1917					
+Scaffolds_348_1918					
+Scaffolds_348_1919					
+Scaffolds_348_1921					
+Scaffolds_348_1922					
+Scaffolds_348_1923					
+Scaffolds_348_1924					
+Scaffolds_348_1925					
+Scaffolds_348_1927					
+Scaffolds_348_1928					
+Scaffolds_348_1929					
+Scaffolds_348_1930					
+Scaffolds_348_1931					
+Scaffolds_348_1934					
+Scaffolds_348_1935					
+Scaffolds_348_1937					
+Scaffolds_348_1938					
+Scaffolds_348_1939					
+Scaffolds_348_1943					
+Scaffolds_348_1944					
+Scaffolds_348_1945					
+Scaffolds_348_1946					
+Scaffolds_348_1947					
+Scaffolds_348_1948					
+Scaffolds_348_1949					
+Scaffolds_348_1950					
+Scaffolds_348_1953					
+Scaffolds_348_1956					
+Scaffolds_348_1959					
+Scaffolds_348_1962					
+Scaffolds_348_1965					
+Scaffolds_348_1967					
+Scaffolds_348_1968					
+Scaffolds_348_1970					
+Scaffolds_348_1973					
+Scaffolds_348_1974					
+Scaffolds_348_1976					
+Scaffolds_348_1978					
+Scaffolds_348_1979					
+Scaffolds_348_1980					
+Scaffolds_348_1983					
+Scaffolds_348_1985					
+Scaffolds_348_1987					
+Scaffolds_348_1992					
+Scaffolds_348_1994					
+Scaffolds_348_1996					
+Scaffolds_348_1997					
+Scaffolds_348_1999					
+Scaffolds_348_2000					
+Scaffolds_348_2002					
+Scaffolds_348_2003					
+Scaffolds_348_2008					
+Scaffolds_348_2009	K01822	E5.3.3.1; steroid Delta-isomerase [EC:5.3.3.1]			
+Scaffolds_348_2010					
+Scaffolds_348_2013					
+Scaffolds_348_2014					
+Scaffolds_348_2016					
+Scaffolds_348_2017					
+Scaffolds_348_2018					
+Scaffolds_348_2019					
+Scaffolds_348_2020					
+Scaffolds_348_2021					
+Scaffolds_348_2022					
+Scaffolds_348_2023					
+Scaffolds_348_2024					
+Scaffolds_348_2025					
+Scaffolds_348_2026					
+Scaffolds_348_2027					
+Scaffolds_348_2029					
+Scaffolds_348_2030					
+Scaffolds_348_2033					
+Scaffolds_348_2034					
+Scaffolds_348_2035					
+Scaffolds_348_2036	K01607	pcaC; 4-carboxymuconolactone decarboxylase [EC:4.1.1.44]			
+Scaffolds_348_2038					
+Scaffolds_348_2039					
+Scaffolds_348_2040					
+Scaffolds_348_2041					
+Scaffolds_348_2042					
+Scaffolds_348_2043					
+Scaffolds_348_2044					
+Scaffolds_348_2045					
+Scaffolds_348_2046	K04755	fdx; ferredoxin, 2Fe-2S			
+Scaffolds_348_2047					
+Scaffolds_348_2048					
+Scaffolds_348_2049					
+Scaffolds_348_2050					
+Scaffolds_348_2051					
+Scaffolds_348_2052					
+Scaffolds_348_2053	K25622	chsH1; 3-oxo-4,17-pregnadiene-20-carboxyl-CoA hydratase beta subunit [EC:4.2.1.-]			
+Scaffolds_348_2054					
+Scaffolds_348_2055	K25621	chsH2; 3-oxo-4,17-pregnadiene-20-carboxyl-CoA hydratase alpha subunit [EC:4.2.1.-]			
+Scaffolds_348_2056					
+Scaffolds_348_2057					
+Scaffolds_348_2058					
+Scaffolds_348_2059					
+Scaffolds_348_2060					
+Scaffolds_348_2061					
+Scaffolds_348_2063					
+Scaffolds_348_2065					
+Scaffolds_348_2066					
+Scaffolds_348_2067					
+Scaffolds_348_2068					
+Scaffolds_348_2069					
+Scaffolds_348_2072					
+Scaffolds_348_2075					
+Scaffolds_348_2076					
+Scaffolds_348_2077	K01822	E5.3.3.1; steroid Delta-isomerase [EC:5.3.3.1]			
+Scaffolds_348_2078					
+Scaffolds_348_2079					
+Scaffolds_348_2080					
+Scaffolds_348_2081					
+Scaffolds_348_2082					
+Scaffolds_348_2083					
+Scaffolds_348_2084					
+Scaffolds_348_2087					
+Scaffolds_348_2088					
+Scaffolds_348_2089					
+Scaffolds_348_2090					
+Scaffolds_348_2091					
+Scaffolds_348_2092					
+Scaffolds_348_2093					
+Scaffolds_348_2094					
+Scaffolds_348_2095					
+Scaffolds_348_2098					
+Scaffolds_348_2099					
+Scaffolds_348_2100					
+Scaffolds_348_2101					
+Scaffolds_348_2102					
+Scaffolds_348_2104	K00121	frmA, ADH5, adhC; S-(hydroxymethyl)glutathione dehydrogenase / alcohol dehydrogenase [EC:1.1.1.284 1.1.1.1]			
+Scaffolds_348_2105					
+Scaffolds_348_2106	K01070	frmB, ESD, fghA; S-formylglutathione hydrolase [EC:3.1.2.12]			
+Scaffolds_348_2107					
+Scaffolds_348_2108					
+Scaffolds_348_2109					
+Scaffolds_348_2111					
+Scaffolds_348_2112					
+Scaffolds_348_2113					
+Scaffolds_348_2116					
+Scaffolds_348_2122	K07136	K07136; uncharacterized protein			
+Scaffolds_348_2123					
+Scaffolds_348_2125					
+Scaffolds_348_2126					
+Scaffolds_348_2127					
+Scaffolds_348_2129					
+Scaffolds_348_2130					
+Scaffolds_348_2131					
+Scaffolds_348_2133					
+Scaffolds_348_2134					
+Scaffolds_348_2135					
+Scaffolds_348_2137					
+Scaffolds_348_2138					
+Scaffolds_348_2144					
+Scaffolds_348_2148					
+Scaffolds_348_2150					
+Scaffolds_348_2151					
+Scaffolds_348_2152					
+Scaffolds_348_2154					
+Scaffolds_348_2155					
+Scaffolds_348_2156					
+Scaffolds_348_2157					
+Scaffolds_348_2161					
+Scaffolds_348_2162					
+Scaffolds_348_2163					
+Scaffolds_348_2164	K00065	kduD; 2-dehydro-3-deoxy-D-gluconate 5-dehydrogenase [EC:1.1.1.127]			
+Scaffolds_348_2165					
+Scaffolds_348_2166					
+Scaffolds_348_2167					
+Scaffolds_348_2168					
+Scaffolds_348_2170					
+Scaffolds_348_2171					
+Scaffolds_348_2172					
+Scaffolds_348_2173	K15781	serB-plsC; putative phosphoserine phosphatase / 1-acylglycerol-3-phosphate O-acyltransferase [EC:3.1.3.3 2.3.1.51]			
+Scaffolds_348_2174					
+Scaffolds_348_2177					
+Scaffolds_348_2178					
+Scaffolds_348_2179					
+Scaffolds_348_2180					
+Scaffolds_348_2181					
+Scaffolds_348_2182	K00057	gpsA; glycerol-3-phosphate dehydrogenase (NAD(P)+) [EC:1.1.1.94]			
+Scaffolds_348_2183					
+Scaffolds_348_2184					
+Scaffolds_348_2187					
+Scaffolds_348_2188					
+Scaffolds_348_2189					
+Scaffolds_348_2191	K09931	K09931; uncharacterized protein			
+Scaffolds_348_2193	K03113	EIF1, SUI1; translation initiation factor 1			
+Scaffolds_348_2194	K07075	K07075; uncharacterized protein			
+Scaffolds_348_2205					
+Scaffolds_348_2206					
+Scaffolds_348_2207					
+Scaffolds_348_2208					
+Scaffolds_348_2211					
+Scaffolds_348_2212					
+Scaffolds_348_2213					
+Scaffolds_348_2215					
+Scaffolds_348_2216	K21159	sgcF, ncsF2, kedF; epoxide hydrolase			
+Scaffolds_348_2217					
+Scaffolds_348_2219	K03424	tatD; TatD DNase family protein [EC:3.1.21.-]			
+Scaffolds_348_2220					
+Scaffolds_348_2221					
+Scaffolds_348_2223					
+Scaffolds_348_2225					
+Scaffolds_348_2226					
+Scaffolds_348_2231					
+Scaffolds_348_2232					
+Scaffolds_348_2233					
+Scaffolds_348_2235					
+Scaffolds_348_2240					
+Scaffolds_348_2241					
+Scaffolds_348_2245					
+Scaffolds_348_2246					
+Scaffolds_348_2247					
+Scaffolds_348_2248	K01868	TARS, thrS; threonyl-tRNA synthetase [EC:6.1.1.3]			
+Scaffolds_348_2249					
+Scaffolds_348_2250					
+Scaffolds_348_2251					
+Scaffolds_348_2252					
+Scaffolds_348_2254	K02887	RP-L20, MRPL20, rplT; large subunit ribosomal protein L20			
+Scaffolds_348_2255					
+Scaffolds_348_2256					
+Scaffolds_348_2257					
+Scaffolds_348_2258					
+Scaffolds_348_2259					
+Scaffolds_348_2260	K01890	FARSB, pheT; phenylalanyl-tRNA synthetase beta chain [EC:6.1.1.20]			
+Scaffolds_348_2261					
+Scaffolds_348_2262	K04764	ihfA, himA; integration host factor subunit alpha			
+Scaffolds_348_2263					
+Scaffolds_348_2264					
+Scaffolds_348_2265					
+Scaffolds_348_2266					
+Scaffolds_348_2267					
+Scaffolds_348_2268	K00674	dapD; 2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [EC:2.3.1.117]			
+Scaffolds_348_2270	K10773	NTHL1, nth; endonuclease III [EC:3.2.2.- 4.2.99.18]			
+Scaffolds_348_2271					
+Scaffolds_348_2272					
+Scaffolds_348_2273					
+Scaffolds_348_2274					
+Scaffolds_348_2275					
+Scaffolds_348_2276					
+Scaffolds_348_2277					
+Scaffolds_348_2278					
+Scaffolds_348_2279					
+Scaffolds_348_2281					
+Scaffolds_348_2282					
+Scaffolds_348_2283					
+Scaffolds_348_2284					
+Scaffolds_348_2285	K07133	K07133; uncharacterized protein			
+Scaffolds_348_2286	K06223	dam; DNA adenine methylase [EC:2.1.1.72]			
+Scaffolds_348_2287					
+Scaffolds_348_2288	K02967	RP-S2, MRPS2, rpsB; small subunit ribosomal protein S2			
+Scaffolds_348_2291					
+Scaffolds_348_2292					
+Scaffolds_348_2293					
+Scaffolds_348_2294	K09903	pyrH; uridylate kinase [EC:2.7.4.22]			
+Scaffolds_348_2295	K02838	frr, MRRF, RRF; ribosome recycling factor			
+Scaffolds_348_2296					
+Scaffolds_348_2297	K00981	E2.7.7.41, CDS1, CDS2, cdsA; phosphatidate cytidylyltransferase [EC:2.7.7.41]			
+Scaffolds_348_2298					
+Scaffolds_348_2299	K00099	dxr; 1-deoxy-D-xylulose-5-phosphate reductoisomerase [EC:1.1.1.267]			
+Scaffolds_348_2300					
+Scaffolds_348_2301					
+Scaffolds_348_2302					
+Scaffolds_348_2304					
+Scaffolds_348_2306					
+Scaffolds_348_2308					
+Scaffolds_348_2312					
+Scaffolds_348_2313					
+Scaffolds_348_2315					
+Scaffolds_348_2316					
+Scaffolds_348_2317					
+Scaffolds_348_2318					
+Scaffolds_348_2319					
+Scaffolds_348_2320					
+Scaffolds_348_2321					
+Scaffolds_348_2322					
+Scaffolds_348_2324	K01497	ribA, RIB1; GTP cyclohydrolase II [EC:3.5.4.25]			
+Scaffolds_348_2325					
+Scaffolds_348_2326					
+Scaffolds_348_2327					
+Scaffolds_348_2328					
+Scaffolds_348_2330					

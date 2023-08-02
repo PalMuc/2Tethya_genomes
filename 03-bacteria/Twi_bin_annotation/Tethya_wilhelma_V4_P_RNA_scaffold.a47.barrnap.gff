@@ -1,0 +1,4 @@
+##gff-version 3
+scaffold15	barrnap:0.9	rRNA	1195591	1195700	1.3e-08	-	.	Name=5S_rRNA;product=5S ribosomal RNA
+scaffold15	barrnap:0.9	rRNA	1196031	1198249	0	-	.	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 68 percent of the 23S ribosomal RNA
+scaffold15	barrnap:0.9	rRNA	1200139	1201623	0	-	.	Name=16S_rRNA;product=16S ribosomal RNA
