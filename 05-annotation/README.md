@@ -16,6 +16,22 @@ cat TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.no_comment.nucl.fast
 ~/salmon-latest_linux_x86_64/bin/salmon index -t TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.w_decoys.fasta -i TwiV4_AUG_tx_index -d decoys.txt -k 31 -p 4
 ```
 
+###  *T. wilhelma* v3 annotation ###
+
+```
+perl ../program/BRAKER_v2.0/braker.pl --GENEMARK_PATH=/user/gm_et_linux_64/gmes_petap/ \
+--AUGUSTUS_CONFIG_PATH=/user/augustus-3.3.1/config/ \
+--AUGUSTUS_BIN_PATH=/user/augustus-3.3.1/bin/ \
+--AUGUSTUS_SCRIPTS_PATH=/user/augustus-3.3.1/scripts/ \
+--BAMTOOLS_PATH=/user/bamtools-master/build/src/toolkit/ \
+--useexisting \
+--species=Tetya_wilh \
+--genome=gaps_T-wilhelma_after_HM_and_SSPACE.scaffolds.fasta --bam=T_wilhelma_mapped_RNA.bam 
+
+augustus-3.3.1/bin/augustus --strand=both --codingseq=on --genemodel=partial --AUGUSTUS_CONFIG_PATH=/user/augustus-3.3.1/config --species=Tethya_wilh --outfile=predicted_genes_gaps_closed_scaffolded_10_x_raw_coding_sequences.gff gaps_closed_scaffolded_10_x_raw.fasta
+
+```
+
 # *Tethya minuta* annotation #
 Annotation of the filtered version was made at [WebAUGUSTUS](https://bioinf.uni-greifswald.de/webaugustus/index), with [resuts here](https://bioinf.uni-greifswald.de/webaugustus/training/show/0db58ea18774e3e101877f3fe1bf0011).
 
