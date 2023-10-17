@@ -33,5 +33,16 @@ zcat v4_10x/Tethya_wilhelma_V4_P_RNA_scaffold.fasta.gz | ~/git/genomeGTFtools/re
 
 ```
 
+## making working versions of AUGUSTUS annotations
+Using accessory script [augustus_to_gff3.py](https://github.com/wrf/genomeGTFtools/blob/master/misc/augustus_to_gff3.py)
+
+```
+~/git/genomeGTFtools/misc/augustus_to_gff3.py TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.gff > TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.no_comment.gff
+
+~/git/genomeGTFtools/misc/augustus_to_gff3.py Tethya_minuta_V4.gff > Tethya_minuta_V4.no_comment.gff
+
+~/git/genomeGTFtools/misc/augustus_to_gff3.py T_citrina_nanopore_assembly_AUGUSTUS.gff > T_citrina_nanopore_assembly_AUGUSTUS.no_comment.gff
+```
+
 
 

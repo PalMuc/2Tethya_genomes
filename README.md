@@ -6,4 +6,28 @@ Please cite: []()
 
 Do **NOT** cite the unpublished [2017 bioRxiv preprint](https://www.biorxiv.org/content/10.1101/120998v3), which was `v1`.
 
+### [01 - preprocessing](https://github.com/PalMuc/Tethya_wilhelma_genome/tree/main/01-preprocessing) ###
+
+![graphs of albacore readout](https://github.com/PalMuc/Tethya_wilhelma_genome/blob/main/01-preprocessing/Tethya_minuta_read_QC/20180719_1009_Tethya_minuta_FD_1-albacore-2.3.1-FLO-MIN106-SQK-LSK109.fastq-lrplots.png)
+
+### [02 - assembly](https://github.com/PalMuc/Tethya_wilhelma_genome/tree/main/02-assembly) ###
+All versions of assemblies
+
+![barplot of Tethya genome assemblies](https://github.com/PalMuc/Tethya_wilhelma_genome/raw/main/02-assembly/figures/Tethya_sp_combined.sizes.png)
+
+### [03 - bacteria](https://github.com/PalMuc/Tethya_wilhelma_genome/tree/main/03-bacteria) ###
+Code for identification and separation of contigs from associated bacteria, for both *Tethya wilhelma* and *Tethya minuta*
+
+![blob plot of Tethya wilhelma](https://github.com/PalMuc/Tethya_wilhelma_genome/raw/main/03-bacteria/figures/Tethya_wilhelma_V4.metabat_bins.png)
+
+### [04 - mitochondria](https://github.com/PalMuc/Tethya_wilhelma_genome/tree/main/04-mitochondria) ###
+All 4 complete genomes are rotated to begin with COX1. All genes are on the same (forward) strand, as found in many other sponges.
+
+![schematic of Tethya mito genomes](https://github.com/PalMuc/Tethya_wilhelma_genome/raw/main/04-mitochondria/figures/MITOS_output_graph.png)
+
+### [05 - annotaiton](https://github.com/PalMuc/Tethya_wilhelma_genome/tree/main/05-annotation) ###
+Annotation files for V4 of *Tethya wilhelma* and V4 of *Tethya minuta*, both using AUGUSTUS.
+
+
+
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.

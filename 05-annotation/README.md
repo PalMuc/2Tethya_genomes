@@ -1,5 +1,21 @@
 # *Tethya wilhelma* annotation steps #
 
+```
+~/git/genomeGTFtools/rename_gtf_contigs.py --omit-comments -n -c Tethya_wilhelma_V4_P_RNA_scaffold.rnum.vector -g predicted_genes_Tethya_wilhelma_V4_below_50_perc.gff.gz > TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.gff
+
+extract_augustus_features.py -n TwiV4 -c TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.nucl.fasta -p TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.prot.fasta TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.gff
+
+~/git/genomeGTFtools/misc/augustus_to_gff3.py TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.gff > TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.no_comment.gff
+
+~/gffread-0.12.7.Linux_x86_64/gffread -g Tethya_wilhelma_V4_P_RNA_scaffold.rnum.fasta -w TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.no_comment.nucl.fasta TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.no_comment.gff
+prottrans.py -n -r TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.no_comment.nucl.fasta | remove_identical_seqs.py - > TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.no_comment.prot.fasta
+
+~/diamond-v2.0.13/diamond-v2.0.13 makedb --in TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.no_comment.prot.fasta -d TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.no_comment.prot.fasta
+
+cat TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.no_comment.nucl.fasta Tethya_wilhelma_V4_P_RNA_scaffold.rnum.fasta > TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.w_decoys.fasta
+~/salmon-latest_linux_x86_64/bin/salmon index -t TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.w_decoys.fasta -i TwiV4_AUG_tx_index -d decoys.txt -k 31 -p 4
+```
+
 # *Tethya minuta* annotation #
 Annotation of the filtered version was made at [WebAUGUSTUS](https://bioinf.uni-greifswald.de/webaugustus/index), with [resuts here](https://bioinf.uni-greifswald.de/webaugustus/training/show/0db58ea18774e3e101877f3fe1bf0011).
 
