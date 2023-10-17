@@ -57,10 +57,10 @@ TmiV4_metabat_bin.9.fa | 8 | 135102 | 16887.8 | 16482 | 29941 | 19941 |  |
 
 `for FILE in *.gff; do Rscript ~/git/genomeGTFtools/draw_genome_annotation.R $FILE ; done`
 
-Most bins have too many errors to correctly annotate the bacterial proteins.
+Most bins have too many errors to correctly annotate the bacterial proteins. That is, the proteins predicted are fragmented and do not correctly blast. This was not the case for the *T. wilhelma* microbes.
 
 ## removing duplicates ##
-Some scaffolds were exact duplicates, removed with [excludeAinB.py](https://bitbucket.org/wrf/sequences/src/master/excludeAinB.py)
+Some scaffolds were exact duplicates, removed with [excludeAinB.py](https://bitbucket.org/wrf/sequences/src/master/excludeAinB.py) to create the non-redundant version.
 
 ```
 excludeAinB.py duplicate_scaffolds_to_exclude.names TmiV4_sponge_bin.17.fa > TmiV4_sponge_bin.17.nr.fa
