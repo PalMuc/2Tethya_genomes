@@ -78,9 +78,65 @@ bedtools genomecov -ibam Tethya_wilhelma_V4_P_RNA_scaffold.moleculo_minimap2.bam
 # IGNORING scaffold954: len=1058 GC=39.79 COVERAGE=0.00
 # IGNORING scaffold959: len=1016 GC=36.12 COVERAGE=0.00
 # IGNORING scaffold960: len=1007 GC=38.23 COVERAGE=0.00
+
+sizecutter.py -f Tethya_wilhelma_V4_P_RNA_scaffold.rnum.fasta > Tethya_wilhelma_V4_P_RNA_scaffold.rnum.sizes
+~/git/genomeGTFtools/rename_gtf_contigs.py -c Tethya_wilhelma_V4_P_RNA_scaffold.rnum.vector -n -g Twi_DNA_vs_Tethya_wilhelma_V4_P_RNA_scaffold.bed.gz > Twi_DNA_vs_Tethya_wilhelma_V4_P_RNA_scaffold.rnum.bed
+# Reading conversion file Tethya_wilhelma_V4_P_RNA_scaffold.rnum.vector
+# Found names for 557 contigs
+# Counted 98593420 lines
+# Converted 91299383 lines and could not change 7294037
+~/ucsc_genome_tools/bedSort Twi_DNA_vs_Tethya_wilhelma_V4_P_RNA_scaffold.rnum.bed Twi_DNA_vs_Tethya_wilhelma_V4_P_RNA_scaffold.rnum.bed
+~/ucsc_genome_tools/bedGraphToBigWig Twi_DNA_vs_Tethya_wilhelma_V4_P_RNA_scaffold.rnum.bed Tethya_wilhelma_V4_P_RNA_scaffold.rnum.sizes Twi_DNA_vs_Tethya_wilhelma_V4_P_RNA_scaffold.rnum.bw
+
+~/git/genomeGTFtools/rename_gtf_contigs.py -c Tethya_wilhelma_V4_P_RNA_scaffold.rnum.vector -n -g Twi_RNA_vs_Tethya_wilhelma_V4_P_RNA_scaffold.bed.gz > Twi_RNA_vs_Tethya_wilhelma_V4_P_RNA_scaffold.rnum.bed
+# Reading conversion file Tethya_wilhelma_V4_P_RNA_scaffold.rnum.vector
+# Found names for 557 contigs
+# Counted 27471719 lines
+# Converted 27443244 lines and could not change 28475
+~/ucsc_genome_tools/bedSort Twi_RNA_vs_Tethya_wilhelma_V4_P_RNA_scaffold.rnum.bed Twi_RNA_vs_Tethya_wilhelma_V4_P_RNA_scaffold.rnum.bed
+~/ucsc_genome_tools/bedGraphToBigWig Twi_RNA_vs_Tethya_wilhelma_V4_P_RNA_scaffold.rnum.bed Tethya_wilhelma_V4_P_RNA_scaffold.rnum.sizes Twi_RNA_vs_Tethya_wilhelma_V4_P_RNA_scaffold.rnum.bw
+
+
 ```
 
-# v4 binning bacteria #
+### RNAseq mapping 
+
+```shell
+237,305,498 + 0 in total (QC-passed reads + QC-failed reads)
+39,365,382 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+224,608,585 + 0 mapped (94.65% : N/A)
+197,940,116 + 0 paired in sequencing
+98,970,058 + 0 read1
+98,970,058 + 0 read2
+169,714,632 + 0 properly paired (85.74% : N/A)
+183,839,570 + 0 with itself and mate mapped
+1403633 + 0 singletons (0.71% : N/A)
+1921096 + 0 with mate mapped to a different chr
+1011724 + 0 with mate mapped to a different chr (mapQ>=5)
+```
+
+### Busco scores
+```shell
+# BUSCO version is: 3.1.0 
+# The lineage dataset is: metazoa_odb9 (Creation date: 2016-02-13, number of species: 65, number of BUSCOs: 978)
+# To reproduce this run: python ../scripts/run_BUSCO.py -i Tethya_wilhelma_V4.fasta -o OUTPUT -l /dss/dssfs02/lwp-dss-0001/pn69xe/pn69xe-dss-0000/di52zuc/program/busco-master/metazoa_odb9/ -m genome -c 28 -sp fly
+#
+# Summarized benchmarking in BUSCO notation for file Tethya_wilhelma_V4.fasta
+# BUSCO was run in mode: genome
+
+        C:82.7%[S:79.0%,D:3.7%],F:3.4%,M:13.9%,n:978
+
+        809     Complete BUSCOs (C)
+        773     Complete and single-copy BUSCOs (S)
+        36      Complete and duplicated BUSCOs (D)
+        33      Fragmented BUSCOs (F)
+        136     Missing BUSCOs (M)
+        978     Total BUSCO groups searched
+```
+
+### v4 binning bacteria ###
 
 ```
 ~/samtools-1.14/samtools view Anoxia_shock_combined_v4.bam | ~/git/lavaLampPlot/sort_reads_from_bam.py -i - > Anoxia_shock_combined_v4.hits_from_bam.txt
@@ -94,7 +150,7 @@ getAinB.py Tethya_wilhelma_V4_P_RNA_scaffold.moleculo_minimap2.b47.names Tethya_
 
 ```
 
-# v4 genome browser including bacterial contigs #
+### v4 genome browser including bacterial contigs ###
 
 ```
 ~/samtools-1.14/samtools faidx Tethya_wilhelma_V4_P_RNA_scaffold.fasta
@@ -218,5 +274,235 @@ SN      inward oriented pairs:  43750967
 SN      outward oriented pairs: 322038
 SN      pairs with other orientation:   259
 SN      pairs on different chromosomes: 307307
+```
+
+### v2 to v3 scaffolding
+
+```shell
+#!/bin/bash
+
+export PATH=$PATH:/user/HaploMerger2_20180603/lastz_1.02.00_unbuntu64bit/ 
+export PATH=$PATH:/user/HaploMerger2_20180603/chainNet_jksrc20100603_ubuntu64bit/  
+export PATH=$PATH:/user/exonerate-2.2.0-x86_64/bin/
+#### ===========================================================
+#### A1. Initiate data to be ready for use in the next steps.
+#### ===========================================================
+rm -f -r Twilhelma.seq Twilhelmax.seq Twilhelma.sizes Twilhelmax.sizes Twilhelmax.fa.gz 
+perl ../bin/initiation.pl --faSplit --faToNib --faSize --Species Twilhelma --Force --Delete \
+        1>_A1.initiation.log 2>>_A1.initiation.log
+ln -s Twilhelma.fa.gz Twilhelmax.fa.gz
+ln -s Twilhelma.sizes Twilhelmax.sizes
+ln -s Twilhelma.seq Twilhelmax.seq
+#### ===========================================================
+#### run all-against-all whole genome alignment
+#### ===========================================================
+rm -f -r Twilhelma.Twilhelmax.result/raw.axt
+perl ../bin/HM_all_lastz_mThreads.pl --Species Twilhelma Twilhelmax --noself --threads=112 --identity=80 \
+  --targetSize=13000000 --querySize=1300000000 --Force --Delete \
+  1>_A1.all_lastz.log 2>>_A1.all_lastz.log
+#### ===========================================================  
+#### A2 compute reciprocally-best alignment
+#### ===========================================================
+perl ../bin/HM_axtChainRecipBestNet.pl --rbestNet --axtChain --tbest --zeroMinSpaceNet \
+--threads=112 \
+--axtSuffix=axt.noself --linearGap=medium --minScore=5000 --minSpace=100 --minScore2=10000 \
+--Species Twilhelma Twilhelmax --Force --Delete \
+1>_A2.axtChainRecipBestNet.log 2>>_A2.axtChainRecipBestNet.log
+#### ===========================================================
+#### A3
+#### ===========================================================
+perl ../bin/HM_pathFinder_preparation.pl --Species Twilhelma Twilhelmax \
+  --scoreScheme=$scoreScheme --filter=100000 --Force --Delete \
+  1>_A3.pathFinder_preparation.log 2>>_A3.pathFinder_preparation.log
+perl ../bin/HM_pathFinder.pl --Species Twilhelma Twilhelmax \
+--Force --Delete --scoreScheme=score --filter=200000 \
+--NsLCsFilter=90 --noSelfLoop=1 --noStrandConflict=1 --breakingMode=2 \
+--misjoin_aliFilter=5000000 --misjoin_overhangFilter=50000 --escapeFilter=100 \
+1>_A3.pathFinder.log 2>>_A3.pathFinder.log
+perl ../bin/XHM_remove_misjoin_scf.pl --scf=Twilhelma.fa.gz --misjoin=Twilhelma.Twilhelmax.result/hm.assembly_errors \
+--aliFilter=5000000 --overhangFilter=50000 2>_A3.misjoin_processing.log \
+| perl ../bin/faDnaPolishing.pl --legalizing --noLeadingN --removeShortSeq=200 2>_A3.faDnaPolishing.log \
+| gzip -c >Twilhelma_A.fa.gz
+#### ===========================================================  
+#### B1
+#### ===========================================================
+rm -f -r Twilhelma_A.seq Twilhelma_Ax.seq Twilhelma_A.sizes Twilhelma_Ax.sizes Twilhelma_Ax.fa.gz
+perl ../bin/initiation.pl --faSplit --faToNib --faSize --Species Twilhelma_A --Force --Delete \
+  1>_B1.initiation.log 2>>_B1.initiation.log
+ln -s Twilhelma_A.fa.gz Twilhelma_Ax.fa.gz
+ln -s Twilhelma_A.sizes Twilhelma_Ax.sizes
+ln -s Twilhelma_A.seq Twilhelma_Ax.seq
+## require two control files: 1) all_lastz.ctl|$name.{name}x.ctl, and 2) scoreMatrix.q|$name.${name}x.q
+rm -f -r Twilhelma_A.Twilhelma_Ax.result/raw.axt
+perl ../bin/HM_all_lastz_mThreads.pl --Species Twilhelma_A Twilhelma_Ax --notrivial --radius=5000 --threads=112 --identity=80 \
+  --targetSize=13000000 --querySize=1300000000 --Force --Delete \
+  1>_B1.all_lastz.log 2>>_B1.all_lastz.log
+#### ===========================================================
+#### B2 and B3
+#### ===========================================================
+#### run axtChainRecipBestNet
+#### ===========================================================
+perl ../bin/HM_axtChainRecipBestNet.pl --rbestNet --axtChain --tbest --zeroMinSpaceNet --threads=112 \
+--axtSuffix=axt.self.notrivial --linearGap=medium --minScore=1000 --minScore2=2000 \
+--Species Twilhelma_A Twilhelma_Ax --Force --Delete \
+1>_B2.axtChainRecipBestNet.log 2>>_B2.axtChainRecipBestNet.log
+#### ===========================================================
+#### run netToMaf
+#### ===========================================================
+rm -f Twilhelma_A.Twilhelma_Ax.result/mafFiltered.net.gz
+ln -s all.rbest.net.gz Twilhelma_A.Twilhelma_Ax.result/mafFiltered.net.gz
+perl ../bin/HM_netToAxtMaf.pl    \
+  --Species Twilhelma_A Twilhelma_Ax       \
+  --Force                        \
+  --netFile=mafFiltered.net.gz   \
+  --chainFile=all.rbest.chain.gz \
+  1>_B2.netToMaf.log 2>>_B2.netToMaf.log
+perl ../bin/mafSplitByTarget.pl                \
+  Twilhelma_A.Twilhelma_Ax.result/mafFiltered.net.maf.gz \
+  1>>_B2.netToMaf.log 2>>_B2.netToMaf.log
+tar -czf Twilhelma_A.Twilhelma_Ax.result/mafFiltered.net.maf.tar.gz Twilhelma_A.Twilhelma_Ax.result/mafFiltered.net.maf
+rm -f -r Twilhelma_A.Twilhelma_Ax.result/mafFiltered.net.maf
+rm -f Twilhelma_A.Twilhelma_Ax.result/mafFiltered.net.maf.gz
+#### ===========================================================
+#### preparation - to convert the net infomation
+#### ===========================================================
+perl ../bin/HM_pathFinder_preparation.pl --Species Twilhelma_A Twilhelma_Ax --Force --Delete \
+  --scoreScheme=score --filter=20000 \
+  1>_B3.pathFinder_preparation.log 2>>_B3.pathFinder_preparation.log
+#### ===========================================================
+#### find the paths and detect misjoins
+#### ===========================================================
+perl ../bin/HM_pathFinder.pl --Species Twilhelma_A Twilhelma_Ax --Force --Delete --scoreScheme=score --filter=200000 \
+        --NsLCsFilter=90 --noSelfLoop=1 --noStrandConflict=1 --breakingMode=2 \
+        --misjoin_aliFilter=5000000 --misjoin_overhangFilter=50000 --escapeFilter=100 \
+        1>_B3.pathFinder.log 2>>_B3.pathFinder.log
+#### ===========================================================
+#### output haplomic assemblies
+#### ===========================================================
+perl ../bin/XHM_haploMerger.pl --Species Twilhelma_A Twilhelma_Ax --Force --Delete  \
+  --selectLongHaplotype --minOverlap=0  \
+  1>_B3.haploMerger.log 2>>_B3.haploMerger.log
+#### ===========================================================
+#### remove leading and trailing Ns from the scaffold sequences
+#### ===========================================================
+gunzip -c Twilhelma_A.Twilhelma_Ax.result/optiNewScaffolds.fa.gz \
+        | perl ../bin/faDnaPolishing.pl --legalizing --noLeadingN --removeShortSeq=500 2>_B3.faDnaPolishing.log \
+        | gzip -c > Twilhelma_A.Twilhelma_Ax.result/optiNewScaffolds_new.fa.gz
+gunzip -c Twilhelma_A.Twilhelma_Ax.result/optiNewScaffolds_alt.fa.gz \
+        | perl ../bin/faDnaPolishing.pl --legalizing --noLeadingN --removeShortSeq=500 2>>_B3.faDnaPolishing.log \
+        | gzip -c > Twilhelma_A.Twilhelma_Ax.result/optiNewScaffolds_alt_new.fa.gz
+gunzip -c Twilhelma_A.Twilhelma_Ax.result/unpaired.fa.gz \
+        | perl ../bin/faDnaPolishing.pl --legalizing --noLeadingN --removeShortSeq=500 2>>_B3.faDnaPolishing.log \
+        | gzip -c > Twilhelma_A.Twilhelma_Ax.result/unpaired_new.fa.gz
+
+rm -f Twilhelma_A.Twilhelma_Ax.result/optiNewScaffolds.fa.gz \
+  Twilhelma_A.Twilhelma_Ax.result/optiNewScaffolds_alt.fa.gz \
+  Twilhelma_A.Twilhelma_Ax.result/unpaired.fa.gz
+
+mv Twilhelma_A.Twilhelma_Ax.result/optiNewScaffolds_new.fa.gz Twilhelma_A.Twilhelma_Ax.result/optiNewScaffolds.fa.gz
+mv Twilhelma_A.Twilhelma_Ax.result/optiNewScaffolds_alt_new.fa.gz Twilhelma_A.Twilhelma_Ax.result/optiNewScaffolds_alt.fa.gz
+mv Twilhelma_A.Twilhelma_Ax.result/unpaired_new.fa.gz Twilhelma_A.Twilhelma_Ax.result/unpaired.fa.gz
+#### ===========================================================
+#### B4
+#### ===========================================================
+#### refine the unpaired sequences
+#### ===========================================================
+perl ../bin/HM_unincorpRefiner.pl --Species Twilhelma_A Twilhelma_Ax \
+--runLastzChainNet=1 --threads=112 \
+--identity=75 --maskFilter=85 \
+--redundantFilter=85 --Force --Delete \
+1>_B4.unincorpRefiner.log 2>>_B4.unincorpRefiner.log
+
+mv -f _hm.un_initiation.log _B4.un_initiation.log
+mv -f _hm.un_all_lastz.log _B4.un_all_lastz.log
+mv -f _hm.un_axtChainRecipBestNet.log _B4.un_axtChainRecipBestNet.log
+
+```
+```shell
+longest scaffold = 18537106
+shortest scaffold = 708
+N50 = 5547405
+Number of sequences = 1291
+Number of N-positions= 2247036
+total length = 138669404
+```
+
+## v3 SSPACE Long read
+Using [SSPACE_LongRead](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-15-211)
+
+```
+perl /user/SSPACE-LongRead_v1-1/SSPACE-LongRead.pl \
+-c Twilhelma_A_ref.fasta \
+-b Twilhelma_moleculo_reads_sspace \
+-i 80 -t 80 -o 5000 -l 3 -k 1 \
+-p Galaxy173_moleculo_read_T_wilhelma.fastq 2> moleculo_reads_errorlog.txt >moleculo_reads_contigs_logfile.txt
+```
+
+
+```shell
+scaffolds.fasta > 
+longest scaffold = 27149804
+shortest scaffold = 708
+N50 = 6150662
+Number of sequences = 1035
+Number of N-positions = 2391579
+total length = 138812862
+```
+
+### v3 RNA mapping
+
+```shell
+
+# build index for query sequence for Hisat2
+
+hisat2-build gaps_T-wilhelma_after_HM_and_SSPACE.scaffolds.fasta  Twilhelma
+
+
+# run HISAT v. 2.1.0 
+
+hisat2 -q --no-mixed --no-unal --no-spliced-alignment --threads 56 \
+-x Twilhelma -1 ../Trimmomatic_paired_Tethya_RNA-Seq_Fastq1_TAGCTT_lane2.fastq \
+-2../Trimmomatic_paired_Tethya_RNA-Seq_Fastq2_TAGCTT_lane2.fastq \
+-S T_wilhelma_mapped_RNA.sam 2>errorlog.txt
+
+# sort sam to bam
+
+samtools view -F 4 -T Twilhelma.fa -Sb Twilhema_mapped_RNA.sam | samtools sort -@ 56 > Twilhelma_mapped_RNA.bam
+
+```
+
+
+# *Tethya wilhelma* V2
+
+```shell
+longest scaffold = 18535996
+shortest scaffold = 410
+N50 = 5547405
+number of sequences = 1363
+number of N|n-position = 2255791
+N|n percent = 1.61712446294181
+total length = 139493963
+```
+
+# v1 #
+
+```shell
+longest scaffold = 659.656 
+shortest scaffold = 1.004 
+N50 = 73.701 
+number of sequences = 6.420 
+number of N = 1.348.047 
+N percent = 1.07268270022062 
+total length = 125.670.620
+```
+
+```
+graphmap align -t 28 -r twilhelma_scaffolds_v1.fasta  -d moleculo_reads.fastq -o mapped_moleculo >logfile 2> errorlog  
+
+720151 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+664445 + 0 mapped (92.26% : N/A)
 ```
 
