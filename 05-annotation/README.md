@@ -14,6 +14,42 @@ prottrans.py -n -r TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.no_co
 
 cat TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.no_comment.nucl.fasta Tethya_wilhelma_V4_P_RNA_scaffold.rnum.fasta > TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.w_decoys.fasta
 ~/salmon-latest_linux_x86_64/bin/salmon index -t TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.w_decoys.fasta -i TwiV4_AUG_tx_index -d decoys.txt -k 31 -p 4
+
+~/diamond-v2.0.13/diamond-v2.0.13 blastp -q predicted_genes_Tethya_wilhelma_V4_below_50_perc.prot.fasta -d ~/db/model_organism_uniprot.w_cnido.fasta -o predicted_genes_Tethya_wilhelma_V4_below_50_perc.prot.vs_model.tab
+#Reported 82711 pairwise alignments, 82711 HSPs.
+#11065 queries aligned.
+~/git/genomeGTFtools/blast2genomegff.py -b predicted_genes_Tethya_wilhelma_V4_below_50_perc.prot.vs_model.tab -d ~/db/model_organism_uniprot.w_cnido.fasta -g predicted_genes_Tethya_wilhelma_V4_below_50_perc.no_comment.gff -p blastp -S --add-description --add-accession > predicted_genes_Tethya_wilhelma_V4_below_50_perc.prot.vs_model.gff
+
+~/diamond-v2.0.13/diamond-v2.0.13 blastp -q predicted_genes_Tethya_wilhelma_V4_below_50_perc.prot.fasta -d ~/genomes/amphimedon_queenslandica_PORI/Aqu2.1_Genes_proteins.fasta.dmnd -o predicted_genes_Tethya_wilhelma_V4_below_50_perc.prot.vs_aque.tab
+#Reported 178513 pairwise alignments, 178513 HSPs.
+#18619 queries aligned.
+~/git/genomeGTFtools/blast2genomegff.py -b predicted_genes_Tethya_wilhelma_V4_below_50_perc.prot.vs_aque.tab -d ~/genomes/amphimedon_queenslandica_PORI/Aqu2.1_Genes_proteins.fasta -g predicted_genes_Tethya_wilhelma_V4_below_50_perc.no_comment.gff -p blastp -P > predicted_genes_Tethya_wilhelma_V4_below_50_perc.prot.vs_aque.gff
+
+~/minimap2-2.23_x64-linux/minimap2 -a -x splice --secondary=no Tethya_wilhelma_V4_P_RNA_scaffold.fasta tethya_curated_genes.nr.fasta | ~/samtools-1.14/samtools sort - -o Tethya_wilhelma_V4_P_RNA_scaffold.twiV1_curated_minimap2.bam
+~/git/pinfish/spliced_bam2gff/spliced_bam2gff -M -s Tethya_wilhelma_V4_P_RNA_scaffold.twiV1_curated_minimap2.bam > Tethya_wilhelma_V4_P_RNA_scaffold.twiV1_curated_minimap2.gtf
+~/git/genomeGTFtools/misc/stringtie_gtf_to_gff3.py Tethya_wilhelma_V4_P_RNA_scaffold.twiV1_curated_minimap2.gtf > Tethya_wilhelma_V4_P_RNA_scaffold.twiV1_curated_minimap2.gff
+
+~/minimap2-2.23_x64-linux/minimap2 -a -x splice --secondary=no Tethya_wilhelma_V4_P_RNA_scaffold.fasta twilhelma_trinity_ss_norm.base.fasta | ~/samtools-1.14/samtools sort - -o Tethya_wilhelma_V4_P_RNA_scaffold.twilhelma_trinity_ss_norm_minimap2.bam
+
+~/git/pinfish/spliced_bam2gff/spliced_bam2gff -M -s Tethya_wilhelma_V4_P_RNA_scaffold.twilhelma_trinity_ss_norm_minimap2.bam > Tethya_wilhelma_V4_P_RNA_scaffold.twilhelma_trinity_ss_norm_minimap2.gtf
+~/git/genomeGTFtools/misc/stringtie_gtf_to_gff3.py Tethya_wilhelma_V4_P_RNA_scaffold.twilhelma_trinity_ss_norm_minimap2.gtf > Tethya_wilhelma_V4_P_RNA_scaffold.twilhelma_trinity_ss_norm_minimap2.gff
+
+
+~/minimap2-2.23_x64-linux/minimap2 -a -x splice --secondary=no Tethya_wilhelma_V4_P_RNA_scaffold.fasta twilhelma_stringtie_transcripts.fasta | ~/samtools-1.14/samtools sort - -o Tethya_wilhelma_V4_P_RNA_scaffold.twiV1_stringtie_minimap2.bam
+
+~/git/pinfish/spliced_bam2gff/spliced_bam2gff -M -s Tethya_wilhelma_V4_P_RNA_scaffold.twiV1_stringtie_minimap2.bam > Tethya_wilhelma_V4_P_RNA_scaffold.twiV1_stringtie_minimap2.gtf
+~/git/genomeGTFtools/misc/stringtie_gtf_to_gff3.py Tethya_wilhelma_V4_P_RNA_scaffold.twiV1_stringtie_minimap2.gtf > Tethya_wilhelma_V4_P_RNA_scaffold.twiV1_stringtie_minimap2.gff
+
+# maybe do not need AUGUSTUS
+#~/minimap2-2.23_x64-linux/minimap2 -a -x splice --secondary=no Tethya_wilhelma_V4_P_RNA_scaffold.fasta twilhelma_trinity_ss_norm.fasta | ~/samtools-1.14/samtools sort - -o Tethya_wilhelma_V4_P_RNA_scaffold.twilhelma_trinity_ss_norm_minimap2.bam
+
+extract_augustus_features.py -n TwiV4 -c TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.nucl.fasta -p TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.prot.fasta TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.gff
+# Extracting features from TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.gff  Wed Jan 25 18:02:37 2023
+# Finished parsing  Wed Jan 25 18:02:39 2023
+# No CDS found in TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.gff
+# Counted 28113 proteins
+
+~/git/genomeGTFtools/misc/augustus_to_gff3.py TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.gff > TwilhelmaV4_AUGUSTUS_predicted_genes_below_50_perc.rnum.no_comment.gff
 ```
 
 ###  *T. wilhelma* v3 annotation ###
