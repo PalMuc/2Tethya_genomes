@@ -1,0 +1,208 @@
+{
+   "formatVersion" : 1,
+   "refSeqs" : "seq/Tethya_wilhelma_V4_P_RNA_scaffold.fasta.fai",
+   "tracks" : [
+      {
+         "category" : "Reference sequence",
+         "faiUrlTemplate" : "seq/Tethya_wilhelma_V4_P_RNA_scaffold.fasta.fai",
+         "key" : "Reference sequence",
+         "label" : "DNA",
+         "seqType" : "dna",
+         "storeClass" : "JBrowse/Store/SeqFeature/IndexedFasta",
+         "type" : "SequenceTrack",
+         "urlTemplate" : "seq/Tethya_wilhelma_V4_P_RNA_scaffold.fasta",
+         "useAsRefSeqStore" : 1
+      },
+      {
+         "category" : "Gene models V4",
+         "compress" : 0,
+         "key" : "AUGUSTUS",
+         "label" : "AUGUSTUS",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "function(feature) { return feature.get('strand')==1 ?'#580024':'#c266a4'; }"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/AUGUSTUS/{refseq}/trackData.json"
+      },
+      {
+         "category" : "Mapping",
+         "label" : "Moleculo-minimap2",
+         "storeClass" : "JBrowse/Store/SeqFeature/BAM",
+         "type" : "JBrowse/View/Track/Alignments2",
+         "urlTemplate" : "Tethya_wilhelma_V4_P_RNA_scaffold.moleculo_minimap2.bam"
+      },
+      {
+         "category" : "Reference sequence",
+         "compress" : 0,
+         "key" : "N-gaps",
+         "label" : "N-gaps",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "#000000",
+            "height" : 5,
+            "label" : "score"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/N-gaps/{refseq}/trackData.json"
+      },
+      {
+         "category" : "Gene models V1",
+         "compress" : 0,
+         "key" : "v1-filtered",
+         "label" : "v1-filtered",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "function(feature) { return feature.get('strand')==1 ?'#005824':'#66c2a4'; }"
+         },
+         "subParts" : "exon",
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/v1-filtered/{refseq}/trackData.json"
+      },
+      {
+         "category" : "Gene models V1",
+         "compress" : 0,
+         "key" : "v1-stringTie",
+         "label" : "v1-stringTie",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "function(feature) { return feature.get('strand')==1 ?'#005824':'#66c2a4'; }"
+         },
+         "subParts" : "exon",
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/v1-stringTie/{refseq}/trackData.json"
+      },
+      {
+         "category" : "Gene models V1",
+         "compress" : 0,
+         "key" : "Trinity-SS-minimap",
+         "label" : "Trinity-SS-minimap",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "function(feature) { return feature.get('strand')==1 ?'#002458':'#66a4c2'; }"
+         },
+         "subParts" : "exon",
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Trinity-SS-minimap/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+         "key" : "blast-vs-models",
+         "label" : "blast-vs-models",
+         "onClick" : {
+            "action" : "newWindow",
+            "label" : "function() { return this.feature.get('score') + ' : ' + this.feature.get('target'); }",
+            "title" : "{name} {type}",
+            "url" : "https://www.uniprot.org/uniprot/{accession}"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "#40906a",
+            "label" : "target"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/blast-vs-models/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+         "key" : "blast-vs-aque",
+         "label" : "blast-vs-aque",
+         "onClick" : {
+            "label" : "function() { return this.feature.get('score') + ' : ' + this.feature.get('target'); }"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "#a0401a",
+            "label" : "target"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/blast-vs-aque/{refseq}/trackData.json"
+      },
+      {
+         "category" : "Oxygen",
+         "key" : "Anoxic-shock",
+         "label" : "Anoxic-shock",
+         "max_score" : 100,
+         "min_score" : 0,
+         "scale" : "log",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
+         "style" : {
+            "clip_marker_color" : "red",
+            "height" : 30,
+            "neg_color" : "#d6604d",
+            "pos_color" : "#00441b"
+         },
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "urlTemplate" : "Anoxia_shock_combined_v4.bw",
+         "variance_band" : false
+      },
+      {
+         "category" : "Oxygen",
+         "key" : "Draw-down",
+         "label" : "Draw-down",
+         "max_score" : 100,
+         "min_score" : 0,
+         "scale" : "log",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
+         "style" : {
+            "clip_marker_color" : "red",
+            "height" : 30,
+            "neg_color" : "#d6604d",
+            "pos_color" : "#00441b"
+         },
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "urlTemplate" : "Draw-down_combined_v4.bw",
+         "variance_band" : false
+      },
+      {
+         "category" : "Oxygen",
+         "key" : "LowO2-Control",
+         "label" : "LowO2-Control",
+         "max_score" : 100,
+         "min_score" : 0,
+         "scale" : "log",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
+         "style" : {
+            "clip_marker_color" : "red",
+            "height" : 30,
+            "neg_color" : "#d6604d",
+            "pos_color" : "#00441b"
+         },
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "urlTemplate" : "LowO2_Control_combined_v4.bw",
+         "variance_band" : false
+      },
+      {
+         "category" : "Oxygen",
+         "key" : "LowO2-Treatment",
+         "label" : "LowO2-Treatment",
+         "max_score" : 100,
+         "min_score" : 0,
+         "scale" : "log",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
+         "style" : {
+            "clip_marker_color" : "red",
+            "height" : 30,
+            "neg_color" : "#d6604d",
+            "pos_color" : "#00441b"
+         },
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "urlTemplate" : "LowO2_Treat_combined_v4.bw",
+         "variance_band" : false
+      },
+   ]
+}
