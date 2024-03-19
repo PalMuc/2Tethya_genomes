@@ -1,4 +1,4 @@
-# The genome of the demosponges *Tethya wilhelma* and related species *Tethya minuta* #
+# The genomes of the aquarium sponges *Tethya wilhelma* and *Tethya minuta* (Porifera: Demospongiae) #
 
 *Tethya wilhelma* is a ball-shaped demosponge that undergoes cyclic contractions and is an emerging laboratory model for many topics, including multicellularity, early-animal evolution, biomineralization, and microbial interactions. This, and a related species, *Tethya minuta* were both described in 2001 after being found as bystanders in public aquaria (see [Sara et al 2001](https://www.researchgate.net/publication/215665065_Three_New_Species_of_Tethya_Porifera_Demospongiae_from_German_Aquaria)).
 
