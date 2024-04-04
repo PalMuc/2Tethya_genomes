@@ -18,3 +18,5 @@ This version has the bacterial bins removed, so should only contain sponge scaff
 The fasta assembly has 244 sequences for a total of 86Mb.
 The protein fasta file has 22,779 proteins.
 The GFF file contains 22,779 gene models.
+
+BUSCO summary stats can be found in the respective files.
