@@ -1,0 +1,17 @@
+# BUSCO version is: 5.3.2 
+# The lineage dataset is: metazoa_odb10 (Creation date: 2024-01-08, number of genomes: 65, number of BUSCOs: 954)
+# Summarized benchmarking in BUSCO notation for file Tethya_minuta_V4_augustus.prots.fasta
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:57.9%[S:52.2%,D:5.7%],F:19.5%,M:22.6%,n:954	   
+	552	Complete BUSCOs (C)			   
+	498	Complete and single-copy BUSCOs (S)	   
+	54	Complete and duplicated BUSCOs (D)	   
+	186	Fragmented BUSCOs (F)			   
+	216	Missing BUSCOs (M)			   
+	954	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1
