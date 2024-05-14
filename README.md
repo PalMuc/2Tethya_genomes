@@ -1,5 +1,12 @@
 # The genomes of the aquarium sponges *Tethya wilhelma* and *Tethya minuta* (Porifera: Demospongiae) #
 
+Wörheide, Gert1,2,3,*, Francis, Warren R.1; Deister, Fabian1; Stefan Krebs4, Erpenbeck, Dirk1,2; Vargas, Sergio1
+
+1  Department of Earth and Environmental Sciences, Paleontology and Geobiology, Ludwig-Maximilians-Universität München, Munich, Germany.
+2  GeoBio-Center, Ludwig-Maximilians-Universität München, Munich, Germany
+3  Staatliche Naturwissenschaftliche Sammlungen Bayerns (SNSB)–Bayerische Staatssammlung für Paläontologie und Geologie, Munich, Germany
+4 Laboratory for Functional Genome Analysis (LAFUGA), Gene Center, Ludwig-Maximilians-Universität München, Munich, Germany.
+
 *Tethya wilhelma* is a ball-shaped demosponge that undergoes cyclic contractions and is an emerging laboratory model for many topics, including multicellularity, early-animal evolution, biomineralization, and microbial interactions. This, and a related species, *Tethya minuta* were both described in 2001 after being found as bystanders in public aquaria (see [Sara et al 2001](https://www.researchgate.net/publication/215665065_Three_New_Species_of_Tethya_Porifera_Demospongiae_from_German_Aquaria)).
 
 Please cite: []()
