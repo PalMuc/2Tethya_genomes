@@ -1,15 +1,24 @@
-# The genomes of the aquarium sponges *Tethya wilhelma* and *Tethya minuta* (Porifera: Demospongiae) #
+### This is the data repository for the following publication 
 
-Wörheide, Gert1,2,3,*, Francis, Warren R.1; Deister, Fabian1; Stefan Krebs4, Erpenbeck, Dirk1,2; Vargas, Sergio1
+## The genomes of the aquarium sponges *Tethya wilhelma* and *Tethya minuta* (Porifera: Demospongiae)
 
-1  Department of Earth and Environmental Sciences, Paleontology and Geobiology, Ludwig-Maximilians-Universität München, Munich, Germany.
-2  GeoBio-Center, Ludwig-Maximilians-Universität München, Munich, Germany
-3  Staatliche Naturwissenschaftliche Sammlungen Bayerns (SNSB)–Bayerische Staatssammlung für Paläontologie und Geologie, Munich, Germany
-4 Laboratory for Functional Genome Analysis (LAFUGA), Gene Center, Ludwig-Maximilians-Universität München, Munich, Germany.
+### Wörheide, Gert <sup>1,2,3,*</sup>, Francis, Warren R.<sup>1</sup>; Deister, Fabian<sup>1</sup>; Stefan Krebs<sup>4</sup>, Erpenbeck, Dirk<sup>1,2</sup>; Vargas, Sergio<sup>1</sup>
 
-*Tethya wilhelma* is a ball-shaped demosponge that undergoes cyclic contractions and is an emerging laboratory model for many topics, including multicellularity, early-animal evolution, biomineralization, and microbial interactions. This, and a related species, *Tethya minuta* were both described in 2001 after being found as bystanders in public aquaria (see [Sara et al 2001](https://www.researchgate.net/publication/215665065_Three_New_Species_of_Tethya_Porifera_Demospongiae_from_German_Aquaria)).
+<sup>1</sup> Department of Earth and Environmental Sciences, Paleontology and Geobiology, Ludwig-Maximilians-Universität München, Munich, Germany.<br>
+<sup>2</sup> GeoBio-Center, Ludwig-Maximilians-Universität München, Munich, Germany<br>
+<sup>3</sup> Staatliche Naturwissenschaftliche Sammlungen Bayerns (SNSB)–Bayerische Staatssammlung für Paläontologie und Geologie, Munich, Germany<br>
+<sup>4</sup> Laboratory for Functional Genome Analysis (LAFUGA), Gene Center, Ludwig-Maximilians-Universität München, Munich, Germany<br>
 
-Please cite: []()
+*corresponding author
+
+ABSTRACT
+Sponges (phylum Porifera) are aquatic sessile metazoans found worldwide in marine and freshwater environments. They are significant in the animal tree of life as one of the earliest-branching metazoan lineages and as filter feeders play crucial ecological roles, particularly in coral reefs, but are susceptible to the effects of climate change. In the face of the current biodiversity crisis, genomic data is crucial for species conservation efforts and predicting their evolutionary potential in response to environmental changes. However, there is a limited availability of culturable sponge species with annotated high-quality genomes to further comprehensive insights into animal evolution, function, and their response to the ongoing global change. Despite the publication of a few high-quality annotated sponge genomes, there remains a gap in resources for culturable sponge species. To address this gap, we provide high quality draft genomes of the two congeneric aquarium species *Tethya wilhelma* and *Tethya minuta*, small ball-shaped demosponges that are easily maintained long-term in ex situ culture. As such, they offer promising opportunities as laboratory models to contribute to advancing our understanding of sponge biology and provide valuable resources for studying animal evolution, function, and responses to environmental challenges.
+
+
+NOTE
+*Tethya wilhelma* and *Tethya minuta* are ball-shaped demosponge that undergoes cyclic contractions and are laboratory models for many topics, including multicellularity, early-animal evolution, biomineralization, and microbial interactions. Both were described only in 2001 after being found as bystanders in public aquaria (see [Sara et al 2001](https://www.researchgate.net/publication/215665065_Three_New_Species_of_Tethya_Porifera_Demospongiae_from_German_Aquaria)).
+
+Please cite: [F1000research]()
 
 ---
 
