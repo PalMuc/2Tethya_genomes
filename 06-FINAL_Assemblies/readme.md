@@ -13,10 +13,18 @@ GFF file contains 28,086 gene models.
 
 https://github.com/PalMuc/2Tethya_genomes/releases/download/TmiV4/Tethya_minuta_V4.tar.gz
 
-Tar of _T. minuta assembly_, AUGUSTUS annotation and protein models.
+Tar of _T. minuta_ assembly, AUGUSTUS annotation and protein models.
 This version has the bacterial bins removed, so should only contain sponge scaffolds, and is called in the paper as Tmin_V4_bin-17.
 The fasta assembly has 244 sequences for a total of 86Mb.
 The protein fasta file has 22,779 proteins.
 The GFF file contains 22,779 gene models.
 
 BUSCO summary stats can be found in the respective files.
+
+***********************************************************************************
+
+The genome assemblies are also available aat the European Nucleotide Archive (ENA):
+
+_T. wilhelma_: https://www.ebi.ac.uk/ena/browser/view/GCA_964030475
+
+_T. minuta_: https://www.ebi.ac.uk/ena/browser/view/GCA_964030485
