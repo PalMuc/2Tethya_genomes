@@ -2,10 +2,10 @@
 
 | name or version     | scaffolds | length (Mb) | N50 (kb) | longest scaffold (Mb) |
 | --------            | -------- | -------- | -------- | -------- |
-| v1 | 1551  | 127.312     | 180.9    | 3.190  |
-| v2 | 1228  | 127.344     | 281.4    | 3.190  |
-| v3 | 1043  | 139.080     | 788.3    | 4.328  |
-| v4 bin 17 non-redundant <br> "Tmi-v4-no_bacteria"| 244   | 86.067     | 969.337    | 4.328             |
+| v1 | 1551  | 127.3     | 180.9    | 3.190  |
+| v2 | 1228  | 127.3     | 281.4    | 3.190  |
+| v3 | 1043  | 139.0     | 788.3    | 4.328  |
+| v4 bin 17 non-redundant <br> "Tmi-v4-no_bacteria"| 244   | 86.07     | 969.337    | 4.328             |
 
 
 ## metabat binning of bacteria ##
