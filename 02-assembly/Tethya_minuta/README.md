@@ -2,14 +2,11 @@
 
 | name or version     | scaffolds | length (Mb) | N50 (kb) | longest scaffold (Mb) |
 | --------            | -------- | -------- | -------- | -------- |
-| "final" v1          | 1712  |  93.972     | 99.8    | 1.766                 |
-| scaffolded nanopore | 1551  | 127.312     | 180.9    | 3.190                 |
-| gap closed nanopore (v3) | 1551  | 127.312     | 180.9    | 3.190                 |
-| v4                  | 1043  | 139.080     | 788.3    | 4.328                 |
-| --            | -- | -- | -- | -- |
-| v4 bin 17           | 255   | 90.289     | 984.923    | 4.328                |
-| v4 bin 17 non-redundant | 244   | 86.067     | 969.337    | 4.328             |
-| --            | -- | -- | -- | -- |
+| v1 | 1551  | 127.312     | 180.9    | 3.190  |
+| v2 | 1228  | 127.344     | 281.4    | 3.190  |
+| v3 | 1043  | 139.080     | 788.3    | 4.328  |
+| v4 bin 17 non-redundant <br> "Tmi-v4-no_bacteria"| 244   | 86.067     | 969.337    | 4.328             |
+
 
 ## metabat binning of bacteria ##
 Using [metabat version 2:v2.15-25](https://bitbucket.org/berkeleylab/metabat/src/master/), and then [PRODIGAL v2.6.3](https://github.com/hyattpd/Prodigal) on all bins:
