@@ -19,7 +19,7 @@ Sponges (phylum Porifera) are aquatic sessile metazoans found worldwide in marin
 *Tethya wilhelma* and *Tethya minuta* are ball-shaped demosponge that undergoes cyclic contractions and are laboratory models for many topics, including multicellularity, early-animal evolution, biomineralization, and microbial interactions. Both were described only in 2001 after being found as bystanders in public aquaria (see [Sara et al 2001](https://www.researchgate.net/publication/215665065_Three_New_Species_of_Tethya_Porifera_Demospongiae_from_German_Aquaria)).
 
 ### Please cite:<br>
-Wörheide G, Francis WR, Deister F et al. The genomes of the aquarium sponges Tethya wilhelma and Tethya minuta (Porifera: Demospongiae) [version 1; peer review: awaiting peer review].
+Wörheide G, Francis WR, Deister F et al. The genomes of the aquarium sponges *Tethya wilhelma* and *Tethya minuta* (Porifera: Demospongiae) [version 1; peer review: awaiting peer review].
 [ F1000Research 2024, 13:679](http://dx.doi.org/10.12688/f1000research.150836.1)
 
 ---
