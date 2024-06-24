@@ -11,14 +11,16 @@
 
 *corresponding author
 
-ABSTRACT
+### ABSTRACT <br>
 Sponges (phylum Porifera) are aquatic sessile metazoans found worldwide in marine and freshwater environments. They are significant in the animal tree of life as one of the earliest-branching metazoan lineages and as filter feeders play crucial ecological roles, particularly in coral reefs, but are susceptible to the effects of climate change. In the face of the current biodiversity crisis, genomic data is crucial for species conservation efforts and predicting their evolutionary potential in response to environmental changes. However, there is a limited availability of culturable sponge species with annotated high-quality genomes to further comprehensive insights into animal evolution, function, and their response to the ongoing global change. Despite the publication of a few high-quality annotated sponge genomes, there remains a gap in resources for culturable sponge species. To address this gap, we provide high quality draft genomes of the two congeneric aquarium species *Tethya wilhelma* and *Tethya minuta*, small ball-shaped demosponges that are easily maintained long-term in ex situ culture. As such, they offer promising opportunities as laboratory models to contribute to advancing our understanding of sponge biology and provide valuable resources for studying animal evolution, function, and responses to environmental challenges.
 
 
-NOTE
+### NOTE <br>
 *Tethya wilhelma* and *Tethya minuta* are ball-shaped demosponge that undergoes cyclic contractions and are laboratory models for many topics, including multicellularity, early-animal evolution, biomineralization, and microbial interactions. Both were described only in 2001 after being found as bystanders in public aquaria (see [Sara et al 2001](https://www.researchgate.net/publication/215665065_Three_New_Species_of_Tethya_Porifera_Demospongiae_from_German_Aquaria)).
 
-Please cite: [F1000research]()
+### Please cite:<br>
+Wörheide G, Francis WR, Deister F et al. The genomes of the aquarium sponges Tethya wilhelma and Tethya minuta (Porifera: Demospongiae) [version 1; peer review: awaiting peer review].
+[ F1000Research 2024, 13:679](http://dx.doi.org/10.12688/f1000research.150836.1)
 
 ---
 
